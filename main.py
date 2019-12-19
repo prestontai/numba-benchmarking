@@ -2,11 +2,11 @@ import cProfile
 from pathlib import Path
 import json
 import pstats
-from pstats import SortKey
 import subprocess
 import time
 import os
 import re
+import sys
 
 import numba_decorator
 
@@ -15,6 +15,7 @@ GIT_REPOS = 'repositories.json'
 URL_LIST = 'url_list.txt'
 REPO_FOLDER = 'repos'
 BENCHMARK_FOLDER = 'py_files'
+
 
 def parse_git(repo_list_path, output_path):
     '''
@@ -56,6 +57,7 @@ def clean_folders():
 def find_python(repo_folder):
     #python_file_list = glob.glob(r, recursive=True)
     python_file_list = Path(repo_folder).rglob('*.py')
+    python_file_list = [str(p) for p in python_file_list if 'opt' not in str(p)]
     
     # we want to find the path of several python files from each repo
     repo_names = set()
@@ -64,7 +66,6 @@ def find_python(repo_folder):
     condensed_list = []
 
     for file_path in python_file_list:
-        file_path = str(file_path)
         try:
             name = file_path.split('\\')[1]
             if name not in repo_names:
@@ -72,36 +73,49 @@ def find_python(repo_folder):
                 python_file_no = 0
             if python_file_no <= 10:
                 condensed_list.append(file_path)
-                #print(python_file_list[i])
                 python_file_no += 1
 
-            #p = pstats.Stats(python_file_list[i])
-            #p.sort_stats(SortKey.TOTTIME).print_stats(10)
-            #p.print_stats()
         except Exception as e:
             print(e)
             break
         
-    #print(repo_names)
-    #print(condensed_list)
     return condensed_list
 
+def profile_stats(input_file):
+    print(input_file, end = ': ')
+    os.system('py -m cProfile -o 0.txt ' + input_file)
+    # make it so it ends up going to an actual readable output.
+    # i need to compare them too
+    with open('1.txt', 'w+') as out:
+        p = pstats.Stats('0.txt', stream = out)
+        p.strip_dirs().sort_stats('tottime').print_stats(10)
 
+    with open('1.txt', 'r') as out:
+        summary = out.readlines()[2]
+    pattern = re.compile('[\d]+\.[\d]+')
+    return re.search(pattern, summary).group(0)
+    
 def test_python(python_file_list, output_folder):
-    pattern = re.compile('\\\\')
-    for input_file in python_file_list:
-        output_file = 'opt-' + re.sub(pattern, '-', input_file)
-        os.chdir(output_folder)
+    # profile python file without optimization
+    # add optimization
+    # profile the new python file that is optimized
+    # write the output comparision to a file, but for now print it out
+    for counter, input_file in enumerate(python_file_list):
         try:
-            numba_decorator.run(os.path.join('..', input_file), output_file)
-        except:
-            pass # go next
-        os.chdir('..')
-        # profile python file without optimization
-        # add optimization
-        # profile the new python file that is optimized
-        # write the output comparision to a file, but for now print it out
-    pass
+            orig = float(profile_stats(input_file))
+            print(orig)
+            output_file = input_file[:-3] + 'opt.py'
+            try:
+                numba_decorator.run(input_file, output_file)
+                opt = float(profile_stats(output_file))
+                print(opt)
+            except Exception as e:
+                print(e) #go next
+        except Exception as e:
+            print(e)
+        else:
+            print(" It is", "%.3f" % ((orig)/(opt)), "times faster with optimizations" )
+        print()
 
 def compare(file_set):
     pass
@@ -113,4 +127,3 @@ if __name__ == "__main__":
     python_file_list = find_python(REPO_FOLDER)
     test_python(python_file_list, BENCHMARK_FOLDER)
     
-
