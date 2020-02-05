@@ -1,5 +1,7 @@
+#!/usr/bin/python3
 import cProfile
 from pathlib import Path
+import glob
 import json
 import pstats
 import subprocess
@@ -7,15 +9,19 @@ import time
 import os
 import re
 import sys
+import subprocess
 
 import numba_decorator
 
 #URL = 'https://pypi.org/simple/'
-GIT_REPOS = 'repositories.json'
+#GIT_REPOS = 'repositories.json'
 URL_LIST = 'url_list.txt'
-REPO_FOLDER = 'repos'
+REPO_FOLDER = 'bench_test'
 BENCHMARK_FOLDER = 'py_files'
-
+BREAKPOINT = 10
+TIMEOUT = 10
+SIZES = [100, 1000, 10000, 100000]
+ANALYTICS = 'stats.txt'
 
 def parse_git(repo_list_path, output_path):
     '''
@@ -27,6 +33,7 @@ def parse_git(repo_list_path, output_path):
         with open(output_path, 'w+') as output_file:
             for repo in big_dict:
                 output_file.write(repo['html_url'] +'\n')
+
 def git_clone(path):
     # there's a library called plotly.py, which is a folder, beware
     counter = 0
@@ -55,9 +62,9 @@ def clean_folders():
     pass
 
 def find_python(repo_folder):
-    #python_file_list = glob.glob(r, recursive=True)
-    python_file_list = Path(repo_folder).rglob('*.py')
-    python_file_list = [str(p) for p in python_file_list if 'opt' not in str(p)]
+    python_file_list = glob.glob(repo_folder + '/**/*.py', recursive=True)
+    #python_file_list = Path(repo_folder).rglob('*.py')
+    #python_file_list = [str(p) for p in python_file_list if 'opt' not in str(p)]
     
     # we want to find the path of several python files from each repo
     repo_names = set()
@@ -67,23 +74,44 @@ def find_python(repo_folder):
 
     for file_path in python_file_list:
         try:
-            name = file_path.split('\\')[1]
+            name = file_path.split('/')[1]
             if name not in repo_names:
                 repo_names.add(name)
                 python_file_no = 0
-            if python_file_no <= 10:
+            if python_file_no <= 10 and 'opt' not in file_path:
                 condensed_list.append(file_path)
                 python_file_no += 1
 
         except Exception as e:
             print(e)
             break
-        
     return condensed_list
 
-def profile_stats(input_file):
-    print(input_file, end = ': ')
-    os.system('py -m cProfile -o 0.txt ' + input_file)
+def profile_stats(script, muted = False):
+    #os.system('python3 -m cProfile -o 0.txt ' + input_file)
+    
+    times = []
+    for s in SIZES:
+        args = 'vtune -c hotspots -report summary python3 ' + script + ' ' + str(s)
+        try:
+            if muted:
+                proc = subprocess.run(args, shell = True,
+                    stderr = subprocess.DEVNULL,
+                    stdout = subprocess.DEVNULL,
+                    timeout = TIMEOUT)
+                break
+            else:
+                proc = subprocess.run(args, shell = True, timeout = TIMEOUT)
+                #parse vtune data and append to times
+        except subprocess.TimeoutExpired:
+            print('process took too long')
+    
+    with open(ANALYTICS, 'w+') as stats:
+        stats.write(str(SIZES))
+        #stats.write(
+    #os.system('vtune -c hotspots -report summary -report-knob show-issues=false python3 ' + script + redirection)
+    
+    '''
     # make it so it ends up going to an actual readable output.
     # i need to compare them too
     with open('1.txt', 'w+') as out:
@@ -94,28 +122,33 @@ def profile_stats(input_file):
         summary = out.readlines()[2]
     pattern = re.compile('[\d]+\.[\d]+')
     return re.search(pattern, summary).group(0)
+    '''
     
-def test_python(python_file_list, output_folder):
+def test_python(python_file_list):
     # profile python file without optimization
     # add optimization
     # profile the new python file that is optimized
     # write the output comparision to a file, but for now print it out
     for counter, input_file in enumerate(python_file_list):
         try:
-            orig = float(profile_stats(input_file))
-            print(orig)
+            profile_stats(input_file)
             output_file = input_file[:-3] + 'opt.py'
             try:
                 numba_decorator.run(input_file, output_file)
-                opt = float(profile_stats(output_file))
-                print(opt)
+                
+                # This is run once first so it creates a cache.
+                profile_stats(output_file, True)
+                # This is uses the precompiled code.
+                profile_stats(output_file)
             except Exception as e:
                 print(e) #go next
         except Exception as e:
             print(e)
-        else:
-            print(" It is", "%.3f" % ((orig)/(opt)), "times faster with optimizations" )
         print()
+        
+        # I want to test a small amount first.
+        if counter > BREAKPOINT:
+            break
 
 def compare(file_set):
     pass
@@ -125,5 +158,5 @@ if __name__ == "__main__":
     #parse_git(GIT_REPOS, URL_LIST)
     #git_clone(URL_LIST)
     python_file_list = find_python(REPO_FOLDER)
-    test_python(python_file_list, BENCHMARK_FOLDER)
+    test_python(python_file_list)
     
