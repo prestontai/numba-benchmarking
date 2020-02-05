@@ -41,7 +41,7 @@ def run(input_path, output_path):
                 o.write(line)
     else:
         beginning = max(shebangline, futureline)
-
+        
         for line in enumerate(i):
             if line[0] == beginning:
                 o.write(line[1])
@@ -51,8 +51,6 @@ def run(input_path, output_path):
                 o.write(line[1])
             else:
                 o.write(line[1])
-
-
 
     i.close()
     o.close()
