@@ -1,4 +1,5 @@
 import plotly.graph_objects as go
+import os
 import json
 
 names = ['python-base', 'numba-base', 'python-intel', 'numba-intel']
@@ -26,5 +27,6 @@ def parse_stats(path):
     return size, time_list
 
 if __name__ == '__main__':
+    os.system('git pull') 
     size, time_list = parse_stats('stats.txt')
     show_graph(size, time_list)
