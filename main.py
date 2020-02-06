@@ -19,7 +19,7 @@ URL_LIST = 'url_list.txt'
 REPO_FOLDER = 'bench_test'
 BENCHMARK_FOLDER = 'py_files'
 BREAKPOINT = 10
-TIMEOUT = 10
+TIMEOUT = 25
 SIZES = [100, 1000, 10000, 100000]
 ANALYTICS = 'stats.txt'
 
