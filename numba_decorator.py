@@ -11,6 +11,7 @@ def run(input_path, output_path):
 
     regexfunc = '^(\s*)(def [\w_]+\([\w\,_\s]*\):)$'
     decorator = '@jit(cache=True, nopython=True)\n'
+    #decorator = '@jit(nopython=True)\n'
     regexshebang = '^#![/\w+]+/*$'
     prog = re.compile(regexfunc)
     prog2 = re.compile(regexshebang)

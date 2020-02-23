@@ -1,42 +1,39 @@
 import sys
 import json
+from main import RUNS, SIZES
 
-def parse(filename):
+def parse(filename, source):
     nojit = list()
     yesjit = list()
 
 
-    with open('stats.txt', 'a+') as stats, open(filename, 'r') as f:
+    with open(source, 'w+') as stats, open(filename, 'r') as f:
         stats.seek(0)
         lines = stats.readlines()
-        if len(lines) != 1:
-            print('Invalid file stats.txt')
-            return
-
-        try:
-            s = json.loads(lines[0])
-        except ValueError:
-            print('Error in stats.txt')
-            return
-
-        total = len(s)
+        total = len(SIZES)
+        
         counter = 0
-
+        tmp = []
         for line in f.readlines():
             if 'Elapsed Time' in line:
-                if counter < 4:
-                    nojit.append(float(line[14:-2]))
-                else:
-                    yesjit.append(float(line[14:-2]))
+                tmp.append(float(line[14:-2]))
+                #if counter < RUNS * total:
+                #    nojit.append(float(line[14:-2]))
+                #else:
+                #    yesjit.append(float(line[14:-2]))
                 counter = counter + 1
+            if counter == total:
+                counter = 0
+                stats.write(str(tmp) + '\n')
+                tmp = []
 
-        stats.write('\n' + str(nojit) + '\n')
-        stats.write(str(yesjit))
+
+        #stats.write('\n' + str(nojit) + '\n')
+        #stats.write(str(yesjit))
         
 
 
 if __name__ == '__main__':
-    filename = sys.argv[1]
-
-    parse(filename)
-
+    source = sys.argv[1]
+    parse('results.txt', source)
+    

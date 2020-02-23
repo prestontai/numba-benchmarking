@@ -18,9 +18,13 @@ import numba_decorator
 URL_LIST = 'url_list.txt'
 REPO_FOLDER = 'bench_test'
 BENCHMARK_FOLDER = 'py_files'
-BREAKPOINT = 10
-TIMEOUT = 25
-SIZES = [100, 1000, 10000, 100000]
+BREAKPOINT = 100
+TIMEOUT = 300
+#SIZES = [1, 4, 8]
+#SIZES = [64, 128, 256, 512, 1024, 2048, 4096]
+#SIZES = [4096, 16384, 65536, 262144, 1048576, 2097152]
+SIZES = [16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
+RUNS = 10
 ANALYTICS = 'stats.txt'
 
 def parse_git(repo_list_path, output_path):
@@ -89,25 +93,35 @@ def find_python(repo_folder):
 
 def profile_stats(script, muted = False):
     #os.system('python3 -m cProfile -o 0.txt ' + input_file)
-    
-    times = []
-    for s in SIZES:
-        args = 'vtune -c hotspots -report summary python3 ' + script + ' ' + str(s)
-        try:
-            if muted:
-                proc = subprocess.run(args, shell = True,
-                    stderr = subprocess.DEVNULL,
-                    stdout = subprocess.DEVNULL,
-                    timeout = TIMEOUT)
-                break
-            else:
-                proc = subprocess.run(args, shell = True, timeout = TIMEOUT)
-                #parse vtune data and append to times
-        except subprocess.TimeoutExpired:
-            print('process took too long')
-    
-    with open(ANALYTICS, 'w+') as stats:
-        stats.write(str(SIZES))
+   
+    #times = dict()
+    #for s in SIZES:
+    #    times[s] = []
+    for r in range(RUNS):
+        for s in SIZES:
+            args = 'vtune -c hotspots -report summary python3 ' + script + ' ' + str(s)
+            try:
+                if muted:
+                    proc = subprocess.Popen(args,
+                        stderr = subprocess.DEVNULL,
+                        stdout = subprocess.DEVNULL,
+                        shell=True)
+                        #timeout = TIMEOUT)
+                    proc.wait(timeout=TIMEOUT)
+                    return
+                else:
+                    proc = subprocess.Popen(args, shell=True)
+                    proc.wait(timeout=TIMEOUT)
+                    #parse vtune data and append to times
+            except subprocess.TimeoutExpired as e:
+                print(e)
+                print('run', r)
+                print('size', s)
+            #finally:
+                #proc.kill()
+        time.sleep(15)
+    #with open(ANALYTICS, 'w+') as stats:
+    #    stats.write(str(SIZES))
         #stats.write(
     #os.system('vtune -c hotspots -report summary -report-knob show-issues=false python3 ' + script + redirection)
     
@@ -157,6 +171,8 @@ if __name__ == "__main__":
     ''' Run parse_git to get an updated list of github links '''
     #parse_git(GIT_REPOS, URL_LIST)
     #git_clone(URL_LIST)
+    #with open(ANALYTICS, 'w+') as stats:
+    #    stats.write(str(SIZES))
     python_file_list = find_python(REPO_FOLDER)
     test_python(python_file_list)
     
