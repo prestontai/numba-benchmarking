@@ -27,11 +27,14 @@ def show_graph(size, time_list, runs):
         ))
     fig.update_layout(xaxis_type = 'log',
                       title = 'Runs: ' + str(runs),
+                      xaxis_title="size of matrix",
+                      yaxis_title="time in seconds",
     )
     fig.show()
+    fig.write_html("new_plot.html")
 
 def parse_stats():
-    mongo = db.stats.find_one({'name': 'tsc2.py'})
+    mongo = db.perf.find_one({'name': 'bench_test/s111'})
     size_list = mongo['sizes']
     runs = mongo['runs']
     proc_python = mongo['python']
