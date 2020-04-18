@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ./clean.sh
-rm justopt.txt
 rm finalstats.txt
 rm perf_results1.txt
 rm perf_results2.txt
@@ -13,8 +12,8 @@ FILEPATH=$1
 #"bench_test/s111"
 REGULAR="$FILEPATH.py"
 OPT="$FILEPATH"opt.py
-#declare -a SIZES=(4 8 32 64 128 256 512 1024 2048 4096)
-declare -a SIZES=(16384 32768 65536 131072 262144 524288 1048576 2097152 4194304 8388608)
+declare -a SIZES=(4 8 32 64 128 256 512 1024 2048 4096)
+#declare -a SIZES=(16384 32768 65536 131072 262144 524288 1048576 2097152 4194304 8388608)
 #declare -a SIZES=(16384 32768 65536 131072)
 #declare -a SIZES=(4194304)
 

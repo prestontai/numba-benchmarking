@@ -1,6 +1,5 @@
 import sys
 import json
-from main import RUNS, SIZES
 
 def parse(filename, dest, write_type):
     nojit = list()

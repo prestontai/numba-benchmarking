@@ -21,9 +21,10 @@ BENCHMARK_FOLDER = 'py_files'
 BREAKPOINT = 100
 TIMEOUT = 300
 #SIZES = [1, 4, 8]
-#SIZES = [64, 128, 256, 512, 1024, 2048, 4096]
+SIZES = [4, 8, 32, 64, 128, 256, 512, 1024, 2048, 4096]
+#SIZES = [1024, 2048, 4096, 8192, 16384]
 #SIZES = [4096, 16384, 65536, 262144, 1048576, 2097152]
-SIZES = [16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
+#SIZES = [16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
 RUNS = 10
 ANALYTICS = 'stats.txt'
 
@@ -117,9 +118,9 @@ def profile_stats(script, muted = False):
                 print(e)
                 print('run', r)
                 print('size', s)
-            #finally:
+            finally:
+                time.sleep(1)
                 #proc.kill()
-        time.sleep(15)
     #with open(ANALYTICS, 'w+') as stats:
     #    stats.write(str(SIZES))
         #stats.write(
@@ -145,13 +146,13 @@ def test_python(python_file_list):
     # write the output comparision to a file, but for now print it out
     for counter, input_file in enumerate(python_file_list):
         try:
-            profile_stats(input_file)
+            #profile_stats(input_file)
             output_file = input_file[:-3] + 'opt.py'
             try:
                 numba_decorator.run(input_file, output_file)
                 
                 # This is run once first so it creates a cache.
-                profile_stats(output_file, True)
+                #profile_stats(output_file, True)
                 # This is uses the precompiled code.
                 profile_stats(output_file)
             except Exception as e:

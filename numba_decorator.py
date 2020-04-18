@@ -27,7 +27,7 @@ def run(input_path, output_path):
         elif '__future__' in line[1] and 'import' in line[1]:
             futureline = line[0]
 
-    print(shebangline, futureline)
+    #print(shebangline, futureline)
 
     i.seek(0)
 
