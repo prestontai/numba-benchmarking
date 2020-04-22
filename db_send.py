@@ -4,10 +4,7 @@ import sys
  
 RUNS = 10
 SIZES = [16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
-client = MongoClient('mongodb+srv://cluster0-at3ay.gcp.mongodb.net/test',
-                      username='preston',
-                      password='BnzA7WVQTCVeCdn3',
-                      authMechanism='SCRAM-SHA-1')
+
 db = client.mydb
 
 stats_file, test_file = sys.argv[1], sys.argv[2]
