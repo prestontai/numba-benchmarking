@@ -1,7 +1,7 @@
 import numpy as np
 from eager import eager_decorator
 from simple import simple
-from numba import jit, njit, prange, int64, cuda
+from numba import jit, njit, prange, int64, cuda, typeof
 import time
 from collections import defaultdict
 import sys
@@ -56,7 +56,7 @@ def loop2(a, b, c):
 
     return a, b
 
-alpha, beta = 1.5, 1.2
+alpha, beta = np.int32(1), np.int32(2)
 def sgemm_manual (a, b, d):
     for i in prange(d.shape[0]):
         for j in prange(d.shape[1]):
@@ -87,11 +87,16 @@ def exp(a, b):
     return a
 
 
-a = np.random.rand(40, 40)
-b = np.arange(50)
+a = np.random.rand(1000, 1000)
+b = np.random.rand(5000)
 a1 = a.copy(), b.copy()
 a2 = a.copy(), b.copy()
 
+if TIME_JIT:
+    print('jit')
+else:
+    print('eager')
+print('exp')
 if TIME_JIT:
     start = time.perf_counter()
     jit_res = njit(exp, parallel=False)(*a1)
@@ -107,7 +112,7 @@ else:
 
 flat_sizes = [16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
 matrix_sizes = [4, 8, 32, 64, 128, 256, 512, 1024, 2048, 4096]
-ss = 100
+ss = 1000
 
 function_mapping = [
                     ('s111', s111, [ss], 2),
@@ -118,7 +123,7 @@ function_mapping = [
                     ('loop1', loop1, [ss], 2),
                     ('loop2', loop2, [ss], 3),
                     ('sgemm_manual', sgemm_manual, [ss], 3),
-                    ('sgemm', sgemm, [ss], 3),
+                    #('sgemm', sgemm, [ss], 3),
                     ('laplacian', laplacian, [ss], 1),
                 
                     ]
@@ -131,12 +136,15 @@ for (name, f, sizes, arrays) in function_mapping:
     s = sizes[0]
 
     if f in matrix_functions:
-        orig = [np.random.rand(s, s) for i in range(arrays)]
+        #orig = [np.arange(s*s, dtype=np.).reshape(s, s) for i in range(arrays)]
+        #warm = [np.arange(5*5, dtype=np.float64).reshape(5, 5) for i in range(arrays)]
+        orig = [np.random.randint(99999, size=s * s, dtype=np.int32).reshape(s, s) for i in range(arrays)]
+        warm = [np.random.randint(99999, size= 25 * 25, dtype=np.int32).reshape(25, 25) for i in range(arrays)]
     else:
-        orig = [np.random.rand(s) for i in range(arrays)]
-    a1 = [arr.copy() for arr in orig]
-    a2 = [arr.copy() for arr in orig]
-    warm = [arr.copy() for arr in orig]
+        orig = [np.random.randint(99999, size=s, dtype=np.int32) for i in range(arrays)]
+        warm = [np.random.randint(99999, size=25, dtype=np.int32) for i in range(arrays)]
+    args = [arr.copy() for arr in orig]
+    print(typeof(args))
 
     if f in abnormal_step_functions:
         parallel = False
@@ -148,17 +156,21 @@ for (name, f, sizes, arrays) in function_mapping:
 
     if TIME_JIT:
         start = time.perf_counter()
-        jit_res = njit(f, parallel=parallel)(*a1)
+        jit_res = njit(f, parallel=parallel)(*args)
         jit_duration = time.perf_counter() - start
         print('{} jit'.format(jit_duration))
     else: 
         typings = f(*warm)
         start = time.perf_counter()
-        eager_res = simple(f, typings, parallel=parallel)(*a2)
+        eager_res = simple(f, typings, parallel=parallel)(*args)
         eager_duration = time.perf_counter() - start
         print('{} eager'.format(eager_duration))
+    del args
+    del orig
+
     '''
     print('same result:', np.allclose(jit_res, eager_res))
     print(" It is", "%.4f" % ((jit_duration)/(eager_duration)), "times faster with eager compilation")
     print()
     '''
+print()
