@@ -1,9 +1,12 @@
 import numpy as np
 from eager import eager_decorator
 from simple import simple
-from numba import jit, njit, prange
+from numba import jit, njit, prange, int64, cuda
 import time
 from collections import defaultdict
+import sys
+
+TIME_JIT = len(sys.argv) > 1
 
 def s1111(a, b, c, d):
     for i in prange(a.shape[0]//2):
@@ -30,8 +33,8 @@ def go_fast(a):
 def many_arr(a, b, c, d, e, f, g):
     for i in prange(a.shape[0]):
         for j in prange(a.shape[1]):
-            a[i, j+1] = b[i, j+1] + c[i, j-1] + d[i-1, j] + e[i+1, j] + f[i-1, j-1] + g[i, j]
-        b[i, j] = a[i, j] + c[i, j-1]
+            a[i-1, j] = b[i, j] + c[i, j] + d[i, j] + e[i, j] + f[i, j] + g[i, j]
+        b[i-1, j] = a[i, j] + c[i, j]
     return a, b, c, d
 
 def loop1(a,b):
@@ -76,12 +79,35 @@ def laplacian(a):
 
     return laplacian
 
+def exp(a, b):
+    for n in prange(10):
+        for i in prange(a.shape[0]):
+            for j in prange(a.shape[1]):
+                a[i,j] = b[j] + a[i-1, j]
+    return a
+
+
+a = np.random.rand(40, 40)
+b = np.arange(50)
+a1 = a.copy(), b.copy()
+a2 = a.copy(), b.copy()
+
+if TIME_JIT:
+    start = time.perf_counter()
+    jit_res = njit(exp, parallel=False)(*a1)
+    jit_duration = time.perf_counter() - start
+    print('{} jit'.format(jit_duration))
+else:
+    typings = exp(*a1)
+    start = time.perf_counter()
+    eager_res = simple(exp, typings , parallel=False)(*a2)
+    eager_duration = time.perf_counter() - start
+    print('{} eager'.format(eager_duration))
+
+
 flat_sizes = [16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
 matrix_sizes = [4, 8, 32, 64, 128, 256, 512, 1024, 2048, 4096]
-ss = 300
-
-#warmup
-jit(s111)(np.arange(10), np.arange(10))
+ss = 100
 
 function_mapping = [
                     ('s111', s111, [ss], 2),
@@ -94,6 +120,7 @@ function_mapping = [
                     ('sgemm_manual', sgemm_manual, [ss], 3),
                     ('sgemm', sgemm, [ss], 3),
                     ('laplacian', laplacian, [ss], 1),
+                
                     ]
 matrix_functions = {go_fast, loop1, loop2, sgemm_manual, sgemm, laplacian, many_arr}
 abnormal_step_functions = {s111, s112}
@@ -105,13 +132,12 @@ for (name, f, sizes, arrays) in function_mapping:
 
     if f in matrix_functions:
         orig = [np.random.rand(s, s) for i in range(arrays)]
-        a1 = [arr.copy() for arr in orig]
-        a2 = [arr.copy() for arr in orig]
     else:
         orig = [np.random.rand(s) for i in range(arrays)]
-        a1 = [arr.copy() for arr in orig]
-        a2 = [arr.copy() for arr in orig]
-    
+    a1 = [arr.copy() for arr in orig]
+    a2 = [arr.copy() for arr in orig]
+    warm = [arr.copy() for arr in orig]
+
     if f in abnormal_step_functions:
         parallel = False
     else:
@@ -120,17 +146,19 @@ for (name, f, sizes, arrays) in function_mapping:
 
     print(name, arrays)
 
-    start = time.perf_counter()
-    jit_res = njit(f, parallel=parallel)(*a1)
-    jit_duration = time.perf_counter() - start
-    print('{} jit'.format(jit_duration))
-    
-    start = time.perf_counter()
-    eager_res = simple(f, jit_res, parallel=parallel)(*a2)
-    eager_duration = time.perf_counter() - start
-    print('{} eager'.format(eager_duration))
-
+    if TIME_JIT:
+        start = time.perf_counter()
+        jit_res = njit(f, parallel=parallel)(*a1)
+        jit_duration = time.perf_counter() - start
+        print('{} jit'.format(jit_duration))
+    else: 
+        typings = f(*warm)
+        start = time.perf_counter()
+        eager_res = simple(f, typings, parallel=parallel)(*a2)
+        eager_duration = time.perf_counter() - start
+        print('{} eager'.format(eager_duration))
+    '''
     print('same result:', np.allclose(jit_res, eager_res))
     print(" It is", "%.4f" % ((jit_duration)/(eager_duration)), "times faster with eager compilation")
     print()
-
+    '''

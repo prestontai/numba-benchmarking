@@ -1,6001 +1,2101 @@
 
+0.16544765298021957 eager
 s111 2
-0.07807786809280515 jit
-0.05992175126448274 eager
-same result: True
- It is 1.3030 times faster with eager compilation
-
-s112 2
-0.06713965116068721 jit
-0.06642198609188199 eager
-same result: True
- It is 1.0108 times faster with eager compilation
-
-s1111 4
-0.10035597020760179 jit
-0.0999019262380898 eager
-same result: True
- It is 1.0045 times faster with eager compilation
-
-go_fast 1
-0.18460218096151948 jit
-0.14035193622112274 eager
-same result: True
- It is 1.3153 times faster with eager compilation
-
-many_arr 7
-0.20845392998307943 jit
-0.1794010018929839 eager
-same result: True
- It is 1.1619 times faster with eager compilation
-
-loop1 2
-0.1864963909611106 jit
-0.1265289862640202 eager
-same result: True
- It is 1.4739 times faster with eager compilation
-
-loop2 3
-0.19328499399125576 jit
-0.15799598395824432 eager
-same result: True
- It is 1.2234 times faster with eager compilation
-
-sgemm_manual 3
-0.1682867556810379 jit
-0.16634146124124527 eager
-same result: True
- It is 1.0117 times faster with eager compilation
-
-sgemm 3
-0.3414942789822817 jit
-0.2453421619720757 eager
-same result: True
- It is 1.3919 times faster with eager compilation
-
-laplacian 1
-0.18370467890053988 jit
-0.14240308292210102 eager
-same result: True
- It is 1.2900 times faster with eager compilation
-
-s111 2
-0.07692666118964553 jit
-0.059785233810544014 eager
-same result: True
- It is 1.2867 times faster with eager compilation
-
-s112 2
-0.06650492502376437 jit
-0.06645642220973969 eager
-same result: True
- It is 1.0007 times faster with eager compilation
-
-s1111 4
-0.10002455580979586 jit
-0.09961339738219976 eager
-same result: True
- It is 1.0041 times faster with eager compilation
-
-go_fast 1
-0.1850039097480476 jit
-0.1403611758723855 eager
-same result: True
- It is 1.3181 times faster with eager compilation
-
-many_arr 7
-0.20604552002623677 jit
-0.18044451903551817 eager
-same result: True
- It is 1.1419 times faster with eager compilation
-
-loop1 2
-0.18648311402648687 jit
-0.12652592128142715 eager
-same result: True
- It is 1.4739 times faster with eager compilation
-
-loop2 3
-0.19288318883627653 jit
-0.15924596600234509 eager
-same result: True
- It is 1.2112 times faster with eager compilation
-
-sgemm_manual 3
-0.16678372211754322 jit
-0.1669955411925912 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-sgemm 3
-0.3378819772042334 jit
-0.24577289493754506 eager
-same result: True
- It is 1.3748 times faster with eager compilation
-
-laplacian 1
-0.1859652022831142 jit
-0.14674707921221852 eager
-same result: True
- It is 1.2672 times faster with eager compilation
-
-s111 2
-0.07696098694577813 jit
-0.059666897635906935 eager
-same result: True
- It is 1.2898 times faster with eager compilation
-
-s112 2
-0.0665095648728311 jit
-0.0666054142639041 eager
-same result: True
- It is 0.9986 times faster with eager compilation
-
-s1111 4
-0.10049617616459727 jit
-0.1003384217619896 eager
-same result: True
- It is 1.0016 times faster with eager compilation
-
-go_fast 1
-0.184732586145401 jit
-0.1406629648990929 eager
-same result: True
- It is 1.3133 times faster with eager compilation
-
-many_arr 7
-0.20736521109938622 jit
-0.18002212094143033 eager
-same result: True
- It is 1.1519 times faster with eager compilation
-
-loop1 2
-0.18776532588526607 jit
-0.12688452284783125 eager
-same result: True
- It is 1.4798 times faster with eager compilation
-
-loop2 3
-0.1971548809669912 jit
-0.16337986197322607 eager
-same result: True
- It is 1.2067 times faster with eager compilation
-
-sgemm_manual 3
-0.1670912471599877 jit
-0.16751027293503284 eager
-same result: True
- It is 0.9975 times faster with eager compilation
-
-sgemm 3
-0.33870818791911006 jit
-0.24512557592242956 eager
-same result: True
- It is 1.3818 times faster with eager compilation
-
-laplacian 1
-0.18662253580987453 jit
-0.14297025371342897 eager
-same result: True
- It is 1.3053 times faster with eager compilation
-
-s111 2
-0.07738107396289706 jit
-0.059942726977169514 eager
-same result: True
- It is 1.2909 times faster with eager compilation
-
-s112 2
-0.06680744607001543 jit
-0.06701957574114203 eager
-same result: True
- It is 0.9968 times faster with eager compilation
-
-s1111 4
-0.10142835974693298 jit
-0.10161492228507996 eager
-same result: True
- It is 0.9982 times faster with eager compilation
-
-go_fast 1
-0.1858598468825221 jit
-0.14124558912590146 eager
-same result: True
- It is 1.3159 times faster with eager compilation
-
-many_arr 7
-0.20802788296714425 jit
-0.1808987599797547 eager
-same result: True
- It is 1.1500 times faster with eager compilation
-
-loop1 2
-0.18820934975519776 jit
-0.12710839789360762 eager
-same result: True
- It is 1.4807 times faster with eager compilation
-
-loop2 3
-0.19564962713047862 jit
-0.15895283361896873 eager
-same result: True
- It is 1.2309 times faster with eager compilation
-
-sgemm_manual 3
-0.17027038615196943 jit
-0.16981374099850655 eager
-same result: True
- It is 1.0027 times faster with eager compilation
-
-sgemm 3
-0.34800482634454966 jit
-0.24870951287448406 eager
-same result: True
- It is 1.3992 times faster with eager compilation
-
-laplacian 1
-0.1874113818630576 jit
-0.14383135503157973 eager
-same result: True
- It is 1.3030 times faster with eager compilation
-
-s111 2
-0.07705149101093411 jit
-0.05992993898689747 eager
-same result: True
- It is 1.2857 times faster with eager compilation
-
-s112 2
-0.06711849896237254 jit
-0.06692744698375463 eager
-same result: True
- It is 1.0029 times faster with eager compilation
-
-s1111 4
-0.10091855097562075 jit
-0.10060019791126251 eager
-same result: True
- It is 1.0032 times faster with eager compilation
-
-go_fast 1
-0.18569174082949758 jit
-0.14099946292117238 eager
-same result: True
- It is 1.3170 times faster with eager compilation
-
-many_arr 7
-0.2085660551674664 jit
-0.18098871083930135 eager
-same result: True
- It is 1.1524 times faster with eager compilation
-
-loop1 2
-0.18850530916824937 jit
-0.12734638480469584 eager
-same result: True
- It is 1.4803 times faster with eager compilation
-
-loop2 3
-0.19317834917455912 jit
-0.15870981477200985 eager
-same result: True
- It is 1.2172 times faster with eager compilation
-
-sgemm_manual 3
-0.16933850571513176 jit
-0.16782389115542173 eager
-same result: True
- It is 1.0090 times faster with eager compilation
-
-sgemm 3
-0.33916505007073283 jit
-0.2458571819588542 eager
-same result: True
- It is 1.3795 times faster with eager compilation
-
-laplacian 1
-0.18741514859721065 jit
-0.1450476236641407 eager
-same result: True
- It is 1.2921 times faster with eager compilation
-
-s111 2
-0.07747729774564505 jit
-0.060059268958866596 eager
-same result: True
- It is 1.2900 times faster with eager compilation
-
-s112 2
-0.06698352890089154 jit
-0.0667689242400229 eager
-same result: True
- It is 1.0032 times faster with eager compilation
-
-s1111 4
-0.10109213227406144 jit
-0.10073868604376912 eager
-same result: True
- It is 1.0035 times faster with eager compilation
-
-go_fast 1
-0.18566920375451446 jit
-0.14085736963897943 eager
-same result: True
- It is 1.3181 times faster with eager compilation
-
-many_arr 7
-0.20768297696486115 jit
-0.1809869441203773 eager
-same result: True
- It is 1.1475 times faster with eager compilation
-
-loop1 2
-0.1884274808689952 jit
-0.1271925293840468 eager
-same result: True
- It is 1.4814 times faster with eager compilation
-
-loop2 3
-0.19387889932841063 jit
-0.15913277864456177 eager
-same result: True
- It is 1.2183 times faster with eager compilation
-
-sgemm_manual 3
-0.16738250479102135 jit
-0.16752784280106425 eager
-same result: True
- It is 0.9991 times faster with eager compilation
-
-sgemm 3
-0.33935207268223166 jit
-0.24699766701087356 eager
-same result: True
- It is 1.3739 times faster with eager compilation
-
-laplacian 1
-0.1872422220185399 jit
-0.14355480019003153 eager
-same result: True
- It is 1.3043 times faster with eager compilation
-
-s111 2
-0.07728472165763378 jit
-0.059777024667710066 eager
-same result: True
- It is 1.2929 times faster with eager compilation
-
-s112 2
-0.06732890801504254 jit
-0.06678223190829158 eager
-same result: True
- It is 1.0082 times faster with eager compilation
-
-s1111 4
-0.10084754601120949 jit
-0.10043891426175833 eager
-same result: True
- It is 1.0041 times faster with eager compilation
-
-go_fast 1
-0.18533198907971382 jit
-0.1410206938162446 eager
-same result: True
- It is 1.3142 times faster with eager compilation
-
-many_arr 7
-0.20806051697582006 jit
-0.18034115293994546 eager
-same result: True
- It is 1.1537 times faster with eager compilation
-
-loop1 2
-0.18776817386969924 jit
-0.12747036712244153 eager
-same result: True
- It is 1.4730 times faster with eager compilation
-
-loop2 3
-0.1940202433615923 jit
-0.16428390936926007 eager
-same result: True
- It is 1.1810 times faster with eager compilation
-
-sgemm_manual 3
-0.1679011438973248 jit
-0.16804512962698936 eager
-same result: True
- It is 0.9991 times faster with eager compilation
-
-sgemm 3
-0.3480397895909846 jit
-0.23894437588751316 eager
-same result: True
- It is 1.4566 times faster with eager compilation
-
-laplacian 1
-0.187008542008698 jit
-0.14327245531603694 eager
-same result: True
- It is 1.3053 times faster with eager compilation
-
-s111 2
-0.0775192379951477 jit
-0.06023249588906765 eager
-same result: True
- It is 1.2870 times faster with eager compilation
-
-s112 2
-0.06670161709189415 jit
-0.06674148933961987 eager
-same result: True
- It is 0.9994 times faster with eager compilation
-
-s1111 4
-0.10078459978103638 jit
-0.10052282316610217 eager
-same result: True
- It is 1.0026 times faster with eager compilation
-
-go_fast 1
-0.18629254307597876 jit
-0.14193992875516415 eager
-same result: True
- It is 1.3125 times faster with eager compilation
-
-many_arr 7
-0.20724971406161785 jit
-0.17971647111698985 eager
-same result: True
- It is 1.1532 times faster with eager compilation
-
-loop1 2
-0.1873526182025671 jit
-0.12703490490093827 eager
-same result: True
- It is 1.4748 times faster with eager compilation
-
-loop2 3
-0.19366190303117037 jit
-0.1581797138787806 eager
-same result: True
- It is 1.2243 times faster with eager compilation
-
-sgemm_manual 3
-0.1672734273597598 jit
-0.1674971147440374 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-sgemm 3
-0.34466588823124766 jit
-0.24656201107427478 eager
-same result: True
- It is 1.3979 times faster with eager compilation
-
-laplacian 1
-0.18693455401808023 jit
-0.14295273600146174 eager
-same result: True
- It is 1.3077 times faster with eager compilation
-
-s111 2
-0.07706670230254531 jit
-0.05959868198260665 eager
-same result: True
- It is 1.2931 times faster with eager compilation
-
-s112 2
-0.06635413412004709 jit
-0.06645322078838944 eager
-same result: True
- It is 0.9985 times faster with eager compilation
-
-s1111 4
-0.10033135442063212 jit
-0.09981414675712585 eager
-same result: True
- It is 1.0052 times faster with eager compilation
-
-go_fast 1
-0.18484414601698518 jit
-0.14025770081207156 eager
-same result: True
- It is 1.3179 times faster with eager compilation
-
-many_arr 7
-0.2065675570629537 jit
-0.17936947708949447 eager
-same result: True
- It is 1.1516 times faster with eager compilation
-
-loop1 2
-0.18659144500270486 jit
-0.12625621911138296 eager
-same result: True
- It is 1.4779 times faster with eager compilation
-
-loop2 3
-0.19304989697411656 jit
-0.15738833509385586 eager
-same result: True
- It is 1.2266 times faster with eager compilation
-
-sgemm_manual 3
-0.1671943017281592 jit
-0.16658909618854523 eager
-same result: True
- It is 1.0036 times faster with eager compilation
-
-sgemm 3
-0.3484888090752065 jit
-0.23490611091256142 eager
-same result: True
- It is 1.4835 times faster with eager compilation
-
-laplacian 1
-0.18636527890339494 jit
-0.14254468120634556 eager
-same result: True
- It is 1.3074 times faster with eager compilation
-
-s111 2
-0.07753966003656387 jit
-0.059803463984280825 eager
-same result: True
- It is 1.2966 times faster with eager compilation
-
-s112 2
-0.06669795885682106 jit
-0.06687544658780098 eager
-same result: True
- It is 0.9973 times faster with eager compilation
-
-s1111 4
-0.10093825403600931 jit
-0.10018663108348846 eager
-same result: True
- It is 1.0075 times faster with eager compilation
-
-go_fast 1
-0.1863965610973537 jit
-0.14057368598878384 eager
-same result: True
- It is 1.3260 times faster with eager compilation
-
-many_arr 7
-0.20765105308964849 jit
-0.1818886287510395 eager
-same result: True
- It is 1.1416 times faster with eager compilation
-
-loop1 2
-0.18814340885728598 jit
-0.1268467390909791 eager
-same result: True
- It is 1.4832 times faster with eager compilation
-
-loop2 3
-0.193472929764539 jit
-0.16091445786878467 eager
-same result: True
- It is 1.2023 times faster with eager compilation
-
-sgemm_manual 3
-0.1673293742351234 jit
-0.16952326893806458 eager
-same result: True
- It is 0.9871 times faster with eager compilation
-
-sgemm 3
-0.33991475496441126 jit
-0.24821947189047933 eager
-same result: True
- It is 1.3694 times faster with eager compilation
-
-laplacian 1
-0.1868931921198964 jit
-0.14316429430618882 eager
-same result: True
- It is 1.3054 times faster with eager compilation
-
-s111 2
-0.07701785815879703 jit
-0.059593102894723415 eager
-same result: True
- It is 1.2924 times faster with eager compilation
-
-s112 2
-0.06646743789315224 jit
-0.06638770690187812 eager
-same result: True
- It is 1.0012 times faster with eager compilation
-
-s1111 4
-0.10049425298348069 jit
-0.09980853693559766 eager
-same result: True
- It is 1.0069 times faster with eager compilation
-
-go_fast 1
-0.1851454097777605 jit
-0.14045231975615025 eager
-same result: True
- It is 1.3182 times faster with eager compilation
-
-many_arr 7
-0.20777900097891688 jit
-0.1796358390711248 eager
-same result: True
- It is 1.1567 times faster with eager compilation
-
-loop1 2
-0.18732087220996618 jit
-0.12680665217339993 eager
-same result: True
- It is 1.4772 times faster with eager compilation
-
-loop2 3
-0.19303289102390409 jit
-0.15756176877766848 eager
-same result: True
- It is 1.2251 times faster with eager compilation
-
-sgemm_manual 3
-0.16660012397915125 jit
-0.1665430311113596 eager
-same result: True
- It is 1.0003 times faster with eager compilation
-
-sgemm 3
-0.3417613487690687 jit
-0.2453702283091843 eager
-same result: True
- It is 1.3928 times faster with eager compilation
-
-laplacian 1
-0.18648268515244126 jit
-0.14436963899061084 eager
-same result: True
- It is 1.2917 times faster with eager compilation
-
-s111 2
-0.0768591333180666 jit
-0.059373656287789345 eager
-same result: True
- It is 1.2945 times faster with eager compilation
-
-s112 2
-0.06617078185081482 jit
-0.06622354686260223 eager
-same result: True
- It is 0.9992 times faster with eager compilation
-
-s1111 4
-0.10012438474223018 jit
-0.09963582223281264 eager
-same result: True
- It is 1.0049 times faster with eager compilation
-
-go_fast 1
-0.18442329298704863 jit
-0.14022289728745818 eager
-same result: True
- It is 1.3152 times faster with eager compilation
-
-many_arr 7
-0.2065057372674346 jit
-0.18073257058858871 eager
-same result: True
- It is 1.1426 times faster with eager compilation
-
-loop1 2
-0.186532286927104 jit
-0.12655222928151488 eager
-same result: True
- It is 1.4740 times faster with eager compilation
-
-loop2 3
-0.1922170897014439 jit
-0.15742465620860457 eager
-same result: True
- It is 1.2210 times faster with eager compilation
-
-sgemm_manual 3
-0.1685097999870777 jit
-0.1663777488283813 eager
-same result: True
- It is 1.0128 times faster with eager compilation
-
-sgemm 3
-0.3448620652779937 jit
-0.24515948630869389 eager
-same result: True
- It is 1.4067 times faster with eager compilation
-
-laplacian 1
-0.1871636020950973 jit
-0.14370467513799667 eager
-same result: True
- It is 1.3024 times faster with eager compilation
-
-s111 2
-0.07695534313097596 jit
-0.05996369477361441 eager
-same result: True
- It is 1.2834 times faster with eager compilation
-
-s112 2
-0.06615595798939466 jit
-0.06624240428209305 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-s1111 4
-0.10000071721151471 jit
-0.09944630414247513 eager
-same result: True
- It is 1.0056 times faster with eager compilation
-
-go_fast 1
-0.18416793458163738 jit
-0.1399178821593523 eager
-same result: True
- It is 1.3163 times faster with eager compilation
-
-many_arr 7
-0.20609096204861999 jit
-0.17949467385187745 eager
-same result: True
- It is 1.1482 times faster with eager compilation
-
-loop1 2
-0.18615123583003879 jit
-0.12622281908988953 eager
-same result: True
- It is 1.4748 times faster with eager compilation
-
-loop2 3
-0.19279265776276588 jit
-0.16162965493276715 eager
-same result: True
- It is 1.1928 times faster with eager compilation
-
-sgemm_manual 3
-0.16804439993575215 jit
-0.16701463982462883 eager
-same result: True
- It is 1.0062 times faster with eager compilation
-
-sgemm 3
-0.34566181106492877 jit
-0.23348039481788874 eager
-same result: True
- It is 1.4805 times faster with eager compilation
-
-laplacian 1
-0.18587096221745014 jit
-0.14235851587727666 eager
-same result: True
- It is 1.3057 times faster with eager compilation
-
-s111 2
-0.07779579842463136 jit
-0.060085459146648645 eager
-same result: True
- It is 1.2948 times faster with eager compilation
-
-s112 2
-0.06680514384061098 jit
-0.06681780656799674 eager
-same result: True
- It is 0.9998 times faster with eager compilation
-
-s1111 4
-0.10122101521119475 jit
-0.1006957390345633 eager
-same result: True
- It is 1.0052 times faster with eager compilation
-
-go_fast 1
-0.18576940800994635 jit
-0.1412084847688675 eager
-same result: True
- It is 1.3156 times faster with eager compilation
-
-many_arr 7
-0.2080436018295586 jit
-0.18143021501600742 eager
-same result: True
- It is 1.1467 times faster with eager compilation
-
-loop1 2
-0.18825851194560528 jit
-0.1275333152152598 eager
-same result: True
- It is 1.4762 times faster with eager compilation
-
-loop2 3
-0.19371166685596108 jit
-0.15852607088163495 eager
-same result: True
- It is 1.2220 times faster with eager compilation
-
-sgemm_manual 3
-0.16778317093849182 jit
-0.1691664718091488 eager
-same result: True
- It is 0.9918 times faster with eager compilation
-
-sgemm 3
-0.34277569921687245 jit
-0.2475833920761943 eager
-same result: True
- It is 1.3845 times faster with eager compilation
-
-laplacian 1
-0.18718854524195194 jit
-0.14346099505200982 eager
-same result: True
- It is 1.3048 times faster with eager compilation
-
-s111 2
-0.07692022062838078 jit
-0.059865483082830906 eager
-same result: True
- It is 1.2849 times faster with eager compilation
-
-s112 2
-0.0664597419090569 jit
-0.06654299795627594 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-s1111 4
-0.10036245221272111 jit
-0.09991917992010713 eager
-same result: True
- It is 1.0044 times faster with eager compilation
-
-go_fast 1
-0.18529475899413228 jit
-0.1404763231985271 eager
-same result: True
- It is 1.3190 times faster with eager compilation
-
-many_arr 7
-0.20640752464532852 jit
-0.179787193890661 eager
-same result: True
- It is 1.1481 times faster with eager compilation
-
-loop1 2
-0.18657480785623193 jit
-0.1265096701681614 eager
-same result: True
- It is 1.4748 times faster with eager compilation
-
-loop2 3
-0.19535097666084766 jit
-0.15757101913914084 eager
-same result: True
- It is 1.2398 times faster with eager compilation
-
-sgemm_manual 3
-0.1672338703647256 jit
-0.16704187309369445 eager
-same result: True
- It is 1.0011 times faster with eager compilation
-
-sgemm 3
-0.3393765240907669 jit
-0.24609575513750315 eager
-same result: True
- It is 1.3790 times faster with eager compilation
-
-laplacian 1
-0.18636461393907666 jit
-0.1423411169089377 eager
-same result: True
- It is 1.3093 times faster with eager compilation
-
-s111 2
-0.07779375463724136 jit
-0.05992411682382226 eager
-same result: True
- It is 1.2982 times faster with eager compilation
-
-s112 2
-0.06676569394767284 jit
-0.06679613189771771 eager
-same result: True
- It is 0.9995 times faster with eager compilation
-
-s1111 4
-0.10107585787773132 jit
-0.10040858574211597 eager
-same result: True
- It is 1.0066 times faster with eager compilation
-
-go_fast 1
-0.18554944824427366 jit
-0.14093858003616333 eager
-same result: True
- It is 1.3165 times faster with eager compilation
-
-many_arr 7
-0.20920931082218885 jit
-0.18089726008474827 eager
-same result: True
- It is 1.1565 times faster with eager compilation
-
-loop1 2
-0.18816960882395506 jit
-0.12723680911585689 eager
-same result: True
- It is 1.4789 times faster with eager compilation
-
-loop2 3
-0.19378252094611526 jit
-0.1587612433359027 eager
-same result: True
- It is 1.2206 times faster with eager compilation
-
-sgemm_manual 3
-0.1679234099574387 jit
-0.1678416207432747 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-sgemm 3
-0.3470411030575633 jit
-0.23415048327296972 eager
-same result: True
- It is 1.4821 times faster with eager compilation
-
-laplacian 1
-0.1888071852736175 jit
-0.14363804925233126 eager
-same result: True
- It is 1.3145 times faster with eager compilation
-
-s111 2
-0.07755050295963883 jit
-0.06007044389843941 eager
-same result: True
- It is 1.2910 times faster with eager compilation
-
-s112 2
-0.06700146477669477 jit
-0.06684608804062009 eager
-same result: True
- It is 1.0023 times faster with eager compilation
-
-s1111 4
-0.10093303304165602 jit
-0.10031465301290154 eager
-same result: True
- It is 1.0062 times faster with eager compilation
-
-go_fast 1
-0.18518661567941308 jit
-0.1407554941251874 eager
-same result: True
- It is 1.3157 times faster with eager compilation
-
-many_arr 7
-0.2077957997098565 jit
-0.17994591686874628 eager
-same result: True
- It is 1.1548 times faster with eager compilation
-
-loop1 2
-0.1875312807969749 jit
-0.1267719017341733 eager
-same result: True
- It is 1.4793 times faster with eager compilation
-
-loop2 3
-0.19312815181910992 jit
-0.15797616774216294 eager
-same result: True
- It is 1.2225 times faster with eager compilation
-
-sgemm_manual 3
-0.16688620299100876 jit
-0.16742302011698484 eager
-same result: True
- It is 0.9968 times faster with eager compilation
-
-sgemm 3
-0.34179447311908007 jit
-0.24642288917675614 eager
-same result: True
- It is 1.3870 times faster with eager compilation
-
-laplacian 1
-0.18682334711775184 jit
-0.14289074297994375 eager
-same result: True
- It is 1.3075 times faster with eager compilation
-
-s111 2
-0.07746179308742285 jit
-0.05997746763750911 eager
-same result: True
- It is 1.2915 times faster with eager compilation
-
-s112 2
-0.06700557097792625 jit
-0.06687901681289077 eager
-same result: True
- It is 1.0019 times faster with eager compilation
-
-s1111 4
-0.10079298075288534 jit
-0.10046565812081099 eager
-same result: True
- It is 1.0033 times faster with eager compilation
-
-go_fast 1
-0.18546033883467317 jit
-0.14082905696704984 eager
-same result: True
- It is 1.3169 times faster with eager compilation
-
-many_arr 7
-0.20684316800907254 jit
-0.1810902375727892 eager
-same result: True
- It is 1.1422 times faster with eager compilation
-
-loop1 2
-0.18788537988439202 jit
-0.12690465338528156 eager
-same result: True
- It is 1.4805 times faster with eager compilation
-
-loop2 3
-0.19302613707259297 jit
-0.15806378610432148 eager
-same result: True
- It is 1.2212 times faster with eager compilation
-
-sgemm_manual 3
-0.16744469106197357 jit
-0.16739338915795088 eager
-same result: True
- It is 1.0003 times faster with eager compilation
-
-sgemm 3
-0.3454112717881799 jit
-0.24730407306924462 eager
-same result: True
- It is 1.3967 times faster with eager compilation
-
-laplacian 1
-0.18655877793207765 jit
-0.14297400042414665 eager
-same result: True
- It is 1.3048 times faster with eager compilation
-
-s111 2
-0.07759786024689674 jit
-0.06014131801202893 eager
-same result: True
- It is 1.2903 times faster with eager compilation
-
-s112 2
-0.06681324215605855 jit
-0.06726351799443364 eager
-same result: True
- It is 0.9933 times faster with eager compilation
-
-s1111 4
-0.10111691197380424 jit
-0.10056595504283905 eager
-same result: True
- It is 1.0055 times faster with eager compilation
-
-go_fast 1
-0.18571754172444344 jit
-0.1417134553194046 eager
-same result: True
- It is 1.3105 times faster with eager compilation
-
-many_arr 7
-0.20828828308731318 jit
-0.1811041790060699 eager
-same result: True
- It is 1.1501 times faster with eager compilation
-
-loop1 2
-0.18829383701086044 jit
-0.12754941266030073 eager
-same result: True
- It is 1.4762 times faster with eager compilation
-
-loop2 3
-0.19467909773811698 jit
-0.15880080172792077 eager
-same result: True
- It is 1.2259 times faster with eager compilation
-
-sgemm_manual 3
-0.16878989292308688 jit
-0.1681468840688467 eager
-same result: True
- It is 1.0038 times faster with eager compilation
-
-sgemm 3
-0.3438976430334151 jit
-0.24699666304513812 eager
-same result: True
- It is 1.3923 times faster with eager compilation
-
-laplacian 1
-0.18732271995395422 jit
-0.14373223297297955 eager
-same result: True
- It is 1.3033 times faster with eager compilation
-
-s111 2
-0.07787222601473331 jit
-0.05990529200062156 eager
-same result: True
- It is 1.2999 times faster with eager compilation
-
-s112 2
-0.06648599309846759 jit
-0.06660446804016829 eager
-same result: True
- It is 0.9982 times faster with eager compilation
-
-s1111 4
-0.10083519108593464 jit
-0.10012010391801596 eager
-same result: True
- It is 1.0071 times faster with eager compilation
-
-go_fast 1
-0.18509617075324059 jit
-0.14055348420515656 eager
-same result: True
- It is 1.3169 times faster with eager compilation
-
-many_arr 7
-0.20788039173930883 jit
-0.18314741319045424 eager
-same result: True
- It is 1.1350 times faster with eager compilation
-
-loop1 2
-0.18703557178378105 jit
-0.1265572407282889 eager
-same result: True
- It is 1.4779 times faster with eager compilation
-
-loop2 3
-0.1934140119701624 jit
-0.15764513006433845 eager
-same result: True
- It is 1.2269 times faster with eager compilation
-
-sgemm_manual 3
-0.16663804976269603 jit
-0.16642946703359485 eager
-same result: True
- It is 1.0013 times faster with eager compilation
-
-sgemm 3
-0.3402218548581004 jit
-0.24564555706456304 eager
-same result: True
- It is 1.3850 times faster with eager compilation
-
-laplacian 1
-0.1881026397459209 jit
-0.14383754506707191 eager
-same result: True
- It is 1.3077 times faster with eager compilation
-
-s111 2
-0.07733891997486353 jit
-0.059744019992649555 eager
-same result: True
- It is 1.2945 times faster with eager compilation
-
-s112 2
-0.06645209109410644 jit
-0.06652930099517107 eager
-same result: True
- It is 0.9988 times faster with eager compilation
-
-s1111 4
-0.10048798331990838 jit
-0.09988632798194885 eager
-same result: True
- It is 1.0060 times faster with eager compilation
-
-go_fast 1
-0.1849424447864294 jit
-0.1402616910636425 eager
-same result: True
- It is 1.3186 times faster with eager compilation
-
-many_arr 7
-0.2067672717384994 jit
-0.17948741791769862 eager
-same result: True
- It is 1.1520 times faster with eager compilation
-
-loop1 2
-0.18777152011170983 jit
-0.12643457297235727 eager
-same result: True
- It is 1.4851 times faster with eager compilation
-
-loop2 3
-0.19436400616541505 jit
-0.15748159121721983 eager
-same result: True
- It is 1.2342 times faster with eager compilation
-
-sgemm_manual 3
-0.1665731929242611 jit
-0.1676795892417431 eager
-same result: True
- It is 0.9934 times faster with eager compilation
-
-sgemm 3
-0.3392863757908344 jit
-0.2452014102600515 eager
-same result: True
- It is 1.3837 times faster with eager compilation
-
-laplacian 1
-0.18614934897050261 jit
-0.1424632421694696 eager
-same result: True
- It is 1.3066 times faster with eager compilation
-
-s111 2
-0.0769483339972794 jit
-0.05947309825569391 eager
-same result: True
- It is 1.2938 times faster with eager compilation
-
-s112 2
-0.0663195620290935 jit
-0.06640566093847156 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-s1111 4
-0.10026808176189661 jit
-0.09975015092641115 eager
-same result: True
- It is 1.0052 times faster with eager compilation
-
-go_fast 1
-0.18477500835433602 jit
-0.14060371229425073 eager
-same result: True
- It is 1.3142 times faster with eager compilation
-
-many_arr 7
-0.20664782403036952 jit
-0.17940316256135702 eager
-same result: True
- It is 1.1519 times faster with eager compilation
-
-loop1 2
-0.18674281425774097 jit
-0.12619061022996902 eager
-same result: True
- It is 1.4798 times faster with eager compilation
-
-loop2 3
-0.19291365100070834 jit
-0.15723932161927223 eager
-same result: True
- It is 1.2269 times faster with eager compilation
-
-sgemm_manual 3
-0.1677824640646577 jit
-0.16667567193508148 eager
-same result: True
- It is 1.0066 times faster with eager compilation
-
-sgemm 3
-0.33976844092831016 jit
-0.24564742296934128 eager
-same result: True
- It is 1.3832 times faster with eager compilation
-
-laplacian 1
-0.18614706536754966 jit
-0.14259497076272964 eager
-same result: True
- It is 1.3054 times faster with eager compilation
-
-s111 2
-0.07732693385332823 jit
-0.05983114894479513 eager
-same result: True
- It is 1.2924 times faster with eager compilation
-
-s112 2
-0.06691617704927921 jit
-0.06671545002609491 eager
-same result: True
- It is 1.0030 times faster with eager compilation
-
-s1111 4
-0.10070635285228491 jit
-0.10012387996539474 eager
-same result: True
- It is 1.0058 times faster with eager compilation
-
-go_fast 1
-0.1852163360454142 jit
-0.1404275493696332 eager
-same result: True
- It is 1.3189 times faster with eager compilation
-
-many_arr 7
-0.20912764314562082 jit
-0.18041077675297856 eager
-same result: True
- It is 1.1592 times faster with eager compilation
-
-loop1 2
-0.18748781783506274 jit
-0.12688916502520442 eager
-same result: True
- It is 1.4776 times faster with eager compilation
-
-loop2 3
-0.19404071336612105 jit
-0.16078326385468245 eager
-same result: True
- It is 1.2068 times faster with eager compilation
-
-sgemm_manual 3
-0.16770812636241317 jit
-0.1673862081952393 eager
-same result: True
- It is 1.0019 times faster with eager compilation
-
-sgemm 3
-0.3427039231173694 jit
-0.24607518501579762 eager
-same result: True
- It is 1.3927 times faster with eager compilation
-
-laplacian 1
-0.1867600018158555 jit
-0.14298679307103157 eager
-same result: True
- It is 1.3061 times faster with eager compilation
-
-s111 2
-0.07783078867942095 jit
-0.060099630150943995 eager
-same result: True
- It is 1.2950 times faster with eager compilation
-
-s112 2
-0.0673572588711977 jit
-0.06682228110730648 eager
-same result: True
- It is 1.0080 times faster with eager compilation
-
-s1111 4
-0.10128497891128063 jit
-0.10054339608177543 eager
-same result: True
- It is 1.0074 times faster with eager compilation
-
-go_fast 1
-0.18567511159926653 jit
-0.1407209667377174 eager
-same result: True
- It is 1.3195 times faster with eager compilation
-
-many_arr 7
-0.21192401461303234 jit
-0.18073936318978667 eager
-same result: True
- It is 1.1725 times faster with eager compilation
-
-loop1 2
-0.18791000591591 jit
-0.1270707449875772 eager
-same result: True
- It is 1.4788 times faster with eager compilation
-
-loop2 3
-0.19450287707149982 jit
-0.15886921295896173 eager
-same result: True
- It is 1.2243 times faster with eager compilation
-
-sgemm_manual 3
-0.16803900664672256 jit
-0.16842130897566676 eager
-same result: True
- It is 0.9977 times faster with eager compilation
-
-sgemm 3
-0.3437269781716168 jit
-0.2466067299246788 eager
-same result: True
- It is 1.3938 times faster with eager compilation
-
-laplacian 1
-0.1871784469112754 jit
-0.14335228083655238 eager
-same result: True
- It is 1.3057 times faster with eager compilation
-
-s111 2
-0.07772003579884768 jit
-0.060170409735292196 eager
-same result: True
- It is 1.2917 times faster with eager compilation
-
-s112 2
-0.06689106579869986 jit
-0.06697817798703909 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-s1111 4
-0.10139636788517237 jit
-0.10097175603732467 eager
-same result: True
- It is 1.0042 times faster with eager compilation
-
-go_fast 1
-0.18629739107564092 jit
-0.1415416761301458 eager
-same result: True
- It is 1.3162 times faster with eager compilation
-
-many_arr 7
-0.20859299693256617 jit
-0.18114774581044912 eager
-same result: True
- It is 1.1515 times faster with eager compilation
-
-loop1 2
-0.18904846301302314 jit
-0.1277139107696712 eager
-same result: True
- It is 1.4802 times faster with eager compilation
-
-loop2 3
-0.19465566612780094 jit
-0.15893959673121572 eager
-same result: True
- It is 1.2247 times faster with eager compilation
-
-sgemm_manual 3
-0.169403868727386 jit
-0.17065750202164054 eager
-same result: True
- It is 0.9927 times faster with eager compilation
-
-sgemm 3
-0.3422910990193486 jit
-0.24663467099890113 eager
-same result: True
- It is 1.3878 times faster with eager compilation
-
-laplacian 1
-0.18752943817526102 jit
-0.14373378781601787 eager
-same result: True
- It is 1.3047 times faster with eager compilation
-
-s111 2
-0.0777039360255003 jit
-0.06010277196764946 eager
-same result: True
- It is 1.2929 times faster with eager compilation
-
-s112 2
-0.06688427086919546 jit
-0.06677755666896701 eager
-same result: True
- It is 1.0016 times faster with eager compilation
-
-s1111 4
-0.10101444879546762 jit
-0.1002665851265192 eager
-same result: True
- It is 1.0075 times faster with eager compilation
-
-go_fast 1
-0.1858963631093502 jit
-0.1416015150025487 eager
-same result: True
- It is 1.3128 times faster with eager compilation
-
-many_arr 7
-0.20771118672564626 jit
-0.18025053665041924 eager
-same result: True
- It is 1.1523 times faster with eager compilation
-
-loop1 2
-0.18827861733734608 jit
-0.1271547693759203 eager
-same result: True
- It is 1.4807 times faster with eager compilation
-
-loop2 3
-0.19461753405630589 jit
-0.15851632924750447 eager
-same result: True
- It is 1.2277 times faster with eager compilation
-
-sgemm_manual 3
-0.16804532101377845 jit
-0.16757402522489429 eager
-same result: True
- It is 1.0028 times faster with eager compilation
-
-sgemm 3
-0.343862890265882 jit
-0.24677165923640132 eager
-same result: True
- It is 1.3934 times faster with eager compilation
-
-laplacian 1
-0.18715820834040642 jit
-0.14342115866020322 eager
-same result: True
- It is 1.3050 times faster with eager compilation
-
-s111 2
-0.07727886782959104 jit
-0.0598341878503561 eager
-same result: True
- It is 1.2916 times faster with eager compilation
-
-s112 2
-0.0664716879837215 jit
-0.06656607426702976 eager
-same result: True
- It is 0.9986 times faster with eager compilation
-
-s1111 4
-0.10050787683576345 jit
-0.10012150881811976 eager
-same result: True
- It is 1.0039 times faster with eager compilation
-
-go_fast 1
-0.18456446705386043 jit
-0.14036271814256907 eager
-same result: True
- It is 1.3149 times faster with eager compilation
-
-many_arr 7
-0.20684413379058242 jit
-0.17994956811890006 eager
-same result: True
- It is 1.1495 times faster with eager compilation
-
-loop1 2
-0.18695977423340082 jit
-0.12633922835811973 eager
-same result: True
- It is 1.4798 times faster with eager compilation
-
-loop2 3
-0.19333877600729465 jit
-0.15813030023127794 eager
-same result: True
- It is 1.2227 times faster with eager compilation
-
-sgemm_manual 3
-0.16666300734505057 jit
-0.16691439412534237 eager
-same result: True
- It is 0.9985 times faster with eager compilation
-
-sgemm 3
-0.34614093508571386 jit
-0.24452084489166737 eager
-same result: True
- It is 1.4156 times faster with eager compilation
-
-laplacian 1
-0.1863990630954504 jit
-0.14291205909103155 eager
-same result: True
- It is 1.3043 times faster with eager compilation
-
-s111 2
-0.08071338385343552 jit
-0.06018956610932946 eager
-same result: True
- It is 1.3410 times faster with eager compilation
-
-s112 2
-0.06678423890843987 jit
-0.06665689824149013 eager
-same result: True
- It is 1.0019 times faster with eager compilation
-
-s1111 4
-0.10091030923649669 jit
-0.10033299587666988 eager
-same result: True
- It is 1.0058 times faster with eager compilation
-
-go_fast 1
-0.18537576915696263 jit
-0.14089223183691502 eager
-same result: True
- It is 1.3157 times faster with eager compilation
-
-many_arr 7
-0.20788996759802103 jit
-0.1803545281291008 eager
-same result: True
- It is 1.1527 times faster with eager compilation
-
-loop1 2
-0.18778110295534134 jit
-0.12690912699326873 eager
-same result: True
- It is 1.4797 times faster with eager compilation
-
-loop2 3
-0.1940541472285986 jit
-0.1585400691255927 eager
-same result: True
- It is 1.2240 times faster with eager compilation
-
-sgemm_manual 3
-0.16722595505416393 jit
-0.16765210591256618 eager
-same result: True
- It is 0.9975 times faster with eager compilation
-
-sgemm 3
-0.34061131021007895 jit
-0.24639160698279738 eager
-same result: True
- It is 1.3824 times faster with eager compilation
-
-laplacian 1
-0.1866646483540535 jit
-0.14327647583559155 eager
-same result: True
- It is 1.3028 times faster with eager compilation
-
-s111 2
-0.07765992125496268 jit
-0.060202274937182665 eager
-same result: True
- It is 1.2900 times faster with eager compilation
-
-s112 2
-0.06676007620990276 jit
-0.06684902030974627 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-s1111 4
-0.10099092731252313 jit
-0.10036926902830601 eager
-same result: True
- It is 1.0062 times faster with eager compilation
-
-go_fast 1
-0.18525675497949123 jit
-0.14095548959448934 eager
-same result: True
- It is 1.3143 times faster with eager compilation
-
-many_arr 7
-0.2088046777062118 jit
-0.18035492533817887 eager
-same result: True
- It is 1.1577 times faster with eager compilation
-
-loop1 2
-0.187683439347893 jit
-0.12709901109337807 eager
-same result: True
- It is 1.4767 times faster with eager compilation
-
-loop2 3
-0.19468499720096588 jit
-0.1605157107114792 eager
-same result: True
- It is 1.2129 times faster with eager compilation
-
-sgemm_manual 3
-0.1685808482579887 jit
-0.16899336082860827 eager
-same result: True
- It is 0.9976 times faster with eager compilation
-
-sgemm 3
-0.34186389902606606 jit
-0.24592033680528402 eager
-same result: True
- It is 1.3901 times faster with eager compilation
-
-laplacian 1
-0.18703626608476043 jit
-0.14315957529470325 eager
-same result: True
- It is 1.3065 times faster with eager compilation
-
-s111 2
-0.07747481996193528 jit
-0.06010185927152634 eager
-same result: True
- It is 1.2891 times faster with eager compilation
-
-s112 2
-0.06680194893851876 jit
-0.06672496907413006 eager
-same result: True
- It is 1.0012 times faster with eager compilation
-
-s1111 4
-0.10102625377476215 jit
-0.10043670004233718 eager
-same result: True
- It is 1.0059 times faster with eager compilation
-
-go_fast 1
-0.18554984405636787 jit
-0.1410522530786693 eager
-same result: True
- It is 1.3155 times faster with eager compilation
-
-many_arr 7
-0.2077127881348133 jit
-0.18051129626110196 eager
-same result: True
- It is 1.1507 times faster with eager compilation
-
-loop1 2
-0.18772487994283438 jit
-0.12706001196056604 eager
-same result: True
- It is 1.4775 times faster with eager compilation
-
-loop2 3
-0.19499052688479424 jit
-0.15862744580954313 eager
-same result: True
- It is 1.2292 times faster with eager compilation
-
-sgemm_manual 3
-0.16790576884523034 jit
-0.16740930825471878 eager
-same result: True
- It is 1.0030 times faster with eager compilation
-
-sgemm 3
-0.3410940202884376 jit
-0.2464545709080994 eager
-same result: True
- It is 1.3840 times faster with eager compilation
-
-laplacian 1
-0.18729361379519105 jit
-0.14551003091037273 eager
-same result: True
- It is 1.2872 times faster with eager compilation
-
-s111 2
-0.07707493100315332 jit
-0.059932982083410025 eager
-same result: True
- It is 1.2860 times faster with eager compilation
-
-s112 2
-0.06655836291611195 jit
-0.06650664517655969 eager
-same result: True
- It is 1.0008 times faster with eager compilation
-
-s1111 4
-0.10074718110263348 jit
-0.09996330086141825 eager
-same result: True
- It is 1.0078 times faster with eager compilation
-
-go_fast 1
-0.18492606515064836 jit
-0.14046298572793603 eager
-same result: True
- It is 1.3165 times faster with eager compilation
-
-many_arr 7
-0.20741204917430878 jit
-0.1797460811212659 eager
-same result: True
- It is 1.1539 times faster with eager compilation
-
-loop1 2
-0.18718762323260307 jit
-0.12651658384129405 eager
-same result: True
- It is 1.4796 times faster with eager compilation
-
-loop2 3
-0.1931618801318109 jit
-0.1577289761044085 eager
-same result: True
- It is 1.2246 times faster with eager compilation
-
-sgemm_manual 3
-0.16799206007272005 jit
-0.1687156488187611 eager
-same result: True
- It is 0.9957 times faster with eager compilation
-
-sgemm 3
-0.3408475322648883 jit
-0.24637418426573277 eager
-same result: True
- It is 1.3835 times faster with eager compilation
-
-laplacian 1
-0.1872112532146275 jit
-0.1428624177351594 eager
-same result: True
- It is 1.3104 times faster with eager compilation
-
-s111 2
-0.07753928378224373 jit
-0.059914934914559126 eager
-same result: True
- It is 1.2942 times faster with eager compilation
-
-s112 2
-0.06658928794786334 jit
-0.06643116287887096 eager
-same result: True
- It is 1.0024 times faster with eager compilation
-
-s1111 4
-0.1014707270078361 jit
-0.10005631390959024 eager
-same result: True
- It is 1.0141 times faster with eager compilation
-
-go_fast 1
-0.18546816892921925 jit
-0.1405627247877419 eager
-same result: True
- It is 1.3195 times faster with eager compilation
-
-many_arr 7
-0.20745385391637683 jit
-0.1812488343566656 eager
-same result: True
- It is 1.1446 times faster with eager compilation
-
-loop1 2
-0.18730505602434278 jit
-0.12675283197313547 eager
-same result: True
- It is 1.4777 times faster with eager compilation
-
-loop2 3
-0.1931206309236586 jit
-0.15751848695799708 eager
-same result: True
- It is 1.2260 times faster with eager compilation
-
-sgemm_manual 3
-0.16854942170903087 jit
-0.16753780422732234 eager
-same result: True
- It is 1.0060 times faster with eager compilation
-
-sgemm 3
-0.3411147575825453 jit
-0.24613719014450908 eager
-same result: True
- It is 1.3859 times faster with eager compilation
-
-laplacian 1
-0.1864883960224688 jit
-0.14281631913036108 eager
-same result: True
- It is 1.3058 times faster with eager compilation
-
-s111 2
-0.07740340987220407 jit
-0.05987323774024844 eager
-same result: True
- It is 1.2928 times faster with eager compilation
-
-s112 2
-0.06662660371512175 jit
-0.06667429953813553 eager
-same result: True
- It is 0.9993 times faster with eager compilation
-
-s1111 4
-0.10073057981207967 jit
-0.10036539100110531 eager
-same result: True
- It is 1.0036 times faster with eager compilation
-
-go_fast 1
-0.1855999599210918 jit
-0.1414258712902665 eager
-same result: True
- It is 1.3123 times faster with eager compilation
-
-many_arr 7
-0.20760464435443282 jit
-0.17993360571563244 eager
-same result: True
- It is 1.1538 times faster with eager compilation
-
-loop1 2
-0.18743401998654008 jit
-0.12681356817483902 eager
-same result: True
- It is 1.4780 times faster with eager compilation
-
-loop2 3
-0.19393482292070985 jit
-0.15895712282508612 eager
-same result: True
- It is 1.2200 times faster with eager compilation
-
-sgemm_manual 3
-0.16785341082140803 jit
-0.1672235717996955 eager
-same result: True
- It is 1.0038 times faster with eager compilation
-
-sgemm 3
-0.34220373164862394 jit
-0.24653238616883755 eager
-same result: True
- It is 1.3881 times faster with eager compilation
-
-laplacian 1
-0.18732550786808133 jit
-0.14450162323191762 eager
-same result: True
- It is 1.2964 times faster with eager compilation
-
-s111 2
-0.07982132537290454 jit
-0.06004898576065898 eager
-same result: True
- It is 1.3293 times faster with eager compilation
-
-s112 2
-0.06651937635615468 jit
-0.06655753031373024 eager
-same result: True
- It is 0.9994 times faster with eager compilation
-
-s1111 4
-0.100947470869869 jit
-0.10027852607890964 eager
-same result: True
- It is 1.0067 times faster with eager compilation
-
-go_fast 1
-0.18535580579191446 jit
-0.1410346427001059 eager
-same result: True
- It is 1.3143 times faster with eager compilation
-
-many_arr 7
-0.20769440615549684 jit
-0.1806283900514245 eager
-same result: True
- It is 1.1498 times faster with eager compilation
-
-loop1 2
-0.18783244583755732 jit
-0.126857107039541 eager
-same result: True
- It is 1.4807 times faster with eager compilation
-
-loop2 3
-0.19357352098450065 jit
-0.15899054473266006 eager
-same result: True
- It is 1.2175 times faster with eager compilation
-
-sgemm_manual 3
-0.16771760676056147 jit
-0.16761009395122528 eager
-same result: True
- It is 1.0006 times faster with eager compilation
-
-sgemm 3
-0.3476562490686774 jit
-0.2436752300709486 eager
-same result: True
- It is 1.4267 times faster with eager compilation
-
-laplacian 1
-0.1871586823835969 jit
-0.1431482988409698 eager
-same result: True
- It is 1.3074 times faster with eager compilation
-
-s111 2
-0.07706829439848661 jit
-0.059931722935289145 eager
-same result: True
- It is 1.2859 times faster with eager compilation
-
-s112 2
-0.06654070876538754 jit
-0.06649421295151114 eager
-same result: True
- It is 1.0007 times faster with eager compilation
-
-s1111 4
-0.10052383365109563 jit
-0.09996526502072811 eager
-same result: True
- It is 1.0056 times faster with eager compilation
-
-go_fast 1
-0.1849249741062522 jit
-0.14038729900494218 eager
-same result: True
- It is 1.3172 times faster with eager compilation
-
-many_arr 7
-0.20669450191780925 jit
-0.17959940526634455 eager
-same result: True
- It is 1.1509 times faster with eager compilation
-
-loop1 2
-0.1873580520041287 jit
-0.12666624877601862 eager
-same result: True
- It is 1.4791 times faster with eager compilation
-
-loop2 3
-0.1932421731762588 jit
-0.1581389750353992 eager
-same result: True
- It is 1.2220 times faster with eager compilation
-
-sgemm_manual 3
-0.16717340890318155 jit
-0.16651589889079332 eager
-same result: True
- It is 1.0039 times faster with eager compilation
-
-sgemm 3
-0.33854563999921083 jit
-0.24632129212841392 eager
-same result: True
- It is 1.3744 times faster with eager compilation
-
-laplacian 1
-0.18641783483326435 jit
-0.14270748058333993 eager
-same result: True
- It is 1.3063 times faster with eager compilation
-
-s111 2
-0.07757556298747659 jit
-0.05989298643544316 eager
-same result: True
- It is 1.2952 times faster with eager compilation
-
-s112 2
-0.0666476390324533 jit
-0.06661127787083387 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-s1111 4
-0.10142159322276711 jit
-0.10021144384518266 eager
-same result: True
- It is 1.0121 times faster with eager compilation
-
-go_fast 1
-0.18512303102761507 jit
-0.14029144123196602 eager
-same result: True
- It is 1.3196 times faster with eager compilation
-
-many_arr 7
-0.20762399630621076 jit
-0.1795002748258412 eager
-same result: True
- It is 1.1567 times faster with eager compilation
-
-loop1 2
-0.18841689079999924 jit
-0.12660115025937557 eager
-same result: True
- It is 1.4883 times faster with eager compilation
-
-loop2 3
-0.19352407800033689 jit
-0.16029928671196103 eager
-same result: True
- It is 1.2073 times faster with eager compilation
-
-sgemm_manual 3
-0.16687466902658343 jit
-0.16934389667585492 eager
-same result: True
- It is 0.9854 times faster with eager compilation
-
-sgemm 3
-0.3398237801156938 jit
-0.24578152503818274 eager
-same result: True
- It is 1.3826 times faster with eager compilation
-
-laplacian 1
-0.18675169022753835 jit
-0.14279152126982808 eager
-same result: True
- It is 1.3079 times faster with eager compilation
-
-s111 2
-0.07786092720925808 jit
-0.060320576187223196 eager
-same result: True
- It is 1.2908 times faster with eager compilation
-
-s112 2
-0.06689366512000561 jit
-0.06693914020434022 eager
-same result: True
- It is 0.9993 times faster with eager compilation
-
-s1111 4
-0.10111946379765868 jit
-0.10047934018075466 eager
-same result: True
- It is 1.0064 times faster with eager compilation
-
-go_fast 1
-0.1860325508750975 jit
-0.1476807533763349 eager
-same result: True
- It is 1.2597 times faster with eager compilation
-
-many_arr 7
-0.20873084012418985 jit
-0.18061150703579187 eager
-same result: True
- It is 1.1557 times faster with eager compilation
-
-loop1 2
-0.1881758002564311 jit
-0.1271503372117877 eager
-same result: True
- It is 1.4799 times faster with eager compilation
-
-loop2 3
-0.1971572171896696 jit
-0.15891773626208305 eager
-same result: True
- It is 1.2406 times faster with eager compilation
-
-sgemm_manual 3
-0.16864981828257442 jit
-0.16763107292354107 eager
-same result: True
- It is 1.0061 times faster with eager compilation
-
-sgemm 3
-0.34401166904717684 jit
-0.2469438030384481 eager
-same result: True
- It is 1.3931 times faster with eager compilation
-
-laplacian 1
-0.1882178490050137 jit
-0.14329608203843236 eager
-same result: True
- It is 1.3135 times faster with eager compilation
-
-s111 2
-0.07770057301968336 jit
-0.06020267214626074 eager
-same result: True
- It is 1.2906 times faster with eager compilation
-
-s112 2
-0.06700392439961433 jit
-0.06719011999666691 eager
-same result: True
- It is 0.9972 times faster with eager compilation
-
-s1111 4
-0.10134181287139654 jit
-0.10084058996289968 eager
-same result: True
- It is 1.0050 times faster with eager compilation
-
-go_fast 1
-0.18592394329607487 jit
-0.14105836115777493 eager
-same result: True
- It is 1.3181 times faster with eager compilation
-
-many_arr 7
-0.2092744279652834 jit
-0.18119218526408076 eager
-same result: True
- It is 1.1550 times faster with eager compilation
-
-loop1 2
-0.18817543983459473 jit
-0.1272220490500331 eager
-same result: True
- It is 1.4791 times faster with eager compilation
-
-loop2 3
-0.19463017769157887 jit
-0.15921800676733255 eager
-same result: True
- It is 1.2224 times faster with eager compilation
-
-sgemm_manual 3
-0.16841200180351734 jit
-0.16825385624542832 eager
-same result: True
- It is 1.0009 times faster with eager compilation
-
-sgemm 3
-0.3424755693413317 jit
-0.2465693447738886 eager
-same result: True
- It is 1.3890 times faster with eager compilation
-
-laplacian 1
-0.18742813123390079 jit
-0.14353900915011764 eager
-same result: True
- It is 1.3058 times faster with eager compilation
-
-s111 2
-0.07748182397335768 jit
-0.05998452799394727 eager
-same result: True
- It is 1.2917 times faster with eager compilation
-
-s112 2
-0.06737100798636675 jit
-0.06681614089757204 eager
-same result: True
- It is 1.0083 times faster with eager compilation
-
-s1111 4
-0.10088904201984406 jit
-0.10038261907175183 eager
-same result: True
- It is 1.0050 times faster with eager compilation
-
-go_fast 1
-0.18570172181352973 jit
-0.1408444899134338 eager
-same result: True
- It is 1.3185 times faster with eager compilation
-
-many_arr 7
-0.2081063687801361 jit
-0.18157295510172844 eager
-same result: True
- It is 1.1461 times faster with eager compilation
-
-loop1 2
-0.18782759876921773 jit
-0.12704532220959663 eager
-same result: True
- It is 1.4784 times faster with eager compilation
-
-loop2 3
-0.19421707093715668 jit
-0.1584931039251387 eager
-same result: True
- It is 1.2254 times faster with eager compilation
-
-sgemm_manual 3
-0.16761846421286464 jit
-0.1680595427751541 eager
-same result: True
- It is 0.9974 times faster with eager compilation
-
-sgemm 3
-0.3428984647616744 jit
-0.24645738303661346 eager
-same result: True
- It is 1.3913 times faster with eager compilation
-
-laplacian 1
-0.18702186830341816 jit
-0.14321249024942517 eager
-same result: True
- It is 1.3059 times faster with eager compilation
-
-s111 2
-0.07758733769878745 jit
-0.06006944878026843 eager
-same result: True
- It is 1.2916 times faster with eager compilation
-
-s112 2
-0.06681191781535745 jit
-0.06678069569170475 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-s1111 4
-0.1012202319689095 jit
-0.10061577567830682 eager
-same result: True
- It is 1.0060 times faster with eager compilation
-
-go_fast 1
-0.18651152774691582 jit
-0.14079653192311525 eager
-same result: True
- It is 1.3247 times faster with eager compilation
-
-many_arr 7
-0.20759124215692282 jit
-0.1813162798061967 eager
-same result: True
- It is 1.1449 times faster with eager compilation
-
-loop1 2
-0.1879617995582521 jit
-0.1272488567046821 eager
-same result: True
- It is 1.4771 times faster with eager compilation
-
-loop2 3
-0.19450532412156463 jit
-0.15883141802623868 eager
-same result: True
- It is 1.2246 times faster with eager compilation
-
-sgemm_manual 3
-0.16744479024782777 jit
-0.16751918382942677 eager
-same result: True
- It is 0.9996 times faster with eager compilation
-
-sgemm 3
-0.3407792681828141 jit
-0.24736077804118395 eager
-same result: True
- It is 1.3777 times faster with eager compilation
-
-laplacian 1
-0.18716343166306615 jit
-0.14321011491119862 eager
-same result: True
- It is 1.3069 times faster with eager compilation
-
-s111 2
-0.07797107100486755 jit
-0.06016269512474537 eager
-same result: True
- It is 1.2960 times faster with eager compilation
-
-s112 2
-0.06691811280325055 jit
-0.0666521629318595 eager
-same result: True
- It is 1.0040 times faster with eager compilation
-
-s1111 4
-0.10075460001826286 jit
-0.10015229787677526 eager
-same result: True
- It is 1.0060 times faster with eager compilation
-
-go_fast 1
-0.18550619389861822 jit
-0.1410008049570024 eager
-same result: True
- It is 1.3156 times faster with eager compilation
-
-many_arr 7
-0.2083455459214747 jit
-0.18077820912003517 eager
-same result: True
- It is 1.1525 times faster with eager compilation
-
-loop1 2
-0.18740552524104714 jit
-0.12680878024548292 eager
-same result: True
- It is 1.4779 times faster with eager compilation
-
-loop2 3
-0.19423433300107718 jit
-0.15839071199297905 eager
-same result: True
- It is 1.2263 times faster with eager compilation
-
-sgemm_manual 3
-0.16710569197311997 jit
-0.16737050795927644 eager
-same result: True
- It is 0.9984 times faster with eager compilation
-
-sgemm 3
-0.3477640710771084 jit
-0.2462170971557498 eager
-same result: True
- It is 1.4124 times faster with eager compilation
-
-laplacian 1
-0.18678643414750695 jit
-0.14320247620344162 eager
-same result: True
- It is 1.3044 times faster with eager compilation
-
-s111 2
-0.07796880509704351 jit
-0.06046457774937153 eager
-same result: True
- It is 1.2895 times faster with eager compilation
-
-s112 2
-0.06709433905780315 jit
-0.06766469590365887 eager
-same result: True
- It is 0.9916 times faster with eager compilation
-
-s1111 4
-0.10180885903537273 jit
-0.10121423099189997 eager
-same result: True
- It is 1.0059 times faster with eager compilation
-
-go_fast 1
-0.18654393684118986 jit
-0.1415503560565412 eager
-same result: True
- It is 1.3179 times faster with eager compilation
-
-many_arr 7
-0.21072163712233305 jit
-0.18219260778278112 eager
-same result: True
- It is 1.1566 times faster with eager compilation
-
-loop1 2
-0.1896839402616024 jit
-0.12802561232820153 eager
-same result: True
- It is 1.4816 times faster with eager compilation
-
-loop2 3
-0.19617746165022254 jit
-0.1604731408879161 eager
-same result: True
- It is 1.2225 times faster with eager compilation
-
-sgemm_manual 3
-0.16871610935777426 jit
-0.1685682008974254 eager
-same result: True
- It is 1.0009 times faster with eager compilation
-
-sgemm 3
-0.3439110331237316 jit
-0.2463806881569326 eager
-same result: True
- It is 1.3959 times faster with eager compilation
-
-laplacian 1
-0.18819927610456944 jit
-0.14474687771871686 eager
-same result: True
- It is 1.3002 times faster with eager compilation
-
-s111 2
-0.07806219719350338 jit
-0.06001409189775586 eager
-same result: True
- It is 1.3007 times faster with eager compilation
-
-s112 2
-0.06645131064578891 jit
-0.0674571986310184 eager
-same result: True
- It is 0.9851 times faster with eager compilation
-
-s1111 4
-0.10101831471547484 jit
-0.10009615495800972 eager
-same result: True
- It is 1.0092 times faster with eager compilation
-
-go_fast 1
-0.18517650198191404 jit
-0.14045415120199323 eager
-same result: True
- It is 1.3184 times faster with eager compilation
-
-many_arr 7
-0.20826164074242115 jit
-0.18012672802433372 eager
-same result: True
- It is 1.1562 times faster with eager compilation
-
-loop1 2
-0.18820326076820493 jit
-0.1268286919221282 eager
-same result: True
- It is 1.4839 times faster with eager compilation
-
-loop2 3
-0.19413903495296836 jit
-0.1584329758770764 eager
-same result: True
- It is 1.2254 times faster with eager compilation
-
-sgemm_manual 3
-0.16686569899320602 jit
-0.1674865521490574 eager
-same result: True
- It is 0.9963 times faster with eager compilation
-
-sgemm 3
-0.3394140200689435 jit
-0.24705054983496666 eager
-same result: True
- It is 1.3739 times faster with eager compilation
-
-laplacian 1
-0.1866924064233899 jit
-0.14318351866677403 eager
-same result: True
- It is 1.3039 times faster with eager compilation
-
-s111 2
-0.0777362072840333 jit
-0.060412109829485416 eager
-same result: True
- It is 1.2868 times faster with eager compilation
-
-s112 2
-0.06694387597963214 jit
-0.06702311802655458 eager
-same result: True
- It is 0.9988 times faster with eager compilation
-
-s1111 4
-0.10140058677643538 jit
-0.10071143228560686 eager
-same result: True
- It is 1.0068 times faster with eager compilation
-
-go_fast 1
-0.18661754298955202 jit
-0.1412084437906742 eager
-same result: True
- It is 1.3216 times faster with eager compilation
-
-many_arr 7
-0.20956914266571403 jit
-0.1832109079696238 eager
-same result: True
- It is 1.1439 times faster with eager compilation
-
-loop1 2
-0.18834815686568618 jit
-0.1274584666825831 eager
-same result: True
- It is 1.4777 times faster with eager compilation
-
-loop2 3
-0.19528373004868627 jit
-0.16068254178389907 eager
-same result: True
- It is 1.2153 times faster with eager compilation
-
-sgemm_manual 3
-0.16823903284966946 jit
-0.16804490704089403 eager
-same result: True
- It is 1.0012 times faster with eager compilation
-
-sgemm 3
-0.34234218625351787 jit
-0.24714036798104644 eager
-same result: True
- It is 1.3852 times faster with eager compilation
-
-laplacian 1
-0.18752634478732944 jit
-0.14362179301679134 eager
-same result: True
- It is 1.3057 times faster with eager compilation
-
-s111 2
-0.07739428617060184 jit
-0.05976498918607831 eager
-same result: True
- It is 1.2950 times faster with eager compilation
-
-s112 2
-0.06640765117481351 jit
-0.06672649458050728 eager
-same result: True
- It is 0.9952 times faster with eager compilation
-
-s1111 4
-0.10069809481501579 jit
-0.0999876600690186 eager
-same result: True
- It is 1.0071 times faster with eager compilation
-
-go_fast 1
-0.18489363882690668 jit
-0.1405624346807599 eager
-same result: True
- It is 1.3154 times faster with eager compilation
-
-many_arr 7
-0.2069740379229188 jit
-0.18005580408498645 eager
-same result: True
- It is 1.1495 times faster with eager compilation
-
-loop1 2
-0.1871656710281968 jit
-0.12682830402627587 eager
-same result: True
- It is 1.4757 times faster with eager compilation
-
-loop2 3
-0.193645556923002 jit
-0.1581704099662602 eager
-same result: True
- It is 1.2243 times faster with eager compilation
-
-sgemm_manual 3
-0.16703039407730103 jit
-0.1673529278486967 eager
-same result: True
- It is 0.9981 times faster with eager compilation
-
-sgemm 3
-0.34849200723692775 jit
-0.24020632170140743 eager
-same result: True
- It is 1.4508 times faster with eager compilation
-
-laplacian 1
-0.18635770259425044 jit
-0.14271670999005437 eager
-same result: True
- It is 1.3058 times faster with eager compilation
-
-s111 2
-0.07819992769509554 jit
-0.060104941949248314 eager
-same result: True
- It is 1.3011 times faster with eager compilation
-
-s112 2
-0.06668157782405615 jit
-0.06703540403395891 eager
-same result: True
- It is 0.9947 times faster with eager compilation
-
-s1111 4
-0.1009451299905777 jit
-0.10036812582984567 eager
-same result: True
- It is 1.0057 times faster with eager compilation
-
-go_fast 1
-0.18549798103049397 jit
-0.14097826788201928 eager
-same result: True
- It is 1.3158 times faster with eager compilation
-
-many_arr 7
-0.2086138310842216 jit
-0.1801567180082202 eager
-same result: True
- It is 1.1580 times faster with eager compilation
-
-loop1 2
-0.18766260286793113 jit
-0.12688490515574813 eager
-same result: True
- It is 1.4790 times faster with eager compilation
-
-loop2 3
-0.1943228361196816 jit
-0.15945820603519678 eager
-same result: True
- It is 1.2186 times faster with eager compilation
-
-sgemm_manual 3
-0.16784926084801555 jit
-0.16739431722089648 eager
-same result: True
- It is 1.0027 times faster with eager compilation
-
-sgemm 3
-0.34420811804011464 jit
-0.24658762011677027 eager
-same result: True
- It is 1.3959 times faster with eager compilation
-
-laplacian 1
-0.18815384991467 jit
-0.14334822678938508 eager
-same result: True
- It is 1.3126 times faster with eager compilation
-
-s111 2
-0.07729864493012428 jit
-0.05971919372677803 eager
-same result: True
- It is 1.2944 times faster with eager compilation
-
-s112 2
-0.06618874566629529 jit
-0.06702019134536386 eager
-same result: True
- It is 0.9876 times faster with eager compilation
-
-s1111 4
-0.10010225605219603 jit
-0.09946960490196943 eager
-same result: True
- It is 1.0064 times faster with eager compilation
-
-go_fast 1
-0.18573049688711762 jit
-0.14007312804460526 eager
-same result: True
- It is 1.3260 times faster with eager compilation
-
-many_arr 7
-0.2071341909468174 jit
-0.17903972696512938 eager
-same result: True
- It is 1.1569 times faster with eager compilation
-
-loop1 2
-0.1876398790627718 jit
-0.12622080370783806 eager
-same result: True
- It is 1.4866 times faster with eager compilation
-
-loop2 3
-0.1936109266243875 jit
-0.15686968062072992 eager
-same result: True
- It is 1.2342 times faster with eager compilation
-
-sgemm_manual 3
-0.16603299463167787 jit
-0.16625259211286902 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-sgemm 3
-0.3438246911391616 jit
-0.24526043003425002 eager
-same result: True
- It is 1.4019 times faster with eager compilation
-
-laplacian 1
-0.18684455286711454 jit
-0.1427979338914156 eager
-same result: True
- It is 1.3085 times faster with eager compilation
-
-s111 2
-0.07776076579466462 jit
-0.060379925183951855 eager
-same result: True
- It is 1.2879 times faster with eager compilation
-
-s112 2
-0.06700203707441688 jit
-0.06700809998437762 eager
-same result: True
- It is 0.9999 times faster with eager compilation
-
-s1111 4
-0.10151395620778203 jit
-0.10095704020932317 eager
-same result: True
- It is 1.0055 times faster with eager compilation
-
-go_fast 1
-0.18642572220414877 jit
-0.1410882081836462 eager
-same result: True
- It is 1.3213 times faster with eager compilation
-
-many_arr 7
-0.20935707492753863 jit
-0.18309062905609608 eager
-same result: True
- It is 1.1435 times faster with eager compilation
-
-loop1 2
-0.18879836099222302 jit
-0.12757935794070363 eager
-same result: True
- It is 1.4799 times faster with eager compilation
-
-loop2 3
-0.19471212197095156 jit
-0.16126324189826846 eager
-same result: True
- It is 1.2074 times faster with eager compilation
-
-sgemm_manual 3
-0.16792224906384945 jit
-0.16821089386940002 eager
-same result: True
- It is 0.9983 times faster with eager compilation
-
-sgemm 3
-0.3423430370166898 jit
-0.24693599063903093 eager
-same result: True
- It is 1.3864 times faster with eager compilation
-
-laplacian 1
-0.18940161308273673 jit
-0.14467759802937508 eager
-same result: True
- It is 1.3091 times faster with eager compilation
-
-s111 2
-0.07760251872241497 jit
-0.06032546889036894 eager
-same result: True
- It is 1.2864 times faster with eager compilation
-
-s112 2
-0.06716814218088984 jit
-0.06709087593480945 eager
-same result: True
- It is 1.0012 times faster with eager compilation
-
-s1111 4
-0.10121804289519787 jit
-0.10060594929382205 eager
-same result: True
- It is 1.0061 times faster with eager compilation
-
-go_fast 1
-0.18592621525749564 jit
-0.14133475301787257 eager
-same result: True
- It is 1.3155 times faster with eager compilation
-
-many_arr 7
-0.20824666088446975 jit
-0.18103413563221693 eager
-same result: True
- It is 1.1503 times faster with eager compilation
-
-loop1 2
-0.18857850693166256 jit
-0.12743408372625709 eager
-same result: True
- It is 1.4798 times faster with eager compilation
-
-loop2 3
-0.1944778561592102 jit
-0.15931518096476793 eager
-same result: True
- It is 1.2207 times faster with eager compilation
-
-sgemm_manual 3
-0.16798744397237897 jit
-0.16816657315939665 eager
-same result: True
- It is 0.9989 times faster with eager compilation
-
-sgemm 3
-0.3433487010188401 jit
-0.2470704112201929 eager
-same result: True
- It is 1.3897 times faster with eager compilation
-
-laplacian 1
-0.18761691311374307 jit
-0.1439607720822096 eager
-same result: True
- It is 1.3033 times faster with eager compilation
-
-s111 2
-0.07800826290622354 jit
-0.060039322823286057 eager
-same result: True
- It is 1.2993 times faster with eager compilation
-
-s112 2
-0.06663014320656657 jit
-0.06671109702438116 eager
-same result: True
- It is 0.9988 times faster with eager compilation
-
-s1111 4
-0.1008581891655922 jit
-0.10025588097050786 eager
-same result: True
- It is 1.0060 times faster with eager compilation
-
-go_fast 1
-0.18520866334438324 jit
-0.14068892411887646 eager
-same result: True
- It is 1.3164 times faster with eager compilation
-
-many_arr 7
-0.2077761348336935 jit
-0.18024663301184773 eager
-same result: True
- It is 1.1527 times faster with eager compilation
-
-loop1 2
-0.18756198277696967 jit
-0.12693701358512044 eager
-same result: True
- It is 1.4776 times faster with eager compilation
-
-loop2 3
-0.19413097016513348 jit
-0.1621585702523589 eager
-same result: True
- It is 1.1972 times faster with eager compilation
-
-sgemm_manual 3
-0.16854276787489653 jit
-0.1673027933575213 eager
-same result: True
- It is 1.0074 times faster with eager compilation
-
-sgemm 3
-0.34007138339802623 jit
-0.24639081303030252 eager
-same result: True
- It is 1.3802 times faster with eager compilation
-
-laplacian 1
-0.18654694827273488 jit
-0.1460099653340876 eager
-same result: True
- It is 1.2776 times faster with eager compilation
-
-s111 2
-0.07761895563453436 jit
-0.06041430030018091 eager
-same result: True
- It is 1.2848 times faster with eager compilation
-
-s112 2
-0.06650028983131051 jit
-0.06650127517059445 eager
-same result: True
- It is 1.0000 times faster with eager compilation
-
-s1111 4
-0.100989427883178 jit
-0.09999005123972893 eager
-same result: True
- It is 1.0100 times faster with eager compilation
-
-go_fast 1
-0.18487417604774237 jit
-0.14026908995583653 eager
-same result: True
- It is 1.3180 times faster with eager compilation
-
-many_arr 7
-0.2073621586896479 jit
-0.18047595582902431 eager
-same result: True
- It is 1.1490 times faster with eager compilation
-
-loop1 2
-0.18771749967709184 jit
-0.12648371001705527 eager
-same result: True
- It is 1.4841 times faster with eager compilation
-
-loop2 3
-0.1935905497521162 jit
-0.16000415803864598 eager
-same result: True
- It is 1.2099 times faster with eager compilation
-
-sgemm_manual 3
-0.16670323815196753 jit
-0.16669111605733633 eager
-same result: True
- It is 1.0001 times faster with eager compilation
-
-sgemm 3
-0.33924517408013344 jit
-0.2452265270985663 eager
-same result: True
- It is 1.3834 times faster with eager compilation
-
-laplacian 1
-0.1865778686478734 jit
-0.14288565330207348 eager
-same result: True
- It is 1.3058 times faster with eager compilation
-
-s111 2
-0.0780106158927083 jit
-0.06037711864337325 eager
-same result: True
- It is 1.2921 times faster with eager compilation
-
-s112 2
-0.06707604695111513 jit
-0.067281408701092 eager
-same result: True
- It is 0.9969 times faster with eager compilation
-
-s1111 4
-0.10162012418732047 jit
-0.10088431462645531 eager
-same result: True
- It is 1.0073 times faster with eager compilation
-
-go_fast 1
-0.1865461179986596 jit
-0.1410502758808434 eager
-same result: True
- It is 1.3226 times faster with eager compilation
-
-many_arr 7
-0.20913273794576526 jit
-0.18227627594023943 eager
-same result: True
- It is 1.1473 times faster with eager compilation
-
-loop1 2
-0.1889507439918816 jit
-0.12738078087568283 eager
-same result: True
- It is 1.4834 times faster with eager compilation
-
-loop2 3
-0.19576749065890908 jit
-0.15943167498335242 eager
-same result: True
- It is 1.2279 times faster with eager compilation
-
-sgemm_manual 3
-0.1681784763932228 jit
-0.17087048199027777 eager
-same result: True
- It is 0.9842 times faster with eager compilation
-
-sgemm 3
-0.3430343773216009 jit
-0.2467615269124508 eager
-same result: True
- It is 1.3901 times faster with eager compilation
-
-laplacian 1
-0.18775596376508474 jit
-0.14383339416235685 eager
-same result: True
- It is 1.3054 times faster with eager compilation
-
-s111 2
-0.07730555394664407 jit
-0.05976059706881642 eager
-same result: True
- It is 1.2936 times faster with eager compilation
-
-s112 2
-0.06719303410500288 jit
-0.0663884449750185 eager
-same result: True
- It is 1.0121 times faster with eager compilation
-
-s1111 4
-0.10020612087100744 jit
-0.09991455730050802 eager
-same result: True
- It is 1.0029 times faster with eager compilation
-
-go_fast 1
-0.18492511520162225 jit
-0.14066649181768298 eager
-same result: True
- It is 1.3146 times faster with eager compilation
-
-many_arr 7
-0.20744443405419588 jit
-0.1794074159115553 eager
-same result: True
- It is 1.1563 times faster with eager compilation
-
-loop1 2
-0.1874641259200871 jit
-0.1269308147020638 eager
-same result: True
- It is 1.4769 times faster with eager compilation
-
-loop2 3
-0.19337216299027205 jit
-0.1578324381262064 eager
-same result: True
- It is 1.2252 times faster with eager compilation
-
-sgemm_manual 3
-0.16875768778845668 jit
-0.16827909694984555 eager
-same result: True
- It is 1.0028 times faster with eager compilation
-
-sgemm 3
-0.3437480549328029 jit
-0.24583531497046351 eager
-same result: True
- It is 1.3983 times faster with eager compilation
-
-laplacian 1
-0.1876991093158722 jit
-0.14270476019009948 eager
-same result: True
- It is 1.3153 times faster with eager compilation
-
-s111 2
-0.07731015840545297 jit
-0.06036158883944154 eager
-same result: True
- It is 1.2808 times faster with eager compilation
-
-s112 2
-0.06661712005734444 jit
-0.06667259195819497 eager
-same result: True
- It is 0.9992 times faster with eager compilation
-
-s1111 4
-0.10089104110375047 jit
-0.10022385464981198 eager
-same result: True
- It is 1.0067 times faster with eager compilation
-
-go_fast 1
-0.18532934179529548 jit
-0.14140937430784106 eager
-same result: True
- It is 1.3106 times faster with eager compilation
-
-many_arr 7
-0.2074573803693056 jit
-0.18041395721957088 eager
-same result: True
- It is 1.1499 times faster with eager compilation
-
-loop1 2
-0.19685809267684817 jit
-0.1271039890125394 eager
-same result: True
- It is 1.5488 times faster with eager compilation
-
-loop2 3
-0.19412571471184492 jit
-0.1583135719411075 eager
-same result: True
- It is 1.2262 times faster with eager compilation
-
-sgemm_manual 3
-0.1674355622380972 jit
-0.16761304810643196 eager
-same result: True
- It is 0.9989 times faster with eager compilation
-
-sgemm 3
-0.3396302619948983 jit
-0.24726653611287475 eager
-same result: True
- It is 1.3735 times faster with eager compilation
-
-laplacian 1
-0.18679146142676473 jit
-0.14355645421892405 eager
-same result: True
- It is 1.3012 times faster with eager compilation
-
-s111 2
-0.07786936080083251 jit
-0.060039835050702095 eager
-same result: True
- It is 1.2970 times faster with eager compilation
-
-s112 2
-0.0668328651227057 jit
-0.06680444302037358 eager
-same result: True
- It is 1.0004 times faster with eager compilation
-
-s1111 4
-0.1010426958091557 jit
-0.10048178909346461 eager
-same result: True
- It is 1.0056 times faster with eager compilation
-
-go_fast 1
-0.185833680909127 jit
-0.14137338614091277 eager
-same result: True
- It is 1.3145 times faster with eager compilation
-
-many_arr 7
-0.20880320202559233 jit
-0.18066127598285675 eager
-same result: True
- It is 1.1558 times faster with eager compilation
-
-loop1 2
-0.18813000433146954 jit
-0.12743779923766851 eager
-same result: True
- It is 1.4762 times faster with eager compilation
-
-loop2 3
-0.19473576312884688 jit
-0.15845124889165163 eager
-same result: True
- It is 1.2290 times faster with eager compilation
-
-sgemm_manual 3
-0.16789915086701512 jit
-0.16791377402842045 eager
-same result: True
- It is 0.9999 times faster with eager compilation
-
-sgemm 3
-0.34293408785015345 jit
-0.24685304099693894 eager
-same result: True
- It is 1.3892 times faster with eager compilation
-
-laplacian 1
-0.1873385887593031 jit
-0.14359680702909827 eager
-same result: True
- It is 1.3046 times faster with eager compilation
-
-s111 2
-0.07758962642401457 jit
-0.06007245508953929 eager
-same result: True
- It is 1.2916 times faster with eager compilation
-
-s112 2
-0.06703175883740187 jit
-0.06668578321114182 eager
-same result: True
- It is 1.0052 times faster with eager compilation
-
-s1111 4
-0.10076027736067772 jit
-0.10008839704096317 eager
-same result: True
- It is 1.0067 times faster with eager compilation
-
-go_fast 1
-0.185360467992723 jit
-0.14046589890494943 eager
-same result: True
- It is 1.3196 times faster with eager compilation
-
-many_arr 7
-0.20770808402448893 jit
-0.1810990311205387 eager
-same result: True
- It is 1.1469 times faster with eager compilation
-
-loop1 2
-0.1883763582445681 jit
-0.1278293547220528 eager
-same result: True
- It is 1.4737 times faster with eager compilation
-
-loop2 3
-0.19426247663795948 jit
-0.1578684439882636 eager
-same result: True
- It is 1.2305 times faster with eager compilation
-
-sgemm_manual 3
-0.1679109218530357 jit
-0.16750183189287782 eager
-same result: True
- It is 1.0024 times faster with eager compilation
-
-sgemm 3
-0.34769019996747375 jit
-0.2219390356913209 eager
-same result: True
- It is 1.5666 times faster with eager compilation
-
-laplacian 1
-0.18645985424518585 jit
-0.14309703093022108 eager
-same result: True
- It is 1.3030 times faster with eager compilation
-
-s111 2
-0.07734458707273006 jit
-0.05997746903449297 eager
-same result: True
- It is 1.2896 times faster with eager compilation
-
-s112 2
-0.06667766626924276 jit
-0.06700039003044367 eager
-same result: True
- It is 0.9952 times faster with eager compilation
-
-s1111 4
-0.10088898055255413 jit
-0.10040093399584293 eager
-same result: True
- It is 1.0049 times faster with eager compilation
-
-go_fast 1
-0.18532832292839885 jit
-0.14082483621314168 eager
-same result: True
- It is 1.3160 times faster with eager compilation
-
-many_arr 7
-0.2078288160264492 jit
-0.18013869784772396 eager
-same result: True
- It is 1.1537 times faster with eager compilation
-
-loop1 2
-0.18764943862333894 jit
-0.12682159896939993 eager
-same result: True
- It is 1.4796 times faster with eager compilation
-
-loop2 3
-0.19392944499850273 jit
-0.15879831416532397 eager
-same result: True
- It is 1.2212 times faster with eager compilation
-
-sgemm_manual 3
-0.16772660985589027 jit
-0.16749303275719285 eager
-same result: True
- It is 1.0014 times faster with eager compilation
-
-sgemm 3
-0.3435597140341997 jit
-0.24602629197761416 eager
-same result: True
- It is 1.3964 times faster with eager compilation
-
-laplacian 1
-0.1868665819056332 jit
-0.14313647104427218 eager
-same result: True
- It is 1.3055 times faster with eager compilation
-
-s111 2
-0.07727637607604265 jit
-0.059780552983284 eager
-same result: True
- It is 1.2927 times faster with eager compilation
-
-s112 2
-0.06663821404799819 jit
-0.0669135320931673 eager
-same result: True
- It is 0.9959 times faster with eager compilation
-
-s1111 4
-0.10053378995507956 jit
-0.10014312295243144 eager
-same result: True
- It is 1.0039 times faster with eager compilation
-
-go_fast 1
-0.1849231948144734 jit
-0.14029037905856967 eager
-same result: True
- It is 1.3181 times faster with eager compilation
-
-many_arr 7
-0.20726172626018524 jit
-0.18042363412678242 eager
-same result: True
- It is 1.1488 times faster with eager compilation
-
-loop1 2
-0.1875763931311667 jit
-0.1264835554175079 eager
-same result: True
- It is 1.4830 times faster with eager compilation
-
-loop2 3
-0.19348495872691274 jit
-0.15842942195013165 eager
-same result: True
- It is 1.2213 times faster with eager compilation
-
-sgemm_manual 3
-0.16698350990191102 jit
-0.16707395296543837 eager
-same result: True
- It is 0.9995 times faster with eager compilation
-
-sgemm 3
-0.3413013070821762 jit
-0.2456999197602272 eager
-same result: True
- It is 1.3891 times faster with eager compilation
-
-laplacian 1
-0.1867001261562109 jit
-0.14271543780341744 eager
-same result: True
- It is 1.3082 times faster with eager compilation
-
-s111 2
-0.07818100694566965 jit
-0.060008181259036064 eager
-same result: True
- It is 1.3028 times faster with eager compilation
-
-s112 2
-0.06674024974927306 jit
-0.06677228212356567 eager
-same result: True
- It is 0.9995 times faster with eager compilation
-
-s1111 4
-0.10062622418627143 jit
-0.1003303206525743 eager
-same result: True
- It is 1.0029 times faster with eager compilation
-
-go_fast 1
-0.18559655407443643 jit
-0.1408864101395011 eager
-same result: True
- It is 1.3173 times faster with eager compilation
-
-many_arr 7
-0.20743852900341153 jit
-0.18007752858102322 eager
-same result: True
- It is 1.1519 times faster with eager compilation
-
-loop1 2
-0.18755901604890823 jit
-0.1272567161358893 eager
-same result: True
- It is 1.4739 times faster with eager compilation
-
-loop2 3
-0.19313354324549437 jit
-0.15799849294126034 eager
-same result: True
- It is 1.2224 times faster with eager compilation
-
-sgemm_manual 3
-0.16725443676114082 jit
-0.167331722099334 eager
-same result: True
- It is 0.9995 times faster with eager compilation
-
-sgemm 3
-0.34186887089163065 jit
-0.24599619209766388 eager
-same result: True
- It is 1.3897 times faster with eager compilation
-
-laplacian 1
-0.186853164806962 jit
-0.1430226736702025 eager
-same result: True
- It is 1.3065 times faster with eager compilation
-
-s111 2
-0.07743133418262005 jit
-0.059835702646523714 eager
-same result: True
- It is 1.2941 times faster with eager compilation
-
-s112 2
-0.06668514432385564 jit
-0.06672930670902133 eager
-same result: True
- It is 0.9993 times faster with eager compilation
-
-s1111 4
-0.10065376991406083 jit
-0.10013430519029498 eager
-same result: True
- It is 1.0052 times faster with eager compilation
-
-go_fast 1
-0.18524096300825477 jit
-0.14054470602422953 eager
-same result: True
- It is 1.3180 times faster with eager compilation
-
-many_arr 7
-0.20746360812336206 jit
-0.17976879607886076 eager
-same result: True
- It is 1.1541 times faster with eager compilation
-
-loop1 2
-0.18750505708158016 jit
-0.12674718583002687 eager
-same result: True
- It is 1.4794 times faster with eager compilation
-
-loop2 3
-0.19364581303671002 jit
-0.15798897622153163 eager
-same result: True
- It is 1.2257 times faster with eager compilation
-
-sgemm_manual 3
-0.16692595230415463 jit
-0.16683071898296475 eager
-same result: True
- It is 1.0006 times faster with eager compilation
-
-sgemm 3
-0.3437275132164359 jit
-0.24613542295992374 eager
-same result: True
- It is 1.3965 times faster with eager compilation
-
-laplacian 1
-0.186473049223423 jit
-0.14295137207955122 eager
-same result: True
- It is 1.3045 times faster with eager compilation
-
-s111 2
-0.07762600388377905 jit
-0.059612966142594814 eager
-same result: True
- It is 1.3022 times faster with eager compilation
-
-s112 2
-0.06649717828258872 jit
-0.06638917606323957 eager
-same result: True
- It is 1.0016 times faster with eager compilation
-
-s1111 4
-0.10079682990908623 jit
-0.09956705197691917 eager
-same result: True
- It is 1.0124 times faster with eager compilation
-
-go_fast 1
-0.18519771890714765 jit
-0.1400235048495233 eager
-same result: True
- It is 1.3226 times faster with eager compilation
-
-many_arr 7
-0.2066347301006317 jit
-0.17919352697208524 eager
-same result: True
- It is 1.1531 times faster with eager compilation
-
-loop1 2
-0.1864443221129477 jit
-0.12605223897844553 eager
-same result: True
- It is 1.4791 times faster with eager compilation
-
-loop2 3
-0.19319977518171072 jit
-0.15687494399026036 eager
-same result: True
- It is 1.2316 times faster with eager compilation
-
-sgemm_manual 3
-0.16643394995480776 jit
-0.16608570702373981 eager
-same result: True
- It is 1.0021 times faster with eager compilation
-
-sgemm 3
-0.3422790323384106 jit
-0.24500864977017045 eager
-same result: True
- It is 1.3970 times faster with eager compilation
-
-laplacian 1
-0.18601510813459754 jit
-0.14218013314530253 eager
-same result: True
- It is 1.3083 times faster with eager compilation
-
-s111 2
-0.07714419020339847 jit
-0.05948199797421694 eager
-same result: True
- It is 1.2969 times faster with eager compilation
-
-s112 2
-0.06608888367190957 jit
-0.0662602917291224 eager
-same result: True
- It is 0.9974 times faster with eager compilation
-
-s1111 4
-0.10043886722996831 jit
-0.09927704138681293 eager
-same result: True
- It is 1.0117 times faster with eager compilation
-
-go_fast 1
-0.18382818205282092 jit
-0.1399448956362903 eager
-same result: True
- It is 1.3136 times faster with eager compilation
-
-many_arr 7
-0.20629587024450302 jit
-0.18003139877691865 eager
-same result: True
- It is 1.1459 times faster with eager compilation
-
-loop1 2
-0.18621289590373635 jit
-0.1257631815969944 eager
-same result: True
- It is 1.4807 times faster with eager compilation
-
-loop2 3
-0.1920339548960328 jit
-0.1564772971905768 eager
-same result: True
- It is 1.2272 times faster with eager compilation
-
-sgemm_manual 3
-0.16587142692878842 jit
-0.16673336923122406 eager
-same result: True
- It is 0.9948 times faster with eager compilation
-
-sgemm 3
-0.33820805605500937 jit
-0.24534201435744762 eager
-same result: True
- It is 1.3785 times faster with eager compilation
-
-laplacian 1
-0.18543142965063453 jit
-0.14202509401366115 eager
-same result: True
- It is 1.3056 times faster with eager compilation
-
-s111 2
-0.07723599625751376 jit
-0.0597946597263217 eager
-same result: True
- It is 1.2917 times faster with eager compilation
-
-s112 2
-0.0664101717993617 jit
-0.06648606993258 eager
-same result: True
- It is 0.9989 times faster with eager compilation
-
-s1111 4
-0.10042829206213355 jit
-0.09986236784607172 eager
-same result: True
- It is 1.0057 times faster with eager compilation
-
-go_fast 1
-0.18512412207201123 jit
-0.14029176998883486 eager
-same result: True
- It is 1.3196 times faster with eager compilation
-
-many_arr 7
-0.20718746073544025 jit
-0.1793949049897492 eager
-same result: True
- It is 1.1549 times faster with eager compilation
-
-loop1 2
-0.1869074897840619 jit
-0.12700017308816314 eager
-same result: True
- It is 1.4717 times faster with eager compilation
-
-loop2 3
-0.19404073571786284 jit
-0.15748427296057343 eager
-same result: True
- It is 1.2321 times faster with eager compilation
-
-sgemm_manual 3
-0.16682995297014713 jit
-0.16704168496653438 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-sgemm 3
-0.3396821999922395 jit
-0.24583589099347591 eager
-same result: True
- It is 1.3817 times faster with eager compilation
-
-laplacian 1
-0.1884295241907239 jit
-0.14280878473073244 eager
-same result: True
- It is 1.3195 times faster with eager compilation
-
-s111 2
-0.07728833798319101 jit
-0.0597077258862555 eager
-same result: True
- It is 1.2944 times faster with eager compilation
-
-s112 2
-0.06629049312323332 jit
-0.06618138821795583 eager
-same result: True
- It is 1.0016 times faster with eager compilation
-
-s1111 4
-0.10032583633437753 jit
-0.09975774399936199 eager
-same result: True
- It is 1.0057 times faster with eager compilation
-
-go_fast 1
-0.18431320087984204 jit
-0.13995062932372093 eager
-same result: True
- It is 1.3170 times faster with eager compilation
-
-many_arr 7
-0.20773306163027883 jit
-0.17943392507731915 eager
-same result: True
- It is 1.1577 times faster with eager compilation
-
-loop1 2
-0.18720237398520112 jit
-0.12665837304666638 eager
-same result: True
- It is 1.4780 times faster with eager compilation
-
-loop2 3
-0.19283090298995376 jit
-0.15792771009728312 eager
-same result: True
- It is 1.2210 times faster with eager compilation
-
-sgemm_manual 3
-0.16643259022384882 jit
-0.16645015310496092 eager
-same result: True
- It is 0.9999 times faster with eager compilation
-
-sgemm 3
-0.33962973672896624 jit
-0.24685038207098842 eager
-same result: True
- It is 1.3759 times faster with eager compilation
-
-laplacian 1
-0.18641853798180819 jit
-0.14248045207932591 eager
-same result: True
- It is 1.3084 times faster with eager compilation
-
-s111 2
-0.07754829432815313 jit
-0.05993827898055315 eager
-same result: True
- It is 1.2938 times faster with eager compilation
-
-s112 2
-0.0666056009940803 jit
-0.06656408403068781 eager
-same result: True
- It is 1.0006 times faster with eager compilation
-
-s1111 4
-0.1005686349235475 jit
-0.10024232137948275 eager
-same result: True
- It is 1.0033 times faster with eager compilation
-
-go_fast 1
-0.18536765919998288 jit
-0.14066522102802992 eager
-same result: True
- It is 1.3178 times faster with eager compilation
-
-many_arr 7
-0.20743650617077947 jit
-0.1796989468857646 eager
-same result: True
- It is 1.1544 times faster with eager compilation
-
-loop1 2
-0.18753929296508431 jit
-0.12715342780575156 eager
-same result: True
- It is 1.4749 times faster with eager compilation
-
-loop2 3
-0.19381612073630095 jit
-0.1579860751517117 eager
-same result: True
- It is 1.2268 times faster with eager compilation
-
-sgemm_manual 3
-0.16695150407031178 jit
-0.16763971280306578 eager
-same result: True
- It is 0.9959 times faster with eager compilation
-
-sgemm 3
-0.3426871676929295 jit
-0.24701928393915296 eager
-same result: True
- It is 1.3873 times faster with eager compilation
-
-laplacian 1
-0.18647073628380895 jit
-0.14280527085065842 eager
-same result: True
- It is 1.3058 times faster with eager compilation
-
-s111 2
-0.07748222909867764 jit
-0.059927915688604116 eager
-same result: True
- It is 1.2929 times faster with eager compilation
-
-s112 2
-0.06637146882712841 jit
-0.06645783502608538 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-s1111 4
-0.10063563520088792 jit
-0.10023361584171653 eager
-same result: True
- It is 1.0040 times faster with eager compilation
-
-go_fast 1
-0.18458608398213983 jit
-0.14030717220157385 eager
-same result: True
- It is 1.3156 times faster with eager compilation
-
-many_arr 7
-0.20736327394843102 jit
-0.18014504807069898 eager
-same result: True
- It is 1.1511 times faster with eager compilation
-
-loop1 2
-0.18704402493312955 jit
-0.12701174709945917 eager
-same result: True
- It is 1.4727 times faster with eager compilation
-
-loop2 3
-0.1941038896329701 jit
-0.15760736307129264 eager
-same result: True
- It is 1.2316 times faster with eager compilation
-
-sgemm_manual 3
-0.16667882492765784 jit
-0.16870805667713284 eager
-same result: True
- It is 0.9880 times faster with eager compilation
-
-sgemm 3
-0.34566837595775723 jit
-0.24542925972491503 eager
-same result: True
- It is 1.4084 times faster with eager compilation
-
-laplacian 1
-0.1864365483634174 jit
-0.1427052477374673 eager
-same result: True
- It is 1.3064 times faster with eager compilation
-
-s111 2
-0.07756609236821532 jit
-0.060065049678087234 eager
-same result: True
- It is 1.2914 times faster with eager compilation
-
-s112 2
-0.06881745485588908 jit
-0.06784452637657523 eager
-same result: True
- It is 1.0143 times faster with eager compilation
-
-s1111 4
-0.10082699591293931 jit
-0.10031645139679313 eager
-same result: True
- It is 1.0051 times faster with eager compilation
-
-go_fast 1
-0.18555563502013683 jit
-0.1410720134153962 eager
-same result: True
- It is 1.3153 times faster with eager compilation
-
-many_arr 7
-0.2074949680827558 jit
-0.1808697017841041 eager
-same result: True
- It is 1.1472 times faster with eager compilation
-
-loop1 2
-0.1886587981134653 jit
-0.12708702124655247 eager
-same result: True
- It is 1.4845 times faster with eager compilation
-
-loop2 3
-0.19393253000453115 jit
-0.1653152508661151 eager
-same result: True
- It is 1.1731 times faster with eager compilation
-
-sgemm_manual 3
-0.16776529187336564 jit
-0.16767563670873642 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-sgemm 3
-0.34112023934721947 jit
-0.24631838407367468 eager
-same result: True
- It is 1.3849 times faster with eager compilation
-
-laplacian 1
-0.18842311017215252 jit
-0.14413313614204526 eager
-same result: True
- It is 1.3073 times faster with eager compilation
-
-s111 2
-0.0774942310526967 jit
-0.05968307703733444 eager
-same result: True
- It is 1.2984 times faster with eager compilation
-
-s112 2
-0.06630735006183386 jit
-0.06627091905102134 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-s1111 4
-0.10012384178116918 jit
-0.09957410860806704 eager
-same result: True
- It is 1.0055 times faster with eager compilation
-
-go_fast 1
-0.1844010129570961 jit
-0.13974841078743339 eager
-same result: True
- It is 1.3195 times faster with eager compilation
-
-many_arr 7
-0.20704032108187675 jit
-0.17933574179187417 eager
-same result: True
- It is 1.1545 times faster with eager compilation
-
-loop1 2
-0.18630717881023884 jit
-0.12600160762667656 eager
-same result: True
- It is 1.4786 times faster with eager compilation
-
-loop2 3
-0.19311992917209864 jit
-0.1586623270995915 eager
-same result: True
- It is 1.2172 times faster with eager compilation
-
-sgemm_manual 3
-0.16668249294161797 jit
-0.16724693914875388 eager
-same result: True
- It is 0.9966 times faster with eager compilation
-
-sgemm 3
-0.34083010675385594 jit
-0.2450437992811203 eager
-same result: True
- It is 1.3909 times faster with eager compilation
-
-laplacian 1
-0.1859752917662263 jit
-0.14248874085024 eager
-same result: True
- It is 1.3052 times faster with eager compilation
-
-s111 2
-0.07729783514514565 jit
-0.060921995900571346 eager
-same result: True
- It is 1.2688 times faster with eager compilation
-
-s112 2
-0.06630110880360007 jit
-0.06630092533305287 eager
-same result: True
- It is 1.0000 times faster with eager compilation
-
-s1111 4
-0.10107948817312717 jit
-0.09967939322814345 eager
-same result: True
- It is 1.0140 times faster with eager compilation
-
-go_fast 1
-0.18458690587431192 jit
-0.14011906320229173 eager
-same result: True
- It is 1.3174 times faster with eager compilation
-
-many_arr 7
-0.20679823774844408 jit
-0.17915423633530736 eager
-same result: True
- It is 1.1543 times faster with eager compilation
-
-loop1 2
-0.18799322471022606 jit
-0.12610235903412104 eager
-same result: True
- It is 1.4908 times faster with eager compilation
-
-loop2 3
-0.19233101373538375 jit
-0.15709621598944068 eager
-same result: True
- It is 1.2243 times faster with eager compilation
-
-sgemm_manual 3
-0.16620233096182346 jit
-0.16751600708812475 eager
-same result: True
- It is 0.9922 times faster with eager compilation
-
-sgemm 3
-0.33896514121443033 jit
-0.2483289740048349 eager
-same result: True
- It is 1.3650 times faster with eager compilation
-
-laplacian 1
-0.18708629393950105 jit
-0.1423860201612115 eager
-same result: True
- It is 1.3139 times faster with eager compilation
-
-s111 2
-0.07750012306496501 jit
-0.06066563632339239 eager
-same result: True
- It is 1.2775 times faster with eager compilation
-
-s112 2
-0.06663178512826562 jit
-0.06669324589893222 eager
-same result: True
- It is 0.9991 times faster with eager compilation
-
-s1111 4
-0.10085500031709671 jit
-0.10031349118798971 eager
-same result: True
- It is 1.0054 times faster with eager compilation
-
-go_fast 1
-0.1851657652296126 jit
-0.1404067170806229 eager
-same result: True
- It is 1.3188 times faster with eager compilation
-
-many_arr 7
-0.20745130674913526 jit
-0.17998947761952877 eager
-same result: True
- It is 1.1526 times faster with eager compilation
-
-loop1 2
-0.18735885992646217 jit
-0.1267705517821014 eager
-same result: True
- It is 1.4779 times faster with eager compilation
-
-loop2 3
-0.19391876086592674 jit
-0.15794533770531416 eager
-same result: True
- It is 1.2278 times faster with eager compilation
-
-sgemm_manual 3
-0.16834528418257833 jit
-0.16699396399781108 eager
-same result: True
- It is 1.0081 times faster with eager compilation
-
-sgemm 3
-0.343060445971787 jit
-0.24593709502369165 eager
-same result: True
- It is 1.3949 times faster with eager compilation
-
-laplacian 1
-0.18640663009136915 jit
-0.1431644349358976 eager
-same result: True
- It is 1.3020 times faster with eager compilation
-
-s111 2
-0.07746950024738908 jit
-0.06006979988887906 eager
-same result: True
- It is 1.2897 times faster with eager compilation
-
-s112 2
-0.06663199281319976 jit
-0.06665687914937735 eager
-same result: True
- It is 0.9996 times faster with eager compilation
-
-s1111 4
-0.10077976388856769 jit
-0.10029232082888484 eager
-same result: True
- It is 1.0049 times faster with eager compilation
-
-go_fast 1
-0.18495183531194925 jit
-0.14078184310346842 eager
-same result: True
- It is 1.3137 times faster with eager compilation
-
-many_arr 7
-0.20813147723674774 jit
-0.17987798200920224 eager
-same result: True
- It is 1.1571 times faster with eager compilation
-
-loop1 2
-0.1872789771296084 jit
-0.1268034027889371 eager
-same result: True
- It is 1.4769 times faster with eager compilation
-
-loop2 3
-0.1936601479537785 jit
-0.1586182531900704 eager
-same result: True
- It is 1.2209 times faster with eager compilation
-
-sgemm_manual 3
-0.16737851593643427 jit
-0.1672892840579152 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-sgemm 3
-0.33903641998767853 jit
-0.2460278826765716 eager
-same result: True
- It is 1.3780 times faster with eager compilation
-
-laplacian 1
-0.18629336124286056 jit
-0.14272378478199244 eager
-same result: True
- It is 1.3053 times faster with eager compilation
-
-s111 2
-0.07757963286712766 jit
-0.05982070276513696 eager
-same result: True
- It is 1.2969 times faster with eager compilation
-
-s112 2
-0.06733019696548581 jit
-0.06670851213857532 eager
-same result: True
- It is 1.0093 times faster with eager compilation
-
-s1111 4
-0.10090154828503728 jit
-0.10032012173905969 eager
-same result: True
- It is 1.0058 times faster with eager compilation
-
-go_fast 1
-0.18575694505125284 jit
-0.14119730284437537 eager
-same result: True
- It is 1.3156 times faster with eager compilation
-
-many_arr 7
-0.20776977622881532 jit
-0.18010154319927096 eager
-same result: True
- It is 1.1536 times faster with eager compilation
-
-loop1 2
-0.18743422999978065 jit
-0.12730348203331232 eager
-same result: True
- It is 1.4723 times faster with eager compilation
-
-loop2 3
-0.19415604323148727 jit
-0.15771830966696143 eager
-same result: True
- It is 1.2310 times faster with eager compilation
-
-sgemm_manual 3
-0.16759926173835993 jit
-0.16782379802316427 eager
-same result: True
- It is 0.9987 times faster with eager compilation
-
-sgemm 3
-0.34355062898248434 jit
-0.24716856610029936 eager
-same result: True
- It is 1.3899 times faster with eager compilation
-
-laplacian 1
-0.1879666969180107 jit
-0.14324438013136387 eager
-same result: True
- It is 1.3122 times faster with eager compilation
-
-s111 2
-0.07748802891001105 jit
-0.06001847703009844 eager
-same result: True
- It is 1.2911 times faster with eager compilation
-
-s112 2
-0.06656157085672021 jit
-0.0666592069901526 eager
-same result: True
- It is 0.9985 times faster with eager compilation
-
-s1111 4
-0.10074743302538991 jit
-0.10024744411930442 eager
-same result: True
- It is 1.0050 times faster with eager compilation
-
-go_fast 1
-0.1861872263252735 jit
-0.14065141091123223 eager
-same result: True
- It is 1.3237 times faster with eager compilation
-
-many_arr 7
-0.20762213878333569 jit
-0.1813170937821269 eager
-same result: True
- It is 1.1451 times faster with eager compilation
-
-loop1 2
-0.18761033611372113 jit
-0.12711095064878464 eager
-same result: True
- It is 1.4760 times faster with eager compilation
-
-loop2 3
-0.19389652600511909 jit
-0.15940341586247087 eager
-same result: True
- It is 1.2164 times faster with eager compilation
-
-sgemm_manual 3
-0.16883789701387286 jit
-0.16720685409381986 eager
-same result: True
- It is 1.0098 times faster with eager compilation
-
-sgemm 3
-0.3479719599708915 jit
-0.24560213927179575 eager
-same result: True
- It is 1.4168 times faster with eager compilation
-
-laplacian 1
-0.18676869804039598 jit
-0.14301768317818642 eager
-same result: True
- It is 1.3059 times faster with eager compilation
-
-s111 2
-0.0773011059500277 jit
-0.05984888318926096 eager
-same result: True
- It is 1.2916 times faster with eager compilation
-
-s112 2
-0.06638837372884154 jit
-0.06643758341670036 eager
-same result: True
- It is 0.9993 times faster with eager compilation
-
-s1111 4
-0.10046747699379921 jit
-0.0997990001924336 eager
-same result: True
- It is 1.0067 times faster with eager compilation
-
-go_fast 1
-0.18518075114116073 jit
-0.140664033126086 eager
-same result: True
- It is 1.3165 times faster with eager compilation
-
-many_arr 7
-0.20717150811105967 jit
-0.17967273108661175 eager
-same result: True
- It is 1.1530 times faster with eager compilation
-
-loop1 2
-0.18779742065817118 jit
-0.12713086232542992 eager
-same result: True
- It is 1.4772 times faster with eager compilation
-
-loop2 3
-0.19374067708849907 jit
-0.15763253206387162 eager
-same result: True
- It is 1.2291 times faster with eager compilation
-
-sgemm_manual 3
-0.16680626710876822 jit
-0.1670013628900051 eager
-same result: True
- It is 0.9988 times faster with eager compilation
-
-sgemm 3
-0.33886408200487494 jit
-0.24599011801183224 eager
-same result: True
- It is 1.3776 times faster with eager compilation
-
-laplacian 1
-0.18614931218326092 jit
-0.14270563190802932 eager
-same result: True
- It is 1.3044 times faster with eager compilation
-
-s111 2
-0.07732609566301107 jit
-0.05977228516712785 eager
-same result: True
- It is 1.2937 times faster with eager compilation
-
-s112 2
-0.06644813669845462 jit
-0.06661661202087998 eager
-same result: True
- It is 0.9975 times faster with eager compilation
-
-s1111 4
-0.10209173476323485 jit
-0.10004962794482708 eager
-same result: True
- It is 1.0204 times faster with eager compilation
-
-go_fast 1
-0.18525852216407657 jit
-0.14033700013533235 eager
-same result: True
- It is 1.3201 times faster with eager compilation
-
-many_arr 7
-0.20746439136564732 jit
-0.18044355791062117 eager
-same result: True
- It is 1.1497 times faster with eager compilation
-
-loop1 2
-0.1872714450582862 jit
-0.12819813704118133 eager
-same result: True
- It is 1.4608 times faster with eager compilation
-
-loop2 3
-0.19356071995571256 jit
-0.15851831110194325 eager
-same result: True
- It is 1.2211 times faster with eager compilation
-
-sgemm_manual 3
-0.1667032022960484 jit
-0.1667525782249868 eager
-same result: True
- It is 0.9997 times faster with eager compilation
-
-sgemm 3
-0.34093630500137806 jit
-0.24554391205310822 eager
-same result: True
- It is 1.3885 times faster with eager compilation
-
-laplacian 1
-0.1843094048090279 jit
-0.14296615682542324 eager
-same result: True
- It is 1.2892 times faster with eager compilation
-
-s111 2
-0.07746907696127892 jit
-0.06002731015905738 eager
-same result: True
- It is 1.2906 times faster with eager compilation
-
-s112 2
-0.06662203604355454 jit
-0.06686055473983288 eager
-same result: True
- It is 0.9964 times faster with eager compilation
-
-s1111 4
-0.10078933136537671 jit
-0.10014614788815379 eager
-same result: True
- It is 1.0064 times faster with eager compilation
-
-go_fast 1
-0.18509024381637573 jit
-0.14041297510266304 eager
-same result: True
- It is 1.3182 times faster with eager compilation
-
-many_arr 7
-0.20781291089951992 jit
-0.179918949957937 eager
-same result: True
- It is 1.1550 times faster with eager compilation
-
-loop1 2
-0.18758004484698176 jit
-0.12679483694955707 eager
-same result: True
- It is 1.4794 times faster with eager compilation
-
-loop2 3
-0.1940215267241001 jit
-0.16181811830028892 eager
-same result: True
- It is 1.1990 times faster with eager compilation
-
-sgemm_manual 3
-0.16916272463276982 jit
-0.1671825870871544 eager
-same result: True
- It is 1.0118 times faster with eager compilation
-
-sgemm 3
-0.35225374065339565 jit
-0.2374058268032968 eager
-same result: True
- It is 1.4838 times faster with eager compilation
-
-laplacian 1
-0.18675250699743629 jit
-0.14321094891056418 eager
-same result: True
- It is 1.3040 times faster with eager compilation
-
-s111 2
-0.07768133608624339 jit
-0.06008151592686772 eager
-same result: True
- It is 1.2929 times faster with eager compilation
-
-s112 2
-0.06654095463454723 jit
-0.06661560386419296 eager
-same result: True
- It is 0.9989 times faster with eager compilation
-
-s1111 4
-0.10072586685419083 jit
-0.10007321881130338 eager
-same result: True
- It is 1.0065 times faster with eager compilation
-
-go_fast 1
-0.1859873440116644 jit
-0.1409725588746369 eager
-same result: True
- It is 1.3193 times faster with eager compilation
-
-many_arr 7
-0.2079299408942461 jit
-0.18035724386572838 eager
-same result: True
- It is 1.1529 times faster with eager compilation
-
-loop1 2
-0.18768638605251908 jit
-0.1271876567043364 eager
-same result: True
- It is 1.4757 times faster with eager compilation
-
-loop2 3
-0.19364006305113435 jit
-0.15807612799108028 eager
-same result: True
- It is 1.2250 times faster with eager compilation
-
-sgemm_manual 3
-0.16705703735351562 jit
-0.16715511586517096 eager
-same result: True
- It is 0.9994 times faster with eager compilation
-
-sgemm 3
-0.34035434387624264 jit
-0.24609165685251355 eager
-same result: True
- It is 1.3830 times faster with eager compilation
-
-laplacian 1
-0.18565264204517007 jit
-0.14297812106087804 eager
-same result: True
- It is 1.2985 times faster with eager compilation
-
-s111 2
-0.07751388801261783 jit
-0.06020881608128548 eager
-same result: True
- It is 1.2874 times faster with eager compilation
-
-s112 2
-0.06676698289811611 jit
-0.0667462470009923 eager
-same result: True
- It is 1.0003 times faster with eager compilation
-
-s1111 4
-0.10105671873316169 jit
-0.10067323409020901 eager
-same result: True
- It is 1.0038 times faster with eager compilation
-
-go_fast 1
-0.1857302263379097 jit
-0.14274376817047596 eager
-same result: True
- It is 1.3011 times faster with eager compilation
-
-many_arr 7
-0.20794268883764744 jit
-0.18099725292995572 eager
-same result: True
- It is 1.1489 times faster with eager compilation
-
-loop1 2
-0.18864635890349746 jit
-0.12730811210349202 eager
-same result: True
- It is 1.4818 times faster with eager compilation
-
-loop2 3
-0.19425538461655378 jit
-0.15937594091519713 eager
-same result: True
- It is 1.2189 times faster with eager compilation
-
-sgemm_manual 3
-0.16770567884668708 jit
-0.16779632912948728 eager
-same result: True
- It is 0.9995 times faster with eager compilation
-
-sgemm 3
-0.3417389946989715 jit
-0.24713552230969071 eager
-same result: True
- It is 1.3828 times faster with eager compilation
-
-laplacian 1
-0.1872621700167656 jit
-0.14345601620152593 eager
-same result: True
- It is 1.3054 times faster with eager compilation
-
-s111 2
-0.07851509377360344 jit
-0.06007161131128669 eager
-same result: True
- It is 1.3070 times faster with eager compilation
-
-s112 2
-0.0666130818426609 jit
-0.06678064400330186 eager
-same result: True
- It is 0.9975 times faster with eager compilation
-
-s1111 4
-0.10069491295143962 jit
-0.10013982513919473 eager
-same result: True
- It is 1.0055 times faster with eager compilation
-
-go_fast 1
-0.18550488725304604 jit
-0.14084220491349697 eager
-same result: True
- It is 1.3171 times faster with eager compilation
-
-many_arr 7
-0.20805447595193982 jit
-0.18276606732979417 eager
-same result: True
- It is 1.1384 times faster with eager compilation
-
-loop1 2
-0.18751997267827392 jit
-0.1269961567595601 eager
-same result: True
- It is 1.4766 times faster with eager compilation
-
-loop2 3
-0.1942058578133583 jit
-0.15780567610636353 eager
-same result: True
- It is 1.2307 times faster with eager compilation
-
-sgemm_manual 3
-0.17050090990960598 jit
-0.16749503277242184 eager
-same result: True
- It is 1.0179 times faster with eager compilation
-
-sgemm 3
-0.3419423890300095 jit
-0.24646196141839027 eager
-same result: True
- It is 1.3874 times faster with eager compilation
-
-laplacian 1
-0.18712230492383242 jit
-0.1432102182880044 eager
-same result: True
- It is 1.3066 times faster with eager compilation
-
-s111 2
-0.07763026608154178 jit
-0.060226991306990385 eager
-same result: True
- It is 1.2890 times faster with eager compilation
-
-s112 2
-0.06647849688306451 jit
-0.0663849008269608 eager
-same result: True
- It is 1.0014 times faster with eager compilation
-
-s1111 4
-0.10058707091957331 jit
-0.0996777699328959 eager
-same result: True
- It is 1.0091 times faster with eager compilation
-
-go_fast 1
-0.18546605296432972 jit
-0.14033857407048345 eager
-same result: True
- It is 1.3216 times faster with eager compilation
-
-many_arr 7
-0.20754284784197807 jit
-0.17958690412342548 eager
-same result: True
- It is 1.1557 times faster with eager compilation
-
-loop1 2
-0.18718377500772476 jit
-0.126573259010911 eager
-same result: True
- It is 1.4789 times faster with eager compilation
-
-loop2 3
-0.1924030650407076 jit
-0.1590340337716043 eager
-same result: True
- It is 1.2098 times faster with eager compilation
-
-sgemm_manual 3
-0.16675938572734594 jit
-0.16675950307399035 eager
-same result: True
- It is 1.0000 times faster with eager compilation
-
-sgemm 3
-0.34638869389891624 jit
-0.24541209964081645 eager
-same result: True
- It is 1.4115 times faster with eager compilation
-
-laplacian 1
-0.1861972389742732 jit
-0.14242817787453532 eager
-same result: True
- It is 1.3073 times faster with eager compilation
-
-s111 2
-0.07727627409622073 jit
-0.0599377010948956 eager
-same result: True
- It is 1.2893 times faster with eager compilation
-
-s112 2
-0.06664613727480173 jit
-0.06661111861467361 eager
-same result: True
- It is 1.0005 times faster with eager compilation
-
-s1111 4
-0.10052159475162625 jit
-0.10011573228985071 eager
-same result: True
- It is 1.0041 times faster with eager compilation
-
-go_fast 1
-0.18563112011179328 jit
-0.14057462429627776 eager
-same result: True
- It is 1.3205 times faster with eager compilation
-
-many_arr 7
-0.20782054914161563 jit
-0.18017467902973294 eager
-same result: True
- It is 1.1534 times faster with eager compilation
-
-loop1 2
-0.18747728737071157 jit
-0.1268459758721292 eager
-same result: True
- It is 1.4780 times faster with eager compilation
-
-loop2 3
-0.1941267759539187 jit
-0.15862779691815376 eager
-same result: True
- It is 1.2238 times faster with eager compilation
-
-sgemm_manual 3
-0.16691021714359522 jit
-0.16694956691935658 eager
-same result: True
- It is 0.9998 times faster with eager compilation
-
-sgemm 3
-0.3396777817979455 jit
-0.24554354883730412 eager
-same result: True
- It is 1.3834 times faster with eager compilation
-
-laplacian 1
-0.18638555705547333 jit
-0.14436280308291316 eager
-same result: True
- It is 1.2911 times faster with eager compilation
-
-s111 2
-0.07732953876256943 jit
-0.05986850615590811 eager
-same result: True
- It is 1.2917 times faster with eager compilation
-
-s112 2
-0.06666558794677258 jit
-0.06667050300166011 eager
-same result: True
- It is 0.9999 times faster with eager compilation
-
-s1111 4
-0.10094330785796046 jit
-0.10007394757121801 eager
-same result: True
- It is 1.0087 times faster with eager compilation
-
-go_fast 1
-0.18517499696463346 jit
-0.14067260595038533 eager
-same result: True
- It is 1.3164 times faster with eager compilation
-
-many_arr 7
-0.2076371842995286 jit
-0.18006734317168593 eager
-same result: True
- It is 1.1531 times faster with eager compilation
-
-loop1 2
-0.1873152879998088 jit
-0.12698742002248764 eager
-same result: True
- It is 1.4751 times faster with eager compilation
-
-loop2 3
-0.19326098076999187 jit
-0.1601755330339074 eager
-same result: True
- It is 1.2066 times faster with eager compilation
-
-sgemm_manual 3
-0.16719743702560663 jit
-0.16736491210758686 eager
-same result: True
- It is 0.9990 times faster with eager compilation
-
-sgemm 3
-0.34141880413517356 jit
-0.24738252721726894 eager
-same result: True
- It is 1.3801 times faster with eager compilation
-
-laplacian 1
-0.18672181200236082 jit
-0.14284534705802798 eager
-same result: True
- It is 1.3072 times faster with eager compilation
-
-s111 2
-0.08044003369286656 jit
-0.060700285248458385 eager
-same result: True
- It is 1.3252 times faster with eager compilation
-
-s112 2
-0.06688550906255841 jit
-0.0668037417344749 eager
-same result: True
- It is 1.0012 times faster with eager compilation
-
-s1111 4
-0.10144661087542772 jit
-0.1011628950946033 eager
-same result: True
- It is 1.0028 times faster with eager compilation
-
-go_fast 1
-0.18607776705175638 jit
-0.14113296708092093 eager
-same result: True
- It is 1.3185 times faster with eager compilation
-
-many_arr 7
-0.20829969411715865 jit
-0.1806114544160664 eager
-same result: True
- It is 1.1533 times faster with eager compilation
-
-loop1 2
-0.18793758982792497 jit
-0.12733534537255764 eager
-same result: True
- It is 1.4759 times faster with eager compilation
-
-loop2 3
-0.19427628070116043 jit
-0.15848791925236583 eager
-same result: True
- It is 1.2258 times faster with eager compilation
-
-sgemm_manual 3
-0.1677473713643849 jit
-0.16786821093410254 eager
-same result: True
- It is 0.9993 times faster with eager compilation
-
-sgemm 3
-0.34263342758640647 jit
-0.24653484812006354 eager
-same result: True
- It is 1.3898 times faster with eager compilation
-
-laplacian 1
-0.1869364269077778 jit
-0.14369065361097455 eager
-same result: True
- It is 1.3010 times faster with eager compilation
-
-s111 2
-0.07768524903804064 jit
-0.06016504019498825 eager
-same result: True
- It is 1.2912 times faster with eager compilation
-
-s112 2
-0.0670751160942018 jit
-0.06687914906069636 eager
-same result: True
- It is 1.0029 times faster with eager compilation
-
-s1111 4
-0.10120435524731874 jit
-0.10074752289801836 eager
-same result: True
- It is 1.0045 times faster with eager compilation
-
-go_fast 1
-0.18498203717172146 jit
-0.140671799890697 eager
-same result: True
- It is 1.3150 times faster with eager compilation
-
-many_arr 7
-0.20846614195033908 jit
-0.18043538415804505 eager
-same result: True
- It is 1.1554 times faster with eager compilation
-
-loop1 2
-0.18761045671999454 jit
-0.12665666872635484 eager
-same result: True
- It is 1.4813 times faster with eager compilation
-
-loop2 3
-0.19428083300590515 jit
-0.1597166541032493 eager
-same result: True
- It is 1.2164 times faster with eager compilation
-
-sgemm_manual 3
-0.1672624689526856 jit
-0.16897512087598443 eager
-same result: True
- It is 0.9899 times faster with eager compilation
-
-sgemm 3
-0.3437785687856376 jit
-0.24955072393640876 eager
-same result: True
- It is 1.3776 times faster with eager compilation
-
-laplacian 1
-0.18478797562420368 jit
-0.14295176789164543 eager
-same result: True
- It is 1.2927 times faster with eager compilation
-
-s111 2
-0.07768388791009784 jit
-0.0601827222853899 eager
-same result: True
- It is 1.2908 times faster with eager compilation
-
-s112 2
-0.06645510485395789 jit
-0.06652008183300495 eager
-same result: True
- It is 0.9990 times faster with eager compilation
-
-s1111 4
-0.10063991881906986 jit
-0.0999586540274322 eager
-same result: True
- It is 1.0068 times faster with eager compilation
-
-go_fast 1
-0.1852223239839077 jit
-0.14080602210015059 eager
-same result: True
- It is 1.3154 times faster with eager compilation
-
-many_arr 7
-0.20734432293102145 jit
-0.17971130972728133 eager
-same result: True
- It is 1.1538 times faster with eager compilation
-
-loop1 2
-0.18695413134992123 jit
-0.12662395928055048 eager
-same result: True
- It is 1.4765 times faster with eager compilation
-
-loop2 3
-0.19425107911229134 jit
-0.1576757999137044 eager
-same result: True
- It is 1.2320 times faster with eager compilation
-
-sgemm_manual 3
-0.16673014033585787 jit
-0.16695982916280627 eager
-same result: True
- It is 0.9986 times faster with eager compilation
-
-sgemm 3
-0.34188428381457925 jit
-0.24659834476187825 eager
-same result: True
- It is 1.3864 times faster with eager compilation
-
-laplacian 1
-0.18847218481823802 jit
-0.14277902897447348 eager
-same result: True
- It is 1.3200 times faster with eager compilation
-
-s111 2
-0.07816598284989595 jit
-0.06073078466579318 eager
-same result: True
- It is 1.2871 times faster with eager compilation
-
-s112 2
-0.06705333618447185 jit
-0.06730556394904852 eager
-same result: True
- It is 0.9963 times faster with eager compilation
-
-s1111 4
-0.10159569792449474 jit
-0.10096205677837133 eager
-same result: True
- It is 1.0063 times faster with eager compilation
-
-go_fast 1
-0.18641737988218665 jit
-0.14134678710252047 eager
-same result: True
- It is 1.3189 times faster with eager compilation
-
-many_arr 7
-0.21062630787491798 jit
-0.18123013200238347 eager
-same result: True
- It is 1.1622 times faster with eager compilation
-
-loop1 2
-0.18883464112877846 jit
-0.12746151769533753 eager
-same result: True
- It is 1.4815 times faster with eager compilation
-
-loop2 3
-0.19528188509866595 jit
-0.15944426506757736 eager
-same result: True
- It is 1.2248 times faster with eager compilation
-
-sgemm_manual 3
-0.17386480700224638 jit
-0.16826096875593066 eager
-same result: True
- It is 1.0333 times faster with eager compilation
-
-sgemm 3
-0.34978946298360825 jit
-0.2345217983238399 eager
-same result: True
- It is 1.4915 times faster with eager compilation
-
-laplacian 1
-0.18810954503715038 jit
-0.14401178807020187 eager
-same result: True
- It is 1.3062 times faster with eager compilation
-
-s111 2
-0.07700962107628584 jit
-0.059527935925871134 eager
-same result: True
- It is 1.2937 times faster with eager compilation
-
-s112 2
-0.06691708602011204 jit
-0.06623451597988605 eager
-same result: True
- It is 1.0103 times faster with eager compilation
-
-s1111 4
-0.10007135011255741 jit
-0.10036212112754583 eager
-same result: True
- It is 0.9971 times faster with eager compilation
-
-go_fast 1
-0.18435555277392268 jit
-0.13980741007253528 eager
-same result: True
- It is 1.3186 times faster with eager compilation
-
-many_arr 7
-0.2068977588787675 jit
-0.18187979608774185 eager
-same result: True
- It is 1.1376 times faster with eager compilation
-
-loop1 2
-0.1862122961319983 jit
-0.12624558620154858 eager
-same result: True
- It is 1.4750 times faster with eager compilation
-
-loop2 3
-0.19307129411026835 jit
-0.1584709412418306 eager
-same result: True
- It is 1.2183 times faster with eager compilation
-
-sgemm_manual 3
-0.16637074388563633 jit
-0.16697856271639466 eager
-same result: True
- It is 0.9964 times faster with eager compilation
-
-sgemm 3
-0.338397438172251 jit
-0.2506601456552744 eager
-same result: True
- It is 1.3500 times faster with eager compilation
-
-laplacian 1
-0.18575605191290379 jit
-0.14208317641168833 eager
-same result: True
- It is 1.3074 times faster with eager compilation
-
-s111 2
-0.07718310924246907 jit
-0.05976718012243509 eager
-same result: True
- It is 1.2914 times faster with eager compilation
-
-s112 2
-0.06645203102380037 jit
-0.06646035984158516 eager
-same result: True
- It is 0.9999 times faster with eager compilation
-
-s1111 4
-0.10042057000100613 jit
-0.09982378408312798 eager
-same result: True
- It is 1.0060 times faster with eager compilation
-
-go_fast 1
-0.18446275778114796 jit
-0.1402625353075564 eager
-same result: True
- It is 1.3151 times faster with eager compilation
-
-many_arr 7
-0.207280068192631 jit
-0.17945729894563556 eager
-same result: True
- It is 1.1550 times faster with eager compilation
-
-loop1 2
-0.18701588083058596 jit
-0.12679331377148628 eager
-same result: True
- It is 1.4750 times faster with eager compilation
-
-loop2 3
-0.1936598471365869 jit
-0.15806118212640285 eager
-same result: True
- It is 1.2252 times faster with eager compilation
-
-sgemm_manual 3
-0.16636920208111405 jit
-0.16659530624747276 eager
-same result: True
- It is 0.9986 times faster with eager compilation
-
-sgemm 3
-0.34233397291973233 jit
-0.24548080889508128 eager
-same result: True
- It is 1.3945 times faster with eager compilation
-
-laplacian 1
-0.18575869128108025 jit
-0.14232474006712437 eager
-same result: True
- It is 1.3052 times faster with eager compilation
-
-s111 2
-0.07730800285935402 jit
-0.05987598281353712 eager
-same result: True
- It is 1.2911 times faster with eager compilation
-
-s112 2
-0.06646211491897702 jit
-0.06648724526166916 eager
-same result: True
- It is 0.9996 times faster with eager compilation
-
-s1111 4
-0.10039577819406986 jit
-0.09981261705979705 eager
-same result: True
- It is 1.0058 times faster with eager compilation
-
-go_fast 1
-0.18700013123452663 jit
-0.1412192890420556 eager
-same result: True
- It is 1.3242 times faster with eager compilation
-
-many_arr 7
-0.20748129999265075 jit
-0.17962422920390964 eager
-same result: True
- It is 1.1551 times faster with eager compilation
-
-loop1 2
-0.18701832322403789 jit
-0.12718178983777761 eager
-same result: True
- It is 1.4705 times faster with eager compilation
-
-loop2 3
-0.19341525668278337 jit
-0.16037857485935092 eager
-same result: True
- It is 1.2060 times faster with eager compilation
-
-sgemm_manual 3
-0.1687762252986431 jit
-0.16659277584403753 eager
-same result: True
- It is 1.0131 times faster with eager compilation
-
-sgemm 3
-0.3409832459874451 jit
-0.24515652796253562 eager
-same result: True
- It is 1.3909 times faster with eager compilation
-
-laplacian 1
-0.1861452991142869 jit
-0.14255310595035553 eager
-same result: True
- It is 1.3058 times faster with eager compilation
-
-s111 2
-0.07790855597704649 jit
-0.059897426050156355 eager
-same result: True
- It is 1.3007 times faster with eager compilation
-
-s112 2
-0.06651870999485254 jit
-0.06652345415204763 eager
-same result: True
- It is 0.9999 times faster with eager compilation
-
-s1111 4
-0.10054486524313688 jit
-0.09995817579329014 eager
-same result: True
- It is 1.0059 times faster with eager compilation
-
-go_fast 1
-0.18477195175364614 jit
-0.14029910694807768 eager
-same result: True
- It is 1.3170 times faster with eager compilation
-
-many_arr 7
-0.20700173499062657 jit
-0.17987718991935253 eager
-same result: True
- It is 1.1508 times faster with eager compilation
-
-loop1 2
-0.18716050405055285 jit
-0.12677730713039637 eager
-same result: True
- It is 1.4763 times faster with eager compilation
-
-loop2 3
-0.1943803415633738 jit
-0.15797059191390872 eager
-same result: True
- It is 1.2305 times faster with eager compilation
-
-sgemm_manual 3
-0.1675502872094512 jit
-0.1669264673255384 eager
-same result: True
- It is 1.0037 times faster with eager compilation
-
-sgemm 3
-0.34085995191708207 jit
-0.24598863581195474 eager
-same result: True
- It is 1.3857 times faster with eager compilation
-
-laplacian 1
-0.186625471804291 jit
-0.1434913519769907 eager
-same result: True
- It is 1.3006 times faster with eager compilation
-
-s111 2
-0.07725228415802121 jit
-0.05970943300053477 eager
-same result: True
- It is 1.2938 times faster with eager compilation
-
-s112 2
-0.06632552994415164 jit
-0.06667424226179719 eager
-same result: True
- It is 0.9948 times faster with eager compilation
-
-s1111 4
-0.10073507577180862 jit
-0.09990946901962161 eager
-same result: True
- It is 1.0083 times faster with eager compilation
-
-go_fast 1
-0.18540624994784594 jit
-0.1402054177597165 eager
-same result: True
- It is 1.3224 times faster with eager compilation
-
-many_arr 7
-0.20818788604810834 jit
-0.17983401799574494 eager
-same result: True
- It is 1.1577 times faster with eager compilation
-
-loop1 2
-0.18751281592994928 jit
-0.12659669807180762 eager
-same result: True
- It is 1.4812 times faster with eager compilation
-
-loop2 3
-0.19385843677446246 jit
-0.15788279380649328 eager
-same result: True
- It is 1.2279 times faster with eager compilation
-
-sgemm_manual 3
-0.16640236508101225 jit
-0.16644648322835565 eager
-same result: True
- It is 0.9997 times faster with eager compilation
-
-sgemm 3
-0.34345804806798697 jit
-0.2455702549777925 eager
-same result: True
- It is 1.3986 times faster with eager compilation
-
-laplacian 1
-0.18636534223333 jit
-0.14372486108914018 eager
-same result: True
- It is 1.2967 times faster with eager compilation
-
-s111 2
-0.07753117615357041 jit
-0.05951421009376645 eager
-same result: True
- It is 1.3027 times faster with eager compilation
-
-s112 2
-0.0661867712624371 jit
-0.06630986602976918 eager
-same result: True
- It is 0.9981 times faster with eager compilation
-
-s1111 4
-0.10012633632868528 jit
-0.09975806716829538 eager
-same result: True
- It is 1.0037 times faster with eager compilation
-
-go_fast 1
-0.18462344305589795 jit
-0.14000566583126783 eager
-same result: True
- It is 1.3187 times faster with eager compilation
-
-many_arr 7
-0.20654531475156546 jit
-0.1804844900034368 eager
-same result: True
- It is 1.1444 times faster with eager compilation
-
-loop1 2
-0.18703647516667843 jit
-0.12616149336099625 eager
-same result: True
- It is 1.4825 times faster with eager compilation
-
-loop2 3
-0.19231297122314572 jit
-0.15721766417846084 eager
-same result: True
- It is 1.2232 times faster with eager compilation
-
-sgemm_manual 3
-0.16634689178317785 jit
-0.1662358478643 eager
-same result: True
- It is 1.0007 times faster with eager compilation
-
-sgemm 3
-0.33816644828766584 jit
-0.24514354765415192 eager
-same result: True
- It is 1.3795 times faster with eager compilation
-
-laplacian 1
-0.18600637093186378 jit
-0.14226627396419644 eager
-same result: True
- It is 1.3075 times faster with eager compilation
-
-s111 2
-0.07742445124313235 jit
-0.059902462642639875 eager
-same result: True
- It is 1.2925 times faster with eager compilation
-
-s112 2
-0.06659962702542543 jit
-0.06649213889613748 eager
-same result: True
- It is 1.0016 times faster with eager compilation
-
-s1111 4
-0.10097790323197842 jit
-0.09994120569899678 eager
-same result: True
- It is 1.0104 times faster with eager compilation
-
-go_fast 1
-0.18505668872967362 jit
-0.14045432582497597 eager
-same result: True
- It is 1.3176 times faster with eager compilation
-
-many_arr 7
-0.20778845017775893 jit
-0.18001845385879278 eager
-same result: True
- It is 1.1543 times faster with eager compilation
-
-loop1 2
-0.18745462410151958 jit
-0.12677022209390998 eager
-same result: True
- It is 1.4787 times faster with eager compilation
-
-loop2 3
-0.19368810998275876 jit
-0.1579793719574809 eager
-same result: True
- It is 1.2260 times faster with eager compilation
-
-sgemm_manual 3
-0.16718175914138556 jit
-0.1685792487114668 eager
-same result: True
- It is 0.9917 times faster with eager compilation
-
-sgemm 3
-0.34293558867648244 jit
-0.24584849877282977 eager
-same result: True
- It is 1.3949 times faster with eager compilation
-
-laplacian 1
-0.18763052811846137 jit
-0.14345578383654356 eager
-same result: True
- It is 1.3079 times faster with eager compilation
-
-s111 2
-0.07696345634758472 jit
-0.05991150438785553 eager
-same result: True
- It is 1.2846 times faster with eager compilation
-
-s112 2
-0.06630937801674008 jit
-0.06615978432819247 eager
-same result: True
- It is 1.0023 times faster with eager compilation
-
-s1111 4
-0.09983454504981637 jit
-0.09939366718754172 eager
-same result: True
- It is 1.0044 times faster with eager compilation
-
-go_fast 1
-0.18387640919536352 jit
-0.13946593878790736 eager
-same result: True
- It is 1.3184 times faster with eager compilation
-
-many_arr 7
-0.20596807822585106 jit
-0.1784726451151073 eager
-same result: True
- It is 1.1541 times faster with eager compilation
-
-loop1 2
-0.18601379077881575 jit
-0.12576524866744876 eager
-same result: True
- It is 1.4791 times faster with eager compilation
-
-loop2 3
-0.19179892214015126 jit
-0.1564901270903647 eager
-same result: True
- It is 1.2256 times faster with eager compilation
-
-sgemm_manual 3
-0.16544345300644636 jit
-0.16605630610138178 eager
-same result: True
- It is 0.9963 times faster with eager compilation
-
-sgemm 3
-0.33919239323586226 jit
-0.2452765256166458 eager
-same result: True
- It is 1.3829 times faster with eager compilation
-
-laplacian 1
-0.18553560273721814 jit
-0.14191338699311018 eager
-same result: True
- It is 1.3074 times faster with eager compilation
-
-s111 2
-0.08013755921274424 jit
-0.060037660878151655 eager
-same result: True
- It is 1.3348 times faster with eager compilation
-
-s112 2
-0.06652261316776276 jit
-0.06700930511578918 eager
-same result: True
- It is 0.9927 times faster with eager compilation
-
-s1111 4
-0.10056514898315072 jit
-0.10011913301423192 eager
-same result: True
- It is 1.0045 times faster with eager compilation
-
-go_fast 1
-0.18475337885320187 jit
-0.14029573928564787 eager
-same result: True
- It is 1.3169 times faster with eager compilation
-
-many_arr 7
-0.20770270004868507 jit
-0.17982719326391816 eager
-same result: True
- It is 1.1550 times faster with eager compilation
-
-loop1 2
-0.187338731251657 jit
-0.12680807802826166 eager
-same result: True
- It is 1.4773 times faster with eager compilation
-
-loop2 3
-0.1934624151326716 jit
-0.15799344470724463 eager
-same result: True
- It is 1.2245 times faster with eager compilation
-
-sgemm_manual 3
-0.17218996910378337 jit
-0.16697730217128992 eager
-same result: True
- It is 1.0312 times faster with eager compilation
-
-sgemm 3
-0.3448832700960338 jit
-0.24549648305401206 eager
-same result: True
- It is 1.4048 times faster with eager compilation
-
-laplacian 1
-0.1866097110323608 jit
-0.14363791095092893 eager
-same result: True
- It is 1.2992 times faster with eager compilation
-
-s111 2
-0.0771057941019535 jit
-0.060030736960470676 eager
-same result: True
- It is 1.2844 times faster with eager compilation
-
-s112 2
-0.06658291490748525 jit
-0.06648796610534191 eager
-same result: True
- It is 1.0014 times faster with eager compilation
-
-s1111 4
-0.10057463403791189 jit
-0.1003773189149797 eager
-same result: True
- It is 1.0020 times faster with eager compilation
-
-go_fast 1
-0.18462209589779377 jit
-0.1408829689025879 eager
-same result: True
- It is 1.3105 times faster with eager compilation
-
-many_arr 7
-0.2082247813232243 jit
-0.180051454808563 eager
-same result: True
- It is 1.1565 times faster with eager compilation
-
-loop1 2
-0.18724223179742694 jit
-0.1266041537746787 eager
-same result: True
- It is 1.4790 times faster with eager compilation
-
-loop2 3
-0.19440633710473776 jit
-0.15863130614161491 eager
-same result: True
- It is 1.2255 times faster with eager compilation
-
-sgemm_manual 3
-0.16750628082081676 jit
-0.16660512704402208 eager
-same result: True
- It is 1.0054 times faster with eager compilation
-
-sgemm 3
-0.34675269201397896 jit
-0.24250609194859862 eager
-same result: True
- It is 1.4299 times faster with eager compilation
-
-laplacian 1
-0.1862435699440539 jit
-0.14281765511259437 eager
-same result: True
- It is 1.3041 times faster with eager compilation
-
-s111 2
-0.08004845026880503 jit
-0.05960642313584685 eager
-same result: True
- It is 1.3430 times faster with eager compilation
-
-s112 2
-0.06626311084255576 jit
-0.06629747012630105 eager
-same result: True
- It is 0.9995 times faster with eager compilation
-
-s1111 4
-0.09991353703662753 jit
-0.09942148113623261 eager
-same result: True
- It is 1.0049 times faster with eager compilation
-
-go_fast 1
-0.18396267760545015 jit
-0.13973265187814832 eager
-same result: True
- It is 1.3165 times faster with eager compilation
-
-many_arr 7
-0.20818901900202036 jit
-0.17883944977074862 eager
-same result: True
- It is 1.1641 times faster with eager compilation
-
-loop1 2
-0.18595305504277349 jit
-0.12608122220262885 eager
-same result: True
- It is 1.4749 times faster with eager compilation
-
-loop2 3
-0.1927956212311983 jit
-0.1570416260510683 eager
-same result: True
- It is 1.2277 times faster with eager compilation
-
-sgemm_manual 3
-0.1661543301306665 jit
-0.16601795004680753 eager
-same result: True
- It is 1.0008 times faster with eager compilation
-
-sgemm 3
-0.3380701057612896 jit
-0.2446641200222075 eager
-same result: True
- It is 1.3818 times faster with eager compilation
-
-laplacian 1
-0.18548030918464065 jit
-0.14203064190223813 eager
-same result: True
- It is 1.3059 times faster with eager compilation
-
-s111 2
-0.0769840613938868 jit
-0.059498941991478205 eager
-same result: True
- It is 1.2939 times faster with eager compilation
-
-s112 2
-0.066167535725981 jit
-0.06628375966101885 eager
-same result: True
- It is 0.9982 times faster with eager compilation
-
-s1111 4
-0.09992626868188381 jit
-0.09935900615528226 eager
-same result: True
- It is 1.0057 times faster with eager compilation
-
-go_fast 1
-0.18420659704133868 jit
-0.1398320929147303 eager
-same result: True
- It is 1.3173 times faster with eager compilation
-
-many_arr 7
-0.20663573127239943 jit
-0.17928863503038883 eager
-same result: True
- It is 1.1525 times faster with eager compilation
-
-loop1 2
-0.1869609747081995 jit
-0.12600306700915098 eager
-same result: True
- It is 1.4838 times faster with eager compilation
-
-loop2 3
-0.19250806607306004 jit
-0.15659976098686457 eager
-same result: True
- It is 1.2293 times faster with eager compilation
-
-sgemm_manual 3
-0.1660696743056178 jit
-0.16616632184013724 eager
-same result: True
- It is 0.9994 times faster with eager compilation
-
-sgemm 3
-0.33848018990829587 jit
-0.2454421017318964 eager
-same result: True
- It is 1.3791 times faster with eager compilation
-
-laplacian 1
-0.1870057457126677 jit
-0.14255300583317876 eager
-same result: True
- It is 1.3118 times faster with eager compilation
-
-s111 2
-0.07762330118566751 jit
-0.05980345979332924 eager
-same result: True
- It is 1.2980 times faster with eager compilation
-
-s112 2
-0.06654211226850748 jit
-0.06639446504414082 eager
-same result: True
- It is 1.0022 times faster with eager compilation
-
-s1111 4
-0.10030757868662477 jit
-0.09975676471367478 eager
-same result: True
- It is 1.0055 times faster with eager compilation
-
-go_fast 1
-0.1846374860033393 jit
-0.14147850405424833 eager
-same result: True
- It is 1.3051 times faster with eager compilation
-
-many_arr 7
-0.20677055325359106 jit
-0.1790354587137699 eager
-same result: True
- It is 1.1549 times faster with eager compilation
-
-loop1 2
-0.18651729403063655 jit
-0.12639817781746387 eager
-same result: True
- It is 1.4756 times faster with eager compilation
-
-loop2 3
-0.19318043859675527 jit
-0.15734069794416428 eager
-same result: True
- It is 1.2278 times faster with eager compilation
-
-sgemm_manual 3
-0.1718261819332838 jit
-0.16660861624404788 eager
-same result: True
- It is 1.0313 times faster with eager compilation
-
-sgemm 3
-0.3379145059734583 jit
-0.24517198093235493 eager
-same result: True
- It is 1.3783 times faster with eager compilation
-
-laplacian 1
-0.1855829763226211 jit
-0.1420975080691278 eager
-same result: True
- It is 1.3060 times faster with eager compilation
-
-s111 2
-0.07871410483494401 jit
-0.06019940506666899 eager
-same result: True
- It is 1.3076 times faster with eager compilation
-
-s112 2
-0.0668386067263782 jit
-0.06694283010438085 eager
-same result: True
- It is 0.9984 times faster with eager compilation
-
-s1111 4
-0.10114264069125056 jit
-0.10113234585151076 eager
-same result: True
- It is 1.0001 times faster with eager compilation
-
-go_fast 1
-0.18585722893476486 jit
-0.14117118902504444 eager
-same result: True
- It is 1.3165 times faster with eager compilation
-
-many_arr 7
-0.208747711032629 jit
-0.18163694581016898 eager
-same result: True
- It is 1.1493 times faster with eager compilation
-
-loop1 2
-0.18815273512154818 jit
-0.127209706697613 eager
-same result: True
- It is 1.4791 times faster with eager compilation
-
-loop2 3
-0.1945920060388744 jit
-0.15917940204963088 eager
-same result: True
- It is 1.2225 times faster with eager compilation
-
-sgemm_manual 3
-0.16803512023761868 jit
-0.16800007224082947 eager
-same result: True
- It is 1.0002 times faster with eager compilation
-
-sgemm 3
-0.3428610912524164 jit
-0.2469716058112681 eager
-same result: True
- It is 1.3883 times faster with eager compilation
-
-laplacian 1
-0.18702662596479058 jit
-0.14325304282829165 eager
-same result: True
- It is 1.3056 times faster with eager compilation
-
+0.07868722098646685 eager
+s112 2
+0.06790525899850763 eager
+s1111 4
+0.10038492298917845 eager
+go_fast 1
+0.1831455259816721 eager
+many_arr 7
+0.19056087697390467 eager
+loop1 2
+0.18827362300362438 eager
+loop2 3
+0.186848483979702 eager
+sgemm_manual 3
+0.1616102639818564 eager
+sgemm 3
+0.3450469259987585 eager
+laplacian 1
+0.14577142999041826 eager
+0.1641447499860078 jit
+s111 2
+0.0784409359912388 jit
+s112 2
+0.06751117401290685 jit
+s1111 4
+0.10028745900490321 jit
+go_fast 1
+0.18234629099606536 jit
+many_arr 7
+0.19033662200672552 jit
+loop1 2
+0.18733308700029738 jit
+loop2 3
+0.1871114370005671 jit
+sgemm_manual 3
+0.16267488099401817 jit
+sgemm 3
+0.3012126889952924 jit
+laplacian 1
+0.18869631399866194 jit
+0.16351387300528586 eager
+s111 2
+0.07698676499421708 eager
+s112 2
+0.06693157900008373 eager
+s1111 4
+0.09997736298828386 eager
+go_fast 1
+0.18330212600994855 eager
+many_arr 7
+0.19013292499585077 eager
+loop1 2
+0.18748216700623743 eager
+loop2 3
+0.18570039799669757 eager
+sgemm_manual 3
+0.16232394499820657 eager
+sgemm 3
+0.3439899699878879 eager
+laplacian 1
+0.14500322201638483 eager
+0.16322098299860954 jit
+s111 2
+0.07678412899258547 jit
+s112 2
+0.06677403900539503 jit
+s1111 4
+0.0997358120221179 jit
+go_fast 1
+0.1831355330068618 jit
+many_arr 7
+0.19011245502042584 jit
+loop1 2
+0.1871854130004067 jit
+loop2 3
+0.18350166198797524 jit
+sgemm_manual 3
+0.1607987760216929 jit
+sgemm 3
+0.29985356697579846 jit
+laplacian 1
+0.18771274099708535 jit
+0.16245131799951196 eager
+s111 2
+0.07655454997438937 eager
+s112 2
+0.066500326996902 eager
+s1111 4
+0.09953125900938176 eager
+go_fast 1
+0.1813975120021496 eager
+many_arr 7
+0.18901484200614505 eager
+loop1 2
+0.18636675298330374 eager
+loop2 3
+0.18320061199483462 eager
+sgemm_manual 3
+0.1606327930057887 eager
+sgemm 3
+0.34239171200897545 eager
+laplacian 1
+0.14451768100843765 eager
+0.16377663498860784 jit
+s111 2
+0.0768129859934561 jit
+s112 2
+0.06699630100047216 jit
+s1111 4
+0.10025668100570329 jit
+go_fast 1
+0.18267739898874424 jit
+many_arr 7
+0.19057329001952894 jit
+loop1 2
+0.1872399419953581 jit
+loop2 3
+0.18511541601037607 jit
+sgemm_manual 3
+0.16277719399658963 jit
+sgemm 3
+0.30459064000751823 jit
+laplacian 1
+0.18892905898974277 jit
+0.1646679480036255 eager
+s111 2
+0.07739980300539173 eager
+s112 2
+0.06752943500760011 eager
+s1111 4
+0.10081626099417917 eager
+go_fast 1
+0.18289144898881204 eager
+many_arr 7
+0.19020673699560575 eager
+loop1 2
+0.18856156899710186 eager
+loop2 3
+0.18563551700208336 eager
+sgemm_manual 3
+0.16292903199791908 eager
+sgemm 3
+0.3448555860086344 eager
+laplacian 1
+0.14609308700892143 eager
+0.16518239898141474 jit
+s111 2
+0.07737206999445334 jit
+s112 2
+0.06943759499699809 jit
+s1111 4
+0.10061103699263185 jit
+go_fast 1
+0.18357540300348774 jit
+many_arr 7
+0.1899255680036731 jit
+loop1 2
+0.18770618899725378 jit
+loop2 3
+0.1861216640099883 jit
+sgemm_manual 3
+0.16277822700794786 jit
+sgemm 3
+0.3029966760077514 jit
+laplacian 1
+0.18854151599225588 jit
+0.16436799100483768 eager
+s111 2
+0.07722861599177122 eager
+s112 2
+0.06690702599007636 eager
+s1111 4
+0.09996411600150168 eager
+go_fast 1
+0.1820940360194072 eager
+many_arr 7
+0.1893720950174611 eager
+loop1 2
+0.18730327201774344 eager
+loop2 3
+0.1854944300139323 eager
+sgemm_manual 3
+0.1611396810039878 eager
+sgemm 3
+0.3453228740254417 eager
+laplacian 1
+0.14519817000837065 eager
+0.16616370499832556 jit
+s111 2
+0.07672966000973247 jit
+s112 2
+0.06687430897727609 jit
+s1111 4
+0.09975596601725556 jit
+go_fast 1
+0.18208976098685525 jit
+many_arr 7
+0.18954736698651686 jit
+loop1 2
+0.1869750180048868 jit
+loop2 3
+0.18673272398882546 jit
+sgemm_manual 3
+0.16122886800440028 jit
+sgemm 3
+0.3018325379816815 jit
+laplacian 1
+0.1876241919817403 jit
+0.163222447008593 eager
+s111 2
+0.07701958197867498 eager
+s112 2
+0.06687580302241258 eager
+s1111 4
+0.09993161601596512 eager
+go_fast 1
+0.18193447997327894 eager
+many_arr 7
+0.1892408349958714 eager
+loop1 2
+0.1878167010145262 eager
+loop2 3
+0.18536740099079907 eager
+sgemm_manual 3
+0.16154679100145586 eager
+sgemm 3
+0.3252109840104822 eager
+laplacian 1
+0.14601451801718213 eager
+0.16424509300850332 jit
+s111 2
+0.07715363701572642 jit
+s112 2
+0.06799387899809517 jit
+s1111 4
+0.10026587601169012 jit
+go_fast 1
+0.1826014730031602 jit
+many_arr 7
+0.19126705298549496 jit
+loop1 2
+0.19042860498302616 jit
+loop2 3
+0.18561875700834207 jit
+sgemm_manual 3
+0.16203238398884423 jit
+sgemm 3
+0.3016707950155251 jit
+laplacian 1
+0.1887250489962753 jit
+0.16317208198597655 eager
+s111 2
+0.07696320698596537 eager
+s112 2
+0.06693518301472068 eager
+s1111 4
+0.09973640899988823 eager
+go_fast 1
+0.18228746901149862 eager
+many_arr 7
+0.18950758199207485 eager
+loop1 2
+0.18694654901628383 eager
+loop2 3
+0.18609554099384695 eager
+sgemm_manual 3
+0.16200758598279208 eager
+sgemm 3
+0.3435926429810934 eager
+laplacian 1
+0.14441140802227892 eager
+0.16432171998894773 jit
+s111 2
+0.07725405000383034 jit
+s112 2
+0.06817190401488915 jit
+s1111 4
+0.10043520500767045 jit
+go_fast 1
+0.18330037998384796 jit
+many_arr 7
+0.19090717198560014 jit
+loop1 2
+0.18794684699969366 jit
+loop2 3
+0.18541443601134233 jit
+sgemm_manual 3
+0.16151212900877 jit
+sgemm 3
+0.3023827299766708 jit
+laplacian 1
+0.18885787899489515 jit
+0.16344919399125502 eager
+s111 2
+0.0769948239903897 eager
+s112 2
+0.06773840502137318 eager
+s1111 4
+0.09978924097958952 eager
+go_fast 1
+0.18217235899646766 eager
+many_arr 7
+0.1888912970025558 eager
+loop1 2
+0.1890438139962498 eager
+loop2 3
+0.18449767399579287 eager
+sgemm_manual 3
+0.1622735080018174 eager
+sgemm 3
+0.34566812400589697 eager
+laplacian 1
+0.1450817649892997 eager
+0.16285627798060887 jit
+s111 2
+0.07668565399944782 jit
+s112 2
+0.0668685240088962 jit
+s1111 4
+0.0995735100004822 jit
+go_fast 1
+0.18186698498902842 jit
+many_arr 7
+0.1888894769945182 jit
+loop1 2
+0.18675020901719108 jit
+loop2 3
+0.18455652700504288 jit
+sgemm_manual 3
+0.16085468098754063 jit
+sgemm 3
+0.3008405130240135 jit
+laplacian 1
+0.18801004101987928 jit
+0.1643512489972636 eager
+s111 2
+0.07709684400469996 eager
+s112 2
+0.0671339989930857 eager
+s1111 4
+0.10002881099353544 eager
+go_fast 1
+0.18226802698336542 eager
+many_arr 7
+0.18942219897871837 eager
+loop1 2
+0.18739078199723735 eager
+loop2 3
+0.1851701289997436 eager
+sgemm_manual 3
+0.16123687700019218 eager
+sgemm 3
+0.34473556399461813 eager
+laplacian 1
+0.14520879200426862 eager
+0.1643542929959949 jit
+s111 2
+0.07679519799421541 jit
+s112 2
+0.06685778900282457 jit
+s1111 4
+0.09988137098844163 jit
+go_fast 1
+0.18189720800728537 jit
+many_arr 7
+0.18984730599913746 jit
+loop1 2
+0.18663975500385277 jit
+loop2 3
+0.18560695301857777 jit
+sgemm_manual 3
+0.16090116201667115 jit
+sgemm 3
+0.3001547150197439 jit
+laplacian 1
+0.18776358300237916 jit
+0.16384974800166674 eager
+s111 2
+0.07694866901147179 eager
+s112 2
+0.06700651897699572 eager
+s1111 4
+0.09980186799657531 eager
+go_fast 1
+0.1822491539933253 eager
+many_arr 7
+0.18980142299551517 eager
+loop1 2
+0.18701635400066152 eager
+loop2 3
+0.18525267200311646 eager
+sgemm_manual 3
+0.16126461699604988 eager
+sgemm 3
+0.33372911499463953 eager
+laplacian 1
+0.1450247640023008 eager
+0.16314602899365127 jit
+s111 2
+0.07688524297554977 jit
+s112 2
+0.06684457400115207 jit
+s1111 4
+0.09987980700680055 jit
+go_fast 1
+0.18214636901393533 jit
+many_arr 7
+0.189722899987828 jit
+loop1 2
+0.18717828500666656 jit
+loop2 3
+0.18549796001752838 jit
+sgemm_manual 3
+0.16163318400504068 jit
+sgemm 3
+0.30193725900608115 jit
+laplacian 1
+0.1698195269855205 jit
+0.164093542000046 eager
+s111 2
+0.07722226198529825 eager
+s112 2
+0.06708109399187379 eager
+s1111 4
+0.10029534398927353 eager
+go_fast 1
+0.18447221801034175 eager
+many_arr 7
+0.19031666198861785 eager
+loop1 2
+0.18823007101309486 eager
+loop2 3
+0.1857449260132853 eager
+sgemm_manual 3
+0.16149233499891125 eager
+sgemm 3
+0.34487056999932975 eager
+laplacian 1
+0.14553489498212002 eager
+0.16399240100872703 jit
+s111 2
+0.07702850399073213 jit
+s112 2
+0.06704127800185233 jit
+s1111 4
+0.09998154599452391 jit
+go_fast 1
+0.18251763199805282 jit
+many_arr 7
+0.18954482799745165 jit
+loop1 2
+0.18743980399449356 jit
+loop2 3
+0.1857965429953765 jit
+sgemm_manual 3
+0.16137253999477252 jit
+sgemm 3
+0.3018686860159505 jit
+laplacian 1
+0.18843934498727322 jit
+0.1629519900016021 eager
+s111 2
+0.07699401199351996 eager
+s112 2
+0.06695484498050064 eager
+s1111 4
+0.09951823399751447 eager
+go_fast 1
+0.18195343998377211 eager
+many_arr 7
+0.18853125401074067 eager
+loop1 2
+0.19021548301680014 eager
+loop2 3
+0.18637332099024206 eager
+sgemm_manual 3
+0.16087824900751002 eager
+sgemm 3
+0.33769407801446505 eager
+laplacian 1
+0.14387389097828418 eager
+0.16436477098613977 jit
+s111 2
+0.07884770899545401 jit
+s112 2
+0.06789134899736382 jit
+s1111 4
+0.10056401399197057 jit
+go_fast 1
+0.18269965599756688 jit
+many_arr 7
+0.1904006509867031 jit
+loop1 2
+0.18791602199780755 jit
+loop2 3
+0.1862883529975079 jit
+sgemm_manual 3
+0.16438085297704674 jit
+sgemm 3
+0.30148018200998195 jit
+laplacian 1
+0.18904679801198654 jit
+0.16301042700069956 eager
+s111 2
+0.0766633779858239 eager
+s112 2
+0.0667001550027635 eager
+s1111 4
+0.0999717980157584 eager
+go_fast 1
+0.18161592198885046 eager
+many_arr 7
+0.18893790399306454 eager
+loop1 2
+0.18825808199471794 eager
+loop2 3
+0.18494219600688666 eager
+sgemm_manual 3
+0.16299402099684812 eager
+sgemm 3
+0.3433603409794159 eager
+laplacian 1
+0.14485114699346013 eager
+0.16318398498697206 jit
+s111 2
+0.07695690999389626 jit
+s112 2
+0.06679151402204297 jit
+s1111 4
+0.09952026000246406 jit
+go_fast 1
+0.18176447099540383 jit
+many_arr 7
+0.18873237899970263 jit
+loop1 2
+0.1867764009803068 jit
+loop2 3
+0.1849495409987867 jit
+sgemm_manual 3
+0.16086865702527575 jit
+sgemm 3
+0.3002946150081698 jit
+laplacian 1
+0.18787965702358633 jit
+0.1641897030058317 eager
+s111 2
+0.07744727499084547 eager
+s112 2
+0.06722250700113364 eager
+s1111 4
+0.1025326450180728 eager
+go_fast 1
+0.1830403119965922 eager
+many_arr 7
+0.19145495098200627 eager
+loop1 2
+0.18769160599913448 eager
+loop2 3
+0.1860600949730724 eager
+sgemm_manual 3
+0.16191189299570397 eager
+sgemm 3
+0.34502388699911535 eager
+laplacian 1
+0.15043333699577488 eager
+0.16389682199223898 jit
+s111 2
+0.07721766200847924 jit
+s112 2
+0.06710793499951251 jit
+s1111 4
+0.10022704099537805 jit
+go_fast 1
+0.18277533602667972 jit
+many_arr 7
+0.19075933800195344 jit
+loop1 2
+0.1878254269831814 jit
+loop2 3
+0.1859210119873751 jit
+sgemm_manual 3
+0.1622459600039292 jit
+sgemm 3
+0.301252619974548 jit
+laplacian 1
+0.18928235198836774 jit
+0.16361319899442606 eager
+s111 2
+0.07703672398929484 eager
+s112 2
+0.06681144997128285 eager
+s1111 4
+0.10046660399530083 eager
+go_fast 1
+0.1821713940007612 eager
+many_arr 7
+0.18954159601707943 eager
+loop1 2
+0.18706788998679258 eager
+loop2 3
+0.18589587599853985 eager
+sgemm_manual 3
+0.16147366899531335 eager
+sgemm 3
+0.34429259298485704 eager
+laplacian 1
+0.14569928200216964 eager
+0.16364690699265338 jit
+s111 2
+0.07736840198049322 jit
+s112 2
+0.06707674800418317 jit
+s1111 4
+0.1004911939962767 jit
+go_fast 1
+0.18292590999044478 jit
+many_arr 7
+0.18999422498745844 jit
+loop1 2
+0.18766541199875064 jit
+loop2 3
+0.186486873019021 jit
+sgemm_manual 3
+0.16301013799966313 jit
+sgemm 3
+0.3023928749898914 jit
+laplacian 1
+0.18840560599346645 jit
+0.16549712501000613 eager
+s111 2
+0.07858403399586678 eager
+s112 2
+0.06828734301961958 eager
+s1111 4
+0.10122694299207069 eager
+go_fast 1
+0.18413292200420983 eager
+many_arr 7
+0.1916316949937027 eager
+loop1 2
+0.19019677600590512 eager
+loop2 3
+0.1892704589990899 eager
+sgemm_manual 3
+0.16305394601658918 eager
+sgemm 3
+0.33834778200252913 eager
+laplacian 1
+0.14677246601786464 eager
+0.16532357601681724 jit
+s111 2
+0.08069487600005232 jit
+s112 2
+0.06793734498205595 jit
+s1111 4
+0.10042862198315561 jit
+go_fast 1
+0.18339571499382146 jit
+many_arr 7
+0.19063265700242482 jit
+loop1 2
+0.18939710297854617 jit
+loop2 3
+0.1872881400049664 jit
+sgemm_manual 3
+0.1627395169925876 jit
+sgemm 3
+0.3026729510165751 jit
+laplacian 1
+0.18859185901237652 jit
+0.16418371701729484 eager
+s111 2
+0.08054387799347751 eager
+s112 2
+0.06733980699209496 eager
+s1111 4
+0.10045785701368004 eager
+go_fast 1
+0.18327752099139616 eager
+many_arr 7
+0.19050896100816317 eager
+loop1 2
+0.18826654998701997 eager
+loop2 3
+0.18578929497743957 eager
+sgemm_manual 3
+0.16256026399787515 eager
+sgemm 3
+0.34495325697935186 eager
+laplacian 1
+0.14550829600193538 eager
+0.16407899299520068 jit
+s111 2
+0.07702371999039315 jit
+s112 2
+0.06712689800770022 jit
+s1111 4
+0.10036867400049232 jit
+go_fast 1
+0.1830238570109941 jit
+many_arr 7
+0.1903334810049273 jit
+loop1 2
+0.188432280003326 jit
+loop2 3
+0.18556951099890284 jit
+sgemm_manual 3
+0.16156501599471085 jit
+sgemm 3
+0.3027966420049779 jit
+laplacian 1
+0.189345955994213 jit
+0.16431115902378224 eager
+s111 2
+0.07714639799087308 eager
+s112 2
+0.06840294599533081 eager
+s1111 4
+0.100329317006981 eager
+go_fast 1
+0.182806001015706 eager
+many_arr 7
+0.19009178399574012 eager
+loop1 2
+0.18773704799241386 eager
+loop2 3
+0.1856813750055153 eager
+sgemm_manual 3
+0.16172117702080868 eager
+sgemm 3
+0.3450241289974656 eager
+laplacian 1
+0.14567936598905362 eager
+0.16438050201395527 jit
+s111 2
+0.07730385201284662 jit
+s112 2
+0.06719908097875305 jit
+s1111 4
+0.10044704200117849 jit
+go_fast 1
+0.18295635300455615 jit
+many_arr 7
+0.18934619199717417 jit
+loop1 2
+0.18849666099413298 jit
+loop2 3
+0.18578007101314142 jit
+sgemm_manual 3
+0.16143754599033855 jit
+sgemm 3
+0.30137265898520127 jit
+laplacian 1
+0.18848966498626396 jit
+0.16362656001001596 eager
+s111 2
+0.07760780298849568 eager
+s112 2
+0.06736049498431385 eager
+s1111 4
+0.10002247800002806 eager
+go_fast 1
+0.18228827399434522 eager
+many_arr 7
+0.19139022601302713 eager
+loop1 2
+0.1875199240166694 eager
+loop2 3
+0.1850078049756121 eager
+sgemm_manual 3
+0.1613677619898226 eager
+sgemm 3
+0.34408952001831494 eager
+laplacian 1
+0.14507233400945552 eager
+0.1638849820010364 jit
+s111 2
+0.0767749110236764 jit
+s112 2
+0.06798599098692648 jit
+s1111 4
+0.10005611600354314 jit
+go_fast 1
+0.18228085598093458 jit
+many_arr 7
+0.18942979999701492 jit
+loop1 2
+0.1881496210116893 jit
+loop2 3
+0.18528995499946177 jit
+sgemm_manual 3
+0.16184885799884796 jit
+sgemm 3
+0.30055414902744815 jit
+laplacian 1
+0.18846980200032704 jit
+0.16482669999822974 eager
+s111 2
+0.07746066199615598 eager
+s112 2
+0.06752711298759095 eager
+s1111 4
+0.10052340698894113 eager
+go_fast 1
+0.1835689569998067 eager
+many_arr 7
+0.19063060099142604 eager
+loop1 2
+0.18888012500246987 eager
+loop2 3
+0.18591749700135551 eager
+sgemm_manual 3
+0.16298076600651257 eager
+sgemm 3
+0.34567222199984826 eager
+laplacian 1
+0.1459888689860236 eager
+0.16280542200547643 jit
+s111 2
+0.07651568599976599 jit
+s112 2
+0.06691656899056397 jit
+s1111 4
+0.09955862199421972 jit
+go_fast 1
+0.18136920998222195 jit
+many_arr 7
+0.18916201498359442 jit
+loop1 2
+0.1865955780085642 jit
+loop2 3
+0.1860525259980932 jit
+sgemm_manual 3
+0.1611337719950825 jit
+sgemm 3
+0.2993039640132338 jit
+laplacian 1
+0.1869655910122674 jit
+0.16375624501961283 eager
+s111 2
+0.07701986999018118 eager
+s112 2
+0.06712784501723945 eager
+s1111 4
+0.10036374302580953 eager
+go_fast 1
+0.18246548101888038 eager
+many_arr 7
+0.18984249199274927 eager
+loop1 2
+0.1881122999766376 eager
+loop2 3
+0.1846587379986886 eager
+sgemm_manual 3
+0.16318953200243413 eager
+sgemm 3
+0.34381982299964875 eager
+laplacian 1
+0.14553643600083888 eager
+0.16348413698142394 jit
+s111 2
+0.07688408601097763 jit
+s112 2
+0.06708196699037217 jit
+s1111 4
+0.10030171999824233 jit
+go_fast 1
+0.18249088001903147 jit
+many_arr 7
+0.18950899399351329 jit
+loop1 2
+0.18677888900856487 jit
+loop2 3
+0.18526299597579055 jit
+sgemm_manual 3
+0.16085294701042585 jit
+sgemm 3
+0.30029940299573354 jit
+laplacian 1
+0.18811260297661647 jit
+0.16388870199443772 eager
+s111 2
+0.077418756991392 eager
+s112 2
+0.06734549201792106 eager
+s1111 4
+0.10024207702372223 eager
+go_fast 1
+0.1838587730017025 eager
+many_arr 7
+0.1904773349815514 eager
+loop1 2
+0.18822930398164317 eager
+loop2 3
+0.18654884499846958 eager
+sgemm_manual 3
+0.16247059201123193 eager
+sgemm 3
+0.3481052340066526 eager
+laplacian 1
+0.14667860299232416 eager
+0.16480763102299534 jit
+s111 2
+0.07770267900195904 jit
+s112 2
+0.06763859701459296 jit
+s1111 4
+0.10054432399920188 jit
+go_fast 1
+0.18375795398605987 jit
+many_arr 7
+0.190563069016207 jit
+loop1 2
+0.18861308100167662 jit
+loop2 3
+0.18623870200826786 jit
+sgemm_manual 3
+0.16240969698992558 jit
+sgemm 3
+0.3031135070195887 jit
+laplacian 1
+0.1890133029955905 jit
+0.16427170901442878 eager
+s111 2
+0.07720257001346909 eager
+s112 2
+0.06721722599468194 eager
+s1111 4
+0.10011439601657912 eager
+go_fast 1
+0.18238053598906845 eager
+many_arr 7
+0.18940691099851392 eager
+loop1 2
+0.1874367889831774 eager
+loop2 3
+0.18622102800873108 eager
+sgemm_manual 3
+0.16136855899821967 eager
+sgemm 3
+0.344951689010486 eager
+laplacian 1
+0.14496714301640168 eager
+0.16502692800713703 jit
+s111 2
+0.07799083399004303 jit
+s112 2
+0.06766396900638938 jit
+s1111 4
+0.10047404500073753 jit
+go_fast 1
+0.1835837749822531 jit
+many_arr 7
+0.1903447689837776 jit
+loop1 2
+0.1881989590183366 jit
+loop2 3
+0.18651594000402838 jit
+sgemm_manual 3
+0.16267296401201747 jit
+sgemm 3
+0.3022331180109177 jit
+laplacian 1
+0.18942046401207335 jit
+0.1638016780198086 eager
+s111 2
+0.07750963600119576 eager
+s112 2
+0.06734740498359315 eager
+s1111 4
+0.10032619000412524 eager
+go_fast 1
+0.18250845800503157 eager
+many_arr 7
+0.19049777000327595 eager
+loop1 2
+0.1880709060060326 eager
+loop2 3
+0.1867999110254459 eager
+sgemm_manual 3
+0.16209778600023128 eager
+sgemm 3
+0.34443396399728954 eager
+laplacian 1
+0.14520770302624442 eager
+0.16375594498822466 jit
+s111 2
+0.07705428599729203 jit
+s112 2
+0.06706490501528606 jit
+s1111 4
+0.09976400301093236 jit
+go_fast 1
+0.18185440299566835 jit
+many_arr 7
+0.18931989898555912 jit
+loop1 2
+0.18700204498600215 jit
+loop2 3
+0.18731072399532422 jit
+sgemm_manual 3
+0.16102989600040019 jit
+sgemm 3
+0.30012204800732434 jit
+laplacian 1
+0.1879682439903263 jit
+0.16297680500429124 eager
+s111 2
+0.07696631300495937 eager
+s112 2
+0.06678594500408508 eager
+s1111 4
+0.09971175499958917 eager
+go_fast 1
+0.1819541380100418 eager
+many_arr 7
+0.18919548401026987 eager
+loop1 2
+0.18671309397905134 eager
+loop2 3
+0.18491998899844475 eager
+sgemm_manual 3
+0.16078901902073994 eager
+sgemm 3
+0.3441564829845447 eager
+laplacian 1
+0.14477650201297365 eager
+0.16428644899860956 jit
+s111 2
+0.07716185401659459 jit
+s112 2
+0.06717098501394503 jit
+s1111 4
+0.0997844880039338 jit
+go_fast 1
+0.18214454900589772 jit
+many_arr 7
+0.18954437799402513 jit
+loop1 2
+0.18715018799412064 jit
+loop2 3
+0.18519449900486507 jit
+sgemm_manual 3
+0.16130618698662147 jit
+sgemm 3
+0.30083294300129637 jit
+laplacian 1
+0.1884826309978962 jit
+0.16359448301955126 eager
+s111 2
+0.07735090298228897 eager
+s112 2
+0.06723388400860131 eager
+s1111 4
+0.10034779200213961 eager
+go_fast 1
+0.1825612389948219 eager
+many_arr 7
+0.19011827500071377 eager
+loop1 2
+0.18720735498936847 eager
+loop2 3
+0.18567433199496008 eager
+sgemm_manual 3
+0.16229625200503506 eager
+sgemm 3
+0.3518617930239998 eager
+laplacian 1
+0.14517387899104506 eager
+0.16412237798795104 jit
+s111 2
+0.07703580500674434 jit
+s112 2
+0.0668839139980264 jit
+s1111 4
+0.10189560300204903 jit
+go_fast 1
+0.18161898202379234 jit
+many_arr 7
+0.18934698699740693 jit
+loop1 2
+0.1865362000244204 jit
+loop2 3
+0.18460347998188809 jit
+sgemm_manual 3
+0.16105494502699003 jit
+sgemm 3
+0.3021064579952508 jit
+laplacian 1
+0.18794785501086153 jit
+0.1638085859885905 eager
+s111 2
+0.07755295399692841 eager
+s112 2
+0.06749323100666516 eager
+s1111 4
+0.09993832299369387 eager
+go_fast 1
+0.1819536679831799 eager
+many_arr 7
+0.18930769700091332 eager
+loop1 2
+0.18732345598982647 eager
+loop2 3
+0.18601563401171006 eager
+sgemm_manual 3
+0.16100376300164498 eager
+sgemm 3
+0.34351224699639715 eager
+laplacian 1
+0.1448893089836929 eager
+0.16445717800525017 jit
+s111 2
+0.07684229401638731 jit
+s112 2
+0.06667096397723071 jit
+s1111 4
+0.09952084597898647 jit
+go_fast 1
+0.1813905290036928 jit
+many_arr 7
+0.18883947399444878 jit
+loop1 2
+0.18617915498907678 jit
+loop2 3
+0.18533207901054993 jit
+sgemm_manual 3
+0.160709529009182 jit
+sgemm 3
+0.2996809320175089 jit
+laplacian 1
+0.1875716890208423 jit
+0.16340150000178255 eager
+s111 2
+0.07999639702029526 eager
+s112 2
+0.06727802898967639 eager
+s1111 4
+0.10033954301616177 eager
+go_fast 1
+0.18221685299067758 eager
+many_arr 7
+0.19072351598879322 eager
+loop1 2
+0.18779642498702742 eager
+loop2 3
+0.18598454000311904 eager
+sgemm_manual 3
+0.16221747899544425 eager
+sgemm 3
+0.34607899500406347 eager
+laplacian 1
+0.14533677001600154 eager
+0.1636855219840072 jit
+s111 2
+0.07700223100255243 jit
+s112 2
+0.06699065497377887 jit
+s1111 4
+0.09994890799862333 jit
+go_fast 1
+0.18272335402434692 jit
+many_arr 7
+0.19016364400158636 jit
+loop1 2
+0.18771438198746182 jit
+loop2 3
+0.18484518601326272 jit
+sgemm_manual 3
+0.16118917398853227 jit
+sgemm 3
+0.30042371098534204 jit
+laplacian 1
+0.1879108450084459 jit
+0.16321850899839774 eager
+s111 2
+0.0770380110188853 eager
+s112 2
+0.06700417899992317 eager
+s1111 4
+0.09972793102497235 eager
+go_fast 1
+0.18194148800102994 eager
+many_arr 7
+0.1889960870030336 eager
+loop1 2
+0.18669719400350004 eager
+loop2 3
+0.18667944701155648 eager
+sgemm_manual 3
+0.16089125798316672 eager
+sgemm 3
+0.34378641500370577 eager
+laplacian 1
+0.14451080400613137 eager
+0.16345816900138743 jit
+s111 2
+0.07722769898828119 jit
+s112 2
+0.06723228300688788 jit
+s1111 4
+0.09996308700647205 jit
+go_fast 1
+0.18213545001344755 jit
+many_arr 7
+0.18930937600089237 jit
+loop1 2
+0.1874321679933928 jit
+loop2 3
+0.18537103099515662 jit
+sgemm_manual 3
+0.1607578909897711 jit
+sgemm 3
+0.3008964490145445 jit
+laplacian 1
+0.18811373601783998 jit
+0.16449866199400276 eager
+s111 2
+0.07740600299439393 eager
+s112 2
+0.0681133969919756 eager
+s1111 4
+0.1002912920084782 eager
+go_fast 1
+0.18290368799353018 eager
+many_arr 7
+0.19115039700409397 eager
+loop1 2
+0.188505145983072 eager
+loop2 3
+0.18613566100248136 eager
+sgemm_manual 3
+0.16189497101004235 eager
+sgemm 3
+0.345915135985706 eager
+laplacian 1
+0.1453988580033183 eager
+0.16347626800416037 jit
+s111 2
+0.07715045000077225 jit
+s112 2
+0.06732880699564703 jit
+s1111 4
+0.09986135800136253 jit
+go_fast 1
+0.18212254001991823 jit
+many_arr 7
+0.1894245789735578 jit
+loop1 2
+0.18686144897947088 jit
+loop2 3
+0.1852149259939324 jit
+sgemm_manual 3
+0.16153239799314179 jit
+sgemm 3
+0.30229673799476586 jit
+laplacian 1
+0.18761414699838497 jit
+0.16376011198735796 eager
+s111 2
+0.07828396701370366 eager
+s112 2
+0.06721840897807851 eager
+s1111 4
+0.0998435239889659 eager
+go_fast 1
+0.1819862909906078 eager
+many_arr 7
+0.19052353201550432 eager
+loop1 2
+0.18772753002122045 eager
+loop2 3
+0.18584772298345342 eager
+sgemm_manual 3
+0.1610688570071943 eager
+sgemm 3
+0.3448871200089343 eager
+laplacian 1
+0.14523480701609515 eager
+0.16644075399381109 jit
+s111 2
+0.07769909698981792 jit
+s112 2
+0.06761146598728374 jit
+s1111 4
+0.10083447699435055 jit
+go_fast 1
+0.183372553990921 jit
+many_arr 7
+0.19107571299537085 jit
+loop1 2
+0.18845051300013438 jit
+loop2 3
+0.1882236250094138 jit
+sgemm_manual 3
+0.1628342049953062 jit
+sgemm 3
+0.30284995801048353 jit
+laplacian 1
+0.18917836699984036 jit
+0.16290346899768338 eager
+s111 2
+0.07682816698797978 eager
+s112 2
+0.06704038201132789 eager
+s1111 4
+0.09983413998270407 eager
+go_fast 1
+0.18180872898665257 eager
+many_arr 7
+0.18948235400603153 eager
+loop1 2
+0.18744996600435115 eager
+loop2 3
+0.18537777400342748 eager
+sgemm_manual 3
+0.16110852899146266 eager
+sgemm 3
+0.33205721402191557 eager
+laplacian 1
+0.14509763498790562 eager
+0.16376850701635703 jit
+s111 2
+0.07757935099652968 jit
+s112 2
+0.06724874500650913 jit
+s1111 4
+0.10005457600345835 jit
+go_fast 1
+0.18268477800302207 jit
+many_arr 7
+0.19009875698247924 jit
+loop1 2
+0.18751335897832178 jit
+loop2 3
+0.18798638798762113 jit
+sgemm_manual 3
+0.16181045299163088 jit
+sgemm 3
+0.30349246301921085 jit
+laplacian 1
+0.18904747799388133 jit
+0.16742600599536672 eager
+s111 2
+0.07763792999321595 eager
+s112 2
+0.06776146200718358 eager
+s1111 4
+0.10066701701725833 eager
+go_fast 1
+0.18349533001310192 eager
+many_arr 7
+0.1912642809911631 eager
+loop1 2
+0.1883669369854033 eager
+loop2 3
+0.18680594800389372 eager
+sgemm_manual 3
+0.1623814839986153 eager
+sgemm 3
+0.34659147800994106 eager
+laplacian 1
+0.146387067012256 eager
+0.16507688199635595 jit
+s111 2
+0.0802852869965136 jit
+s112 2
+0.06741568900179118 jit
+s1111 4
+0.10024731498560868 jit
+go_fast 1
+0.18314423400443047 jit
+many_arr 7
+0.18987192297936417 jit
+loop1 2
+0.18778329400811344 jit
+loop2 3
+0.18574752801214345 jit
+sgemm_manual 3
+0.161656906013377 jit
+sgemm 3
+0.30259144899901 jit
+laplacian 1
+0.189588922978146 jit
+0.16439542101579718 eager
+s111 2
+0.07780522599932738 eager
+s112 2
+0.0676900310209021 eager
+s1111 4
+0.10022901801858097 eager
+go_fast 1
+0.18290387699380517 eager
+many_arr 7
+0.18989956498262472 eager
+loop1 2
+0.18826896301470697 eager
+loop2 3
+0.18665600000531413 eager
+sgemm_manual 3
+0.1624570499989204 eager
+sgemm 3
+0.3422632739820983 eager
+laplacian 1
+0.14564025099389255 eager
+0.1645290419983212 jit
+s111 2
+0.07827861901023425 jit
+s112 2
+0.06759484100621194 jit
+s1111 4
+0.10068765399046242 jit
+go_fast 1
+0.18291208197479136 jit
+many_arr 7
+0.19032803899608552 jit
+loop1 2
+0.18786675500450656 jit
+loop2 3
+0.1870685910107568 jit
+sgemm_manual 3
+0.1636732850165572 jit
+sgemm 3
+0.30203364399494603 jit
+laplacian 1
+0.18894929898669943 jit
+0.16415788599988446 eager
+s111 2
+0.07720846400479786 eager
+s112 2
+0.06743311998434365 eager
+s1111 4
+0.10013464099029079 eager
+go_fast 1
+0.1827715869876556 eager
+many_arr 7
+0.18945013399934396 eager
+loop1 2
+0.18811216001631692 eager
+loop2 3
+0.18588053502026014 eager
+sgemm_manual 3
+0.16195669199805707 eager
+sgemm 3
+0.34436487400671467 eager
+laplacian 1
+0.14574654900934547 eager
+0.16353705499204807 jit
+s111 2
+0.07695680897450075 jit
+s112 2
+0.06734773601056077 jit
+s1111 4
+0.10037638500216417 jit
+go_fast 1
+0.18174715599161573 jit
+many_arr 7
+0.1899980659945868 jit
+loop1 2
+0.18751224598963745 jit
+loop2 3
+0.18450901200412773 jit
+sgemm_manual 3
+0.16109975898871198 jit
+sgemm 3
+0.30032541300170124 jit
+laplacian 1
+0.18779872497543693 jit
+0.16417222400195897 eager
+s111 2
+0.07729148300131783 eager
+s112 2
+0.06741307702031918 eager
+s1111 4
+0.10011651000240818 eager
+go_fast 1
+0.18271758299670182 eager
+many_arr 7
+0.18980033602565527 eager
+loop1 2
+0.18810783899971284 eager
+loop2 3
+0.18776967900339514 eager
+sgemm_manual 3
+0.16163549397606403 eager
+sgemm 3
+0.3446481190039776 eager
+laplacian 1
+0.1452106509823352 eager
+0.16400557800079696 jit
+s111 2
+0.07754904302419163 jit
+s112 2
+0.06745767898974009 jit
+s1111 4
+0.10063007997814566 jit
+go_fast 1
+0.1828800099901855 jit
+many_arr 7
+0.19059567002113909 jit
+loop1 2
+0.1879680329875555 jit
+loop2 3
+0.18671724799787626 jit
+sgemm_manual 3
+0.1632147649943363 jit
+sgemm 3
+0.3033020069997292 jit
+laplacian 1
+0.18879751200438477 jit
+0.16400890800287016 eager
+s111 2
+0.07749774801777676 eager
+s112 2
+0.06716396598494612 eager
+s1111 4
+0.10044597499654628 eager
+go_fast 1
+0.1825320599891711 eager
+many_arr 7
+0.18993506900733337 eager
+loop1 2
+0.188523676013574 eager
+loop2 3
+0.18562091700732708 eager
+sgemm_manual 3
+0.16153985701384954 eager
+sgemm 3
+0.3448158980172593 eager
+laplacian 1
+0.14549428099417128 eager
+0.1634621889970731 jit
+s111 2
+0.07700889400439337 jit
+s112 2
+0.06699984800070524 jit
+s1111 4
+0.10012240198557265 jit
+go_fast 1
+0.18195710398140363 jit
+many_arr 7
+0.1890825789887458 jit
+loop1 2
+0.18705243902513757 jit
+loop2 3
+0.18576583298272453 jit
+sgemm_manual 3
+0.16105113498633727 jit
+sgemm 3
+0.30133842199575156 jit
+laplacian 1
+0.18799729400780052 jit
+0.16388197999913245 eager
+s111 2
+0.07727909300592728 eager
+s112 2
+0.06716447399230674 eager
+s1111 4
+0.09987842198461294 eager
+go_fast 1
+0.18205767101608217 eager
+many_arr 7
+0.1896529530058615 eager
+loop1 2
+0.1872472949908115 eager
+loop2 3
+0.18637330699129961 eager
+sgemm_manual 3
+0.16108119499403983 eager
+sgemm 3
+0.34565927600488067 eager
+laplacian 1
+0.14529054600279778 eager
+0.1664913079875987 jit
+s111 2
+0.07757343698176555 jit
+s112 2
+0.06717377598397434 jit
+s1111 4
+0.10000311900512315 jit
+go_fast 1
+0.18394441399141215 jit
+many_arr 7
+0.1910622990108095 jit
+loop1 2
+0.1875169409904629 jit
+loop2 3
+0.18842727999435738 jit
+sgemm_manual 3
+0.16321760902064852 jit
+sgemm 3
+0.3012109690171201 jit
+laplacian 1
+0.17704010897432454 jit
+0.16366644599474967 eager
+s111 2
+0.0803544890077319 eager
+s112 2
+0.06744241298292764 eager
+s1111 4
+0.10017056402284652 eager
+go_fast 1
+0.18265590301598422 eager
+many_arr 7
+0.1898011269804556 eager
+loop1 2
+0.18778664898127317 eager
+loop2 3
+0.1858215630054474 eager
+sgemm_manual 3
+0.16162998499930836 eager
+sgemm 3
+0.3215451540017966 eager
+laplacian 1
+0.1449164870136883 eager
+0.16434451699024066 jit
+s111 2
+0.07738010698813014 jit
+s112 2
+0.06736200701561756 jit
+s1111 4
+0.09994588801055215 jit
+go_fast 1
+0.18198717798804864 jit
+many_arr 7
+0.18983756899251603 jit
+loop1 2
+0.18742043900419958 jit
+loop2 3
+0.18586121598491445 jit
+sgemm_manual 3
+0.1644463730044663 jit
+sgemm 3
+0.3014013459905982 jit
+laplacian 1
+0.18814859501435421 jit
+0.16361325199250132 eager
+s111 2
+0.07739229901926592 eager
+s112 2
+0.06726863101357594 eager
+s1111 4
+0.10043872697860934 eager
+go_fast 1
+0.18217560497578233 eager
+many_arr 7
+0.1889933030179236 eager
+loop1 2
+0.18672539800172672 eager
+loop2 3
+0.18577377800829709 eager
+sgemm_manual 3
+0.16102006498840638 eager
+sgemm 3
+0.344023643003311 eager
+laplacian 1
+0.1447853620047681 eager
+0.16494230899843387 jit
+s111 2
+0.07764834200497717 jit
+s112 2
+0.06804405900766142 jit
+s1111 4
+0.1002442819881253 jit
+go_fast 1
+0.18344314699061215 jit
+many_arr 7
+0.19076481900992803 jit
+loop1 2
+0.18843449599808082 jit
+loop2 3
+0.18702979499357753 jit
+sgemm_manual 3
+0.16291626897873357 jit
+sgemm 3
+0.304115423001349 jit
+laplacian 1
+0.18214085799991153 jit
+0.16445649901288562 eager
+s111 2
+0.07753020801465027 eager
+s112 2
+0.0676915590011049 eager
+s1111 4
+0.10023644001921639 eager
+go_fast 1
+0.18288252397906035 eager
+many_arr 7
+0.19003034100751393 eager
+loop1 2
+0.18779960798565298 eager
+loop2 3
+0.1863736030063592 eager
+sgemm_manual 3
+0.16207407900947146 eager
+sgemm 3
+0.3337825700000394 eager
+laplacian 1
+0.14500440601841547 eager
+0.16474862000904977 jit
+s111 2
+0.07746378498268314 jit
+s112 2
+0.06813435000367463 jit
+s1111 4
+0.1003929479920771 jit
+go_fast 1
+0.1829648040002212 jit
+many_arr 7
+0.19067452399758622 jit
+loop1 2
+0.18826316099148244 jit
+loop2 3
+0.188279091991717 jit
+sgemm_manual 3
+0.1624888360092882 jit
+sgemm 3
+0.30247578799026087 jit
+laplacian 1
+0.18911250500241295 jit
+0.16385634397738613 eager
+s111 2
+0.07735691900597885 eager
+s112 2
+0.06727083897567354 eager
+s1111 4
+0.10010221798438579 eager
+go_fast 1
+0.1823411439836491 eager
+many_arr 7
+0.18970206499216147 eager
+loop1 2
+0.18952899001305923 eager
+loop2 3
+0.1858607800095342 eager
+sgemm_manual 3
+0.16359518200624734 eager
+sgemm 3
+0.34891375800361857 eager
+laplacian 1
+0.14540745099657215 eager
+0.164108187018428 jit
+s111 2
+0.07779677500366233 jit
+s112 2
+0.0673557739937678 jit
+s1111 4
+0.1000088680011686 jit
+go_fast 1
+0.18253494999953546 jit
+many_arr 7
+0.1899094019900076 jit
+loop1 2
+0.18778951599961147 jit
+loop2 3
+0.18698875198606402 jit
+sgemm_manual 3
+0.16143298099632375 jit
+sgemm 3
+0.3026841850078199 jit
+laplacian 1
+0.18850431600003503 jit
+0.1635339539789129 eager
+s111 2
+0.07728404199588113 eager
+s112 2
+0.06712275298195891 eager
+s1111 4
+0.10012656802427955 eager
+go_fast 1
+0.1820256600040011 eager
+many_arr 7
+0.18970509999780916 eager
+loop1 2
+0.18711269099730998 eager
+loop2 3
+0.18582596597843803 eager
+sgemm_manual 3
+0.16147318400908262 eager
+sgemm 3
+0.3187104829994496 eager
+laplacian 1
+0.1443009849754162 eager
+0.1642240369983483 jit
+s111 2
+0.0772163989895489 jit
+s112 2
+0.06747606000863016 jit
+s1111 4
+0.1005188669951167 jit
+go_fast 1
+0.18331668101018295 jit
+many_arr 7
+0.19051998099894263 jit
+loop1 2
+0.18781175598269328 jit
+loop2 3
+0.18768827497842722 jit
+sgemm_manual 3
+0.162143975001527 jit
+sgemm 3
+0.3038683240010869 jit
+laplacian 1
+0.18920572201022878 jit
+0.16386624399456196 eager
+s111 2
+0.07724806299665943 eager
+s112 2
+0.06700917400303297 eager
+s1111 4
+0.10015450298669748 eager
+go_fast 1
+0.18215594301000237 eager
+many_arr 7
+0.18981361499754712 eager
+loop1 2
+0.18719624300138094 eager
+loop2 3
+0.18565020500682294 eager
+sgemm_manual 3
+0.1613361470226664 eager
+sgemm 3
+0.34509074699599296 eager
+laplacian 1
+0.14561526500619948 eager
+0.1638765450043138 jit
+s111 2
+0.07713654098915868 jit
+s112 2
+0.06720852901344188 jit
+s1111 4
+0.1001035499793943 jit
+go_fast 1
+0.1824868779804092 jit
+many_arr 7
+0.1892687680083327 jit
+loop1 2
+0.18721510999603197 jit
+loop2 3
+0.18562172501697205 jit
+sgemm_manual 3
+0.1617544200271368 jit
+sgemm 3
+0.30111381199094467 jit
+laplacian 1
+0.17667201100266539 jit
+0.16430588401271962 eager
+s111 2
+0.07729819900123402 eager
+s112 2
+0.06799008199595846 eager
+s1111 4
+0.10016059898771346 eager
+go_fast 1
+0.18250947399064898 eager
+many_arr 7
+0.18997260599280708 eager
+loop1 2
+0.18757402000483125 eager
+loop2 3
+0.18640530001721345 eager
+sgemm_manual 3
+0.16183875501155853 eager
+sgemm 3
+0.3456146130047273 eager
+laplacian 1
+0.14521669197711162 eager
+0.16336355899693444 jit
+s111 2
+0.07732318100170232 jit
+s112 2
+0.06678740098141134 jit
+s1111 4
+0.0996286779991351 jit
+go_fast 1
+0.18175716898986138 jit
+many_arr 7
+0.18901123499381356 jit
+loop1 2
+0.18665600501117297 jit
+loop2 3
+0.18552390701370314 jit
+sgemm_manual 3
+0.16067798100993969 jit
+sgemm 3
+0.29968741501215845 jit
+laplacian 1
+0.1876402740017511 jit
+0.16342726000584662 eager
+s111 2
+0.07725967600708827 eager
+s112 2
+0.06716599100036547 eager
+s1111 4
+0.09974918302032165 eager
+go_fast 1
+0.18194784497609362 eager
+many_arr 7
+0.18931085799704306 eager
+loop1 2
+0.18762610800331458 eager
+loop2 3
+0.18574015799094923 eager
+sgemm_manual 3
+0.16155685199191794 eager
+sgemm 3
+0.34483369800727814 eager
+laplacian 1
+0.1448044840071816 eager
+0.1694973119883798 jit
+s111 2
+0.077349203027552 jit
+s112 2
+0.06744348097709008 jit
+s1111 4
+0.1002322549757082 jit
+go_fast 1
+0.18324037501588464 jit
+many_arr 7
+0.1897653000196442 jit
+loop1 2
+0.18823579500894994 jit
+loop2 3
+0.18566536402795464 jit
+sgemm_manual 3
+0.16163188699283637 jit
+sgemm 3
+0.30179646000033244 jit
+laplacian 1
+0.18896479299291968 jit
+0.16401761100860313 eager
+s111 2
+0.07735549099743366 eager
+s112 2
+0.06729198899120092 eager
+s1111 4
+0.1005625799880363 eager
+go_fast 1
+0.18266253999900073 eager
+many_arr 7
+0.1892084979917854 eager
+loop1 2
+0.18703882000409067 eager
+loop2 3
+0.18588974300655536 eager
+sgemm_manual 3
+0.1613334300054703 eager
+sgemm 3
+0.34545041699311696 eager
+laplacian 1
+0.14513605300453492 eager
+0.16376982699148357 jit
+s111 2
+0.07707319801556878 jit
+s112 2
+0.0673953799996525 jit
+s1111 4
+0.10042151701054536 jit
+go_fast 1
+0.182518126006471 jit
+many_arr 7
+0.18945621402235702 jit
+loop1 2
+0.18721850600559264 jit
+loop2 3
+0.18595315000857227 jit
+sgemm_manual 3
+0.1615632789907977 jit
+sgemm 3
+0.30127084799460135 jit
+laplacian 1
+0.18856080999830738 jit
+0.1638441389950458 eager
+s111 2
+0.07722149399342015 eager
+s112 2
+0.06982440198771656 eager
+s1111 4
+0.10025570599827915 eager
+go_fast 1
+0.18255440701614134 eager
+many_arr 7
+0.19013877300312743 eager
+loop1 2
+0.18978745400090702 eager
+loop2 3
+0.18592267800704576 eager
+sgemm_manual 3
+0.16184603300644085 eager
+sgemm 3
+0.3479619399877265 eager
+laplacian 1
+0.145751942996867 eager
+0.16383086898713373 jit
+s111 2
+0.07686772098531947 jit
+s112 2
+0.06738506202236749 jit
+s1111 4
+0.09971990500343964 jit
+go_fast 1
+0.18207183200865984 jit
+many_arr 7
+0.18914528097957373 jit
+loop1 2
+0.18672959200921468 jit
+loop2 3
+0.18908967799507082 jit
+sgemm_manual 3
+0.16138086499995552 jit
+sgemm 3
+0.3010625060123857 jit
+laplacian 1
+0.1874954460072331 jit
+0.16391447698697448 eager
+s111 2
+0.07722854698658921 eager
+s112 2
+0.06734777500969358 eager
+s1111 4
+0.10026607700274326 eager
+go_fast 1
+0.18240164400776848 eager
+many_arr 7
+0.18978813098510727 eager
+loop1 2
+0.18793922799522988 eager
+loop2 3
+0.18775726898456924 eager
+sgemm_manual 3
+0.16187870199792087 eager
+sgemm 3
+0.34513420300208963 eager
+laplacian 1
+0.14543662400683388 eager
+0.16418622402125038 jit
+s111 2
+0.07724070499534719 jit
+s112 2
+0.06725510398973711 jit
+s1111 4
+0.09989440700155683 jit
+go_fast 1
+0.18218910400173627 jit
+many_arr 7
+0.18959882599301636 jit
+loop1 2
+0.18715054501080886 jit
+loop2 3
+0.18653449797420762 jit
+sgemm_manual 3
+0.16107267400366254 jit
+sgemm 3
+0.30063683399930596 jit
+laplacian 1
+0.17946344098891132 jit
+0.16467630898114294 eager
+s111 2
+0.08044697201694362 eager
+s112 2
+0.06781490999856032 eager
+s1111 4
+0.10211127100046724 eager
+go_fast 1
+0.1830237880058121 eager
+many_arr 7
+0.19163375301286578 eager
+loop1 2
+0.18875821298570372 eager
+loop2 3
+0.18684088901500218 eager
+sgemm_manual 3
+0.16222329399897717 eager
+sgemm 3
+0.3507685880176723 eager
+laplacian 1
+0.1454573669761885 eager
+0.1649443230126053 jit
+s111 2
+0.07763644098304212 jit
+s112 2
+0.06747402201290242 jit
+s1111 4
+0.10059315100079402 jit
+go_fast 1
+0.18295860398211516 jit
+many_arr 7
+0.190595444990322 jit
+loop1 2
+0.18810752799618058 jit
+loop2 3
+0.1869508039962966 jit
+sgemm_manual 3
+0.16218376101460308 jit
+sgemm 3
+0.30332776400609873 jit
+laplacian 1
+0.1922052279987838 jit
